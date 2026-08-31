@@ -11,7 +11,7 @@ import re
 
 import promote_verified as core
 
-core.DEDICATED.update({"dedicated:haier", "dedicated:aqua"})
+core.DEDICATED.update({"dedicated:haier", "dedicated:aqua", "dedicated:fujitsu-app"})
 
 _original_candidate_valid = core.candidate_valid
 _original_infer_scope = core.infer_scope
@@ -60,6 +60,7 @@ def registry_rules() -> dict[tuple[str, str], list[str]]:
     sharp_domains = ["cs.sharp.co.jp"]
     rules[("シャープ", "タテ型洗濯機・洗濯乾燥機")] = sharp_domains
     rules[("シャープ", "ドラム式洗濯機・洗濯乾燥機")] = sharp_domains
+    rules[("富士通ゼネラル", "ノクリアアプリ")] = ["www.fujitsu-general.com", "fujitsu-general.com", "www.generalww.com", "generalww.com"]
     return rules
 
 
@@ -94,6 +95,12 @@ def candidate_valid(item: dict, domains: list[str]) -> tuple[bool, str]:
         if not re.fullmatch(r"(?:E|U|C)[A-Z0-9]{1,3}|UF", code):
             return False, "unexpected_code_family"
         if not 12 <= len(summary) <= 260:
+            return False, "weak_structured_summary"
+
+    if method == "dedicated:fujitsu-app":
+        if not re.fullmatch(r"\d{4}", code):
+            return False, "unexpected_code_family"
+        if not 5 <= len(summary) <= 260:
             return False, "weak_structured_summary"
 
     return True, "ok"
