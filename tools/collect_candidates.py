@@ -9,6 +9,8 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse, urldefrag
 from urllib.request import Request, urlopen
 
+from collectors import DEDICATED_MANUFACTURERS, extract_for, should_follow
+
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "data" / "source_registry.json"
 PUBLISHED = ROOT / "data" / "errors.json"
@@ -16,7 +18,7 @@ REVIEW_DIR = ROOT / "review"
 CANDIDATES = REVIEW_DIR / "candidates.json"
 SOURCES = REVIEW_DIR / "discovered_sources.json"
 
-UA = "kaden-error-checker/1.0 (+https://github.com/nano-tani/kaden-error-checker)"
+UA = "kaden-error-checker/1.1 (+https://github.com/nano-tani/kaden-error-checker)"
 LINK_KEYWORDS = ("エラー", "異常", "故障", "点検", "診断", "表示", "error", "trouble", "diagnosis")
 CONTEXT_KEYWORDS = ("エラー", "診断コード", "エラーコード", "点検コード", "異常", "故障", "表示", "お知らせ")
 
@@ -28,8 +30,6 @@ EXPLICIT_RE = re.compile(
     r"(?:エラー(?:コード)?|診断コード|点検コード|表示)\s*[:：]?\s*[「『\[]?([A-Za-z0-9]{1,7})[」』\]]?",
     re.IGNORECASE,
 )
-
-# obvious false positives frequently found in dates, HTTP text, dimensions, etc.
 BLOCKED = {"HTML", "HTTP", "HTTPS", "UTF8", "UTF-8", "PDF", "FAQ", "WEB", "AI", "ID"}
 UNIT_LIKE_RE = re.compile(r"^\d+(?:KG|KW|CM|MM|ML|HZ)$", re.IGNORECASE)
 
@@ -97,8 +97,19 @@ def normalize_code(code):
     return normalize(code).strip().upper().replace(" ", "")
 
 
+def clean_context(text):
+    return re.sub(r"\s+", " ", normalize(text)).strip()
+
+
 def fetch_page(url):
-    req = Request(url, headers={"User-Agent": UA, "Accept": "text/html,application/xhtml+xml"})
+    req = Request(
+        url,
+        headers={
+            "User-Agent": UA,
+            "Accept": "text/html,application/xhtml+xml",
+            "Accept-Language": "ja,en;q=0.8",
+        },
+    )
     with urlopen(req, timeout=20) as res:
         ctype = res.headers.get("Content-Type", "")
         if "text/html" not in ctype and "application/xhtml+xml" not in ctype:
@@ -119,13 +130,9 @@ def allowed(url, domains):
     return any(host == d.lower() or host.endswith("." + d.lower()) for d in domains)
 
 
-def useful_link(href, anchor):
+def generic_useful_link(href, anchor):
     probe = normalize(f"{href} {anchor}").lower()
     return any(k.lower() in probe for k in LINK_KEYWORDS)
-
-
-def clean_context(text):
-    return re.sub(r"\s+", " ", normalize(text)).strip()
 
 
 def candidate_score(context, title, explicit=False):
@@ -152,19 +159,16 @@ def looks_like_code(code, context, explicit=False):
         return False
     if UNIT_LIKE_RE.fullmatch(code):
         return False
-    # Generic extraction requires a letter+digit combination. Numeric-only codes
-    # are accepted only when the page explicitly labels them as an error/diagnostic code.
     if not explicit and not (re.search(r"[A-Z]", code) and re.search(r"\d", code)):
         return False
     if not explicit and not any(k in context for k in CONTEXT_KEYWORDS):
         return False
-    # Exclude long model-like strings unless explicitly labelled as an error code.
     if not explicit and len(code) >= 7:
         return False
     return True
 
 
-def extract_candidates(text, title, source_url, manufacturer, appliance):
+def generic_extract(text, title, source_url, manufacturer, appliance):
     text = clean_context(text)
     found = {}
 
@@ -175,7 +179,6 @@ def extract_candidates(text, title, source_url, manufacturer, appliance):
         code_n = normalize_code(code)
         if not looks_like_code(code_n, context, explicit=explicit):
             return
-        key = code_n
         item = {
             "manufacturer": manufacturer,
             "appliance": appliance,
@@ -185,16 +188,17 @@ def extract_candidates(text, title, source_url, manufacturer, appliance):
             "evidence": context[:500],
             "confidence": candidate_score(context, title, explicit=explicit),
             "status": "needs_review",
+            "extraction_method": "generic",
         }
-        previous = found.get(key)
+        previous = found.get(code_n)
         rank = {"low": 1, "medium": 2, "high": 3}
         if previous is None or rank[item["confidence"]] > rank[previous["confidence"]]:
-            found[key] = item
+            found[code_n] = item
 
-    for m in EXPLICIT_RE.finditer(text):
-        add(m.group(1), m.start(1), m.end(1), explicit=True)
-    for m in CODE_RE.finditer(text):
-        add(m.group(0), m.start(), m.end(), explicit=False)
+    for match in EXPLICIT_RE.finditer(text):
+        add(match.group(1), match.start(1), match.end(1), explicit=True)
+    for match in CODE_RE.finditer(text):
+        add(match.group(0), match.start(), match.end(), explicit=False)
 
     return list(found.values())
 
@@ -204,10 +208,27 @@ def published_keys():
         records = json.loads(PUBLISHED.read_text(encoding="utf-8"))
     except Exception:
         return set()
-    return {
-        (normalize(r.get("manufacturer")), normalize(r.get("appliance")), normalize_code(r.get("code")))
-        for r in records
-    }
+    keys = set()
+    for record in records:
+        base = (normalize(record.get("manufacturer")), normalize(record.get("appliance")))
+        for code in [record.get("code"), *(record.get("aliases") or [])]:
+            code_n = normalize_code(code)
+            if code_n:
+                keys.add((*base, code_n))
+    return keys
+
+
+def mark_published(item, published):
+    base = (normalize(item.get("manufacturer")), normalize(item.get("appliance")))
+    codes = [item.get("code"), *(item.get("aliases") or [])]
+    return any((*base, normalize_code(code)) in published for code in codes if normalize_code(code))
+
+
+def should_queue(manufacturer, href, anchor):
+    dedicated = should_follow(manufacturer, href, anchor)
+    if dedicated is not None:
+        return dedicated
+    return generic_useful_link(href, anchor)
 
 
 def main():
@@ -217,6 +238,9 @@ def main():
     source_rows = []
 
     for source in registry:
+        if source.get("enabled", True) is False:
+            continue
+
         manufacturer = source["manufacturer"]
         appliance = source["appliance"]
         domains = source.get("allowed_domains", [])
@@ -245,13 +269,25 @@ def main():
                     "status": "fetch_error",
                     "detail": str(error)[:240],
                     "candidate_count": 0,
+                    "collector": "dedicated" if manufacturer in DEDICATED_MANUFACTURERS else "generic",
                 })
                 continue
 
-            candidates = extract_candidates(parser.text, parser.title, url, manufacturer, appliance)
+            absolute_links = [(urldefrag(urljoin(url, href))[0], anchor) for href, anchor in parser.links]
+            candidates = extract_for(
+                manufacturer,
+                appliance,
+                parser.text,
+                parser.title,
+                url,
+                parts=parser.parts,
+                links=absolute_links,
+            )
+            if candidates is None:
+                candidates = generic_extract(parser.text, parser.title, url, manufacturer, appliance)
+
             for item in candidates:
-                key = (normalize(manufacturer), normalize(appliance), normalize_code(item["code"]))
-                item["already_published"] = key in published
+                item["already_published"] = mark_published(item, published)
                 all_candidates.append(item)
 
             source_rows.append({
@@ -261,25 +297,40 @@ def main():
                 "title": parser.title,
                 "status": "ok",
                 "candidate_count": len(candidates),
+                "collector": "dedicated" if manufacturer in DEDICATED_MANUFACTURERS else "generic",
             })
 
-            for href, anchor in parser.links:
-                absolute = urldefrag(urljoin(url, href))[0]
-                if absolute not in seen and allowed(absolute, domains) and useful_link(absolute, anchor):
+            for absolute, anchor in absolute_links:
+                if (
+                    absolute
+                    and absolute not in seen
+                    and allowed(absolute, domains)
+                    and should_queue(manufacturer, absolute, anchor)
+                ):
                     queue.append(absolute)
 
-    # Keep the strongest evidence when the same maker/appliance/code/source repeats.
     rank = {"low": 1, "medium": 2, "high": 3}
     dedup = {}
     for item in all_candidates:
-        key = (item["manufacturer"], item["appliance"], item["code"], item["source"])
-        prev = dedup.get(key)
-        if prev is None or rank[item["confidence"]] > rank[prev["confidence"]]:
+        key = (
+            item["manufacturer"],
+            item["appliance"],
+            item["code"],
+            item.get("detail_url") or item["source"],
+        )
+        previous = dedup.get(key)
+        if previous is None or rank[item["confidence"]] > rank[previous["confidence"]]:
             dedup[key] = item
 
     result = sorted(
         dedup.values(),
-        key=lambda x: (x["already_published"], x["manufacturer"], x["appliance"], x["code"], x["source"]),
+        key=lambda x: (
+            x["already_published"],
+            x["manufacturer"],
+            x["appliance"],
+            x["code"],
+            x.get("detail_url") or x["source"],
+        ),
     )
     source_rows.sort(key=lambda x: (x["manufacturer"], x["url"]))
 
@@ -289,9 +340,18 @@ def main():
 
     new_count = sum(not x["already_published"] for x in result)
     high_count = sum((not x["already_published"]) and x["confidence"] == "high" for x in result)
+    dedicated_count = sum(str(x.get("extraction_method", "")).startswith("dedicated:") for x in result)
+    dedicated_high = sum(
+        (not x["already_published"])
+        and x["confidence"] == "high"
+        and str(x.get("extraction_method", "")).startswith("dedicated:")
+        for x in result
+    )
     print(f"candidate records: {len(result)}")
     print(f"not published: {new_count}")
     print(f"high-confidence not published: {high_count}")
+    print(f"dedicated collector records: {dedicated_count}")
+    print(f"dedicated high-confidence not published: {dedicated_high}")
 
 
 if __name__ == "__main__":

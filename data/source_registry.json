@@ -1,97 +1,148 @@
 [
   {
     "manufacturer": "パナソニック",
-    "appliance": "ルームエアコン",
-    "seed_urls": ["https://jpn.faq.panasonic.com/app/answers/detail/a_id/9669/"],
-    "allowed_domains": ["jpn.faq.panasonic.com"],
-    "max_pages": 6
+    "appliance": "洗濯機・洗濯乾燥機",
+    "collector": "dedicated:panasonic",
+    "seed_urls": [
+      "https://jpn.faq.panasonic.com/app/answers/detail/a_id/84",
+      "https://jpn.faq.panasonic.com/app/answers/detail/a_id/26936"
+    ],
+    "allowed_domains": [
+      "jpn.faq.panasonic.com"
+    ],
+    "max_pages": 20
   },
   {
     "manufacturer": "ダイキン",
     "appliance": "ルームエアコン",
-    "seed_urls": ["https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html"],
-    "allowed_domains": ["nacpt.daikincc.com", "www.daikincc.com"],
-    "max_pages": 6
+    "collector": "dedicated:daikin",
+    "seed_urls": [
+      "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html"
+    ],
+    "allowed_domains": [
+      "nacpt.daikincc.com",
+      "www.daikincc.com"
+    ],
+    "max_pages": 2
   },
   {
     "manufacturer": "シャープ",
-    "appliance": "洗濯機・洗濯乾燥機",
+    "appliance": "ルームエアコン",
+    "collector": "dedicated:sharp",
     "seed_urls": [
-      "https://cs.sharp.co.jp/trouble_check/div/washer/navi_gv/gv_diag09-1.html",
-      "https://cs.sharp.co.jp/faq/qa?qid=154608"
+      "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18.html",
+      "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22.html"
     ],
-    "allowed_domains": ["cs.sharp.co.jp"],
-    "max_pages": 10
+    "allowed_domains": [
+      "cs.sharp.co.jp"
+    ],
+    "max_pages": 30
   },
   {
     "manufacturer": "日立",
     "appliance": "洗濯機・洗濯乾燥機",
+    "collector": "dedicated:hitachi",
     "seed_urls": [
-      "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
-      "https://kadenfan.hitachi.co.jp/support/wash/q_a/a125.html"
+      "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html"
     ],
-    "allowed_domains": ["kadenfan.hitachi.co.jp"],
-    "max_pages": 8
+    "allowed_domains": [
+      "kadenfan.hitachi.co.jp"
+    ],
+    "max_pages": 20
   },
   {
     "manufacturer": "ハイアール",
     "appliance": "洗濯機・洗濯乾燥機",
+    "collector": "generic",
     "seed_urls": [
       "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
       "https://www.haier.com/jp/service-support/self-service/20260602_291539.shtml"
     ],
-    "allowed_domains": ["www.haier.com", "haier.com"],
+    "allowed_domains": [
+      "www.haier.com",
+      "haier.com"
+    ],
     "max_pages": 8
   },
   {
     "manufacturer": "AQUA",
     "appliance": "洗濯機・洗濯乾燥機",
-    "seed_urls": ["https://aqua-has.com/post/aqua_washing_machine_error_code_list.php"],
-    "allowed_domains": ["aqua-has.com", "www.aqua-has.com"],
+    "collector": "generic",
+    "seed_urls": [
+      "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php"
+    ],
+    "allowed_domains": [
+      "aqua-has.com",
+      "www.aqua-has.com"
+    ],
     "max_pages": 8
   },
   {
     "manufacturer": "アイリスオーヤマ",
     "appliance": "洗濯機・洗濯乾燥機",
-    "seed_urls": ["https://www.irisohyama.co.jp/support/faq/categori.php?ID=44"],
-    "allowed_domains": ["www.irisohyama.co.jp", "irisohyama.co.jp"],
+    "collector": "generic",
+    "seed_urls": [
+      "https://www.irisohyama.co.jp/support/faq/categori.php?ID=44"
+    ],
+    "allowed_domains": [
+      "www.irisohyama.co.jp",
+      "irisohyama.co.jp"
+    ],
     "max_pages": 8
   },
   {
     "manufacturer": "東芝",
     "appliance": "洗濯機・洗濯乾燥機",
+    "collector": "generic",
     "seed_urls": [
       "https://www.toshiba-lifestyle.com/jp/info/2017/04/11/370/",
       "https://www.toshiba-lifestyle.com/jp/support/laundries/"
     ],
-    "allowed_domains": ["www.toshiba-lifestyle.com", "toshiba-lifestyle.com"],
+    "allowed_domains": [
+      "www.toshiba-lifestyle.com",
+      "toshiba-lifestyle.com"
+    ],
     "max_pages": 8
   },
   {
     "manufacturer": "三菱電機",
     "appliance": "エアコン・空調機器",
+    "collector": "generic",
     "seed_urls": [
       "https://www.mitsubishielectric.co.jp/ldg/wink/tc/tc_top.do",
       "https://faq01.mitsubishielectric.co.jp/faq/show/2619"
     ],
-    "allowed_domains": ["www.mitsubishielectric.co.jp", "faq01.mitsubishielectric.co.jp"],
+    "allowed_domains": [
+      "www.mitsubishielectric.co.jp",
+      "faq01.mitsubishielectric.co.jp"
+    ],
     "max_pages": 8
   },
   {
     "manufacturer": "富士通ゼネラル",
     "appliance": "ルームエアコン",
+    "collector": "generic",
     "seed_urls": [
       "https://www.fujitsu-general.com/jp/support/faq/as/0084/diagnosis.html",
       "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html"
     ],
-    "allowed_domains": ["www.fujitsu-general.com", "fujitsu-general.com"],
+    "allowed_domains": [
+      "www.fujitsu-general.com",
+      "fujitsu-general.com"
+    ],
     "max_pages": 8
   },
   {
     "manufacturer": "コロナ",
     "appliance": "ルームエアコン",
-    "seed_urls": ["https://www.corona.co.jp/support/error/aircon/index.html"],
-    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "collector": "generic",
+    "seed_urls": [
+      "https://www.corona.co.jp/support/error/aircon/index.html"
+    ],
+    "allowed_domains": [
+      "www.corona.co.jp",
+      "corona.co.jp"
+    ],
     "max_pages": 8
   }
 ]
