@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>家電エラーコード検索</title>
+  <meta name="description" content="家電に表示されたエラーコードを入力すると、メーカー公式情報をもとに原因と対処方法の候補を表示します。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>家電エラーコード検索</h1>
+      <p>表示されたコードをそのまま入力</p>
+    </header>
+
+    <form id="search-form" class="search" autocomplete="off">
+      <label for="error-code">エラーコード</label>
+      <div class="search-row">
+        <input id="error-code" name="code" type="text" inputmode="text" placeholder="例: U4 / C02" autofocus>
+        <button type="submit">検索</button>
+      </div>
+    </form>
+
+    <div id="status" class="status" aria-live="polite"></div>
+    <section id="results" class="results" aria-live="polite"></section>
+
+    <section class="about">
+      <h2>使い方</h2>
+      <p>家電の画面やランプに表示されたエラーコードだけを入力してください。同じコードが複数メーカーで使われている場合は、該当候補をすべて表示します。</p>
+      <p>掲載情報はメーカー公式サポートで確認できた内容を要約しています。型番や製造時期によって内容が異なる場合があります。最終判断はリンク先の公式情報を確認してください。</p>
+      <p class="danger">発煙・焦げ臭い・異常発熱・漏電の疑いがある場合は、検索結果にかかわらず使用を中止してください。</p>
+    </section>
+
+    <footer>
+      <span>非公式のエラーコード検索ツール</span>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
