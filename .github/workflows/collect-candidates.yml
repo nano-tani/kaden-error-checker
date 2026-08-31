@@ -10,6 +10,7 @@ on:
       - "data/source_registry.json"
       - "tools/collect_candidates.py"
       - "tools/collectors.py"
+      - "tools/collect_extra_sources.py"
       - "tools/promote_verified.py"
       - "tools/promote_verified_extended.py"
       - ".github/workflows/collect-candidates.yml"
@@ -31,8 +32,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Collect candidates from official pages
+      - name: Collect candidates from registered official pages
         run: python3 tools/collect_candidates.py
+
+      - name: Collect extra consumer-facing official diagnosis pages
+        run: python3 tools/collect_extra_sources.py
 
       - name: Strictly verify and promote dedicated candidates
         env:
