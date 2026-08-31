@@ -31,6 +31,7 @@ EXPLICIT_RE = re.compile(
 
 # obvious false positives frequently found in dates, HTTP text, dimensions, etc.
 BLOCKED = {"HTML", "HTTP", "HTTPS", "UTF8", "UTF-8", "PDF", "FAQ", "WEB", "AI", "ID"}
+UNIT_LIKE_RE = re.compile(r"^\d+(?:KG|KW|CM|MM|ML|HZ)$", re.IGNORECASE)
 
 
 class PageParser(HTMLParser):
@@ -148,6 +149,8 @@ def candidate_score(context, title, explicit=False):
 def looks_like_code(code, context, explicit=False):
     code = normalize_code(code)
     if not code or code in BLOCKED or len(code) > 7:
+        return False
+    if UNIT_LIKE_RE.fullmatch(code):
         return False
     # Generic extraction requires a letter+digit combination. Numeric-only codes
     # are accepted only when the page explicitly labels them as an error/diagnostic code.
