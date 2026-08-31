@@ -1,5 +1,214 @@
 [
   {
+    "manufacturer": "AQUA",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "E41",
+    "summary": "ふたロックの不具合です。",
+    "actions": [
+      "上ぶたがしっかりと閉まっているか ・ふたロック中に無理に開けたりしていないか 確認してください。",
+      "※機種によっては部品の点検・修理が必要なエラー表示になります。",
+      "詳しくは取扱説明書を確認してください。"
+    ],
+    "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "AQUA",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "E42",
+    "summary": "ふたロックの不具合です。",
+    "actions": [
+      "上ぶたがしっかりと閉まっているか ・ふたロック中に無理に開けたりしていないか 確認してください。",
+      "※機種によっては部品の点検・修理が必要なエラー表示になります。",
+      "詳しくは取扱説明書を確認してください。"
+    ],
+    "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "AQUA",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "E44",
+    "summary": "ふたロックの不具合です。",
+    "actions": [
+      "上ぶたがしっかりと閉まっているか ・ふたロック中に無理に開けたりしていないか 確認してください。",
+      "※機種によっては部品の点検・修理が必要なエラー表示になります。",
+      "詳しくは取扱説明書を確認してください。"
+    ],
+    "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "AQUA",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "E46",
+    "summary": "など 部品の点検・修理が必要です。",
+    "actions": [
+      "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。"
+    ],
+    "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "AQUA",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "E47",
+    "summary": "ふたロックの不具合です。",
+    "actions": [
+      "上ぶたがしっかりと閉まっているか ・ふたロック中に無理に開けたりしていないか 確認してください。",
+      "※機種によっては部品の点検・修理が必要なエラー表示になります。",
+      "詳しくは取扱説明書を確認してください。"
+    ],
+    "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "AQUA",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "E7",
+    "summary": "など 部品の点検・修理が必要です。",
+    "actions": [
+      "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。"
+    ],
+    "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "AQUA",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "EA",
+    "summary": "など 部品の点検・修理が必要です。",
+    "actions": [
+      "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。"
+    ],
+    "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "AQUA",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "EF",
+    "summary": "など 部品の点検・修理が必要です。",
+    "actions": [
+      "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。"
+    ],
+    "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "AQUA",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "EU",
+    "summary": "など 部品の点検・修理が必要です。",
+    "actions": [
+      "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。"
+    ],
+    "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "AQUA",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "E8",
+    "summary": "など 部品の点検・修理が必要です。",
+    "actions": [
+      "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。",
+      "2.自分で試せる!",
+      "エラーを解消する方法 エラーコードが表示された際、焦って修理を依頼しなくても、自分で解決できるものも多いです。"
+    ],
+    "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "AQUA",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "EC",
+    "summary": "など 部品の点検・修理が必要です。",
+    "actions": [
+      "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。",
+      "2.自分で試せる!",
+      "エラーを解消する方法 エラーコードが表示された際、焦って修理を依頼しなくても、自分で解決できるものも多いです。"
+    ],
+    "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "AQUA",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "ED",
+    "summary": "など 部品の点検・修理が必要です。",
+    "actions": [
+      "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。",
+      "2.自分で試せる!",
+      "エラーを解消する方法 エラーコードが表示された際、焦って修理を依頼しなくても、自分で解決できるものも多いです。"
+    ],
+    "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "AQUA",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "U8",
+    "summary": "乾燥時に洗濯物を入れすぎていると表示します。",
+    "actions": [
+      "一時停止後、洗濯物を減らして下さい。"
+    ],
+    "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "AQUA",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "UA3",
+    "summary": "乾燥運転ができません。",
+    "actions": [
+      "ドラム内に水が残っていないか確認し、残っている場合は、電源を入れ直して脱水を行ってください。"
+    ],
+    "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "AQUA",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "UH",
+    "summary": "排水フィルターが抜けています。",
+    "actions": [
+      "排水フィルターが正しく取り付けられているか確認してください。"
+    ],
+    "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
     "manufacturer": "ダイキン",
     "appliance": "ルームエアコン",
     "code": "A0",
@@ -669,6 +878,201 @@
     "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
     "verified": "2026-09-01",
     "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ハイアール",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "E0",
+    "summary": "予約運転中に上ぶたが開いている",
+    "actions": [
+      "上ぶたを閉めてください。"
+    ],
+    "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "ハイアール",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "E2",
+    "summary": "運転が途中で止まる",
+    "actions": [
+      "上ぶたがしっかり閉まっているか確認してください。"
+    ],
+    "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "ハイアール",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "E8",
+    "summary": "電源電圧が低い",
+    "actions": [
+      "コンセントの電源を確認してください。"
+    ],
+    "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "ハイアール",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "E9",
+    "summary": "電源電圧が高い/通信異常",
+    "actions": [
+      "コンセントの電源を確認してください。"
+    ],
+    "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "ハイアール",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "EA",
+    "summary": "乾燥時に洗濯槽へ水が残っている",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "ハイアール",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "EB",
+    "summary": "乾燥容量オーバー",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "ハイアール",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "F2",
+    "summary": "給水が止まらない/上ぶたが開いている",
+    "actions": [
+      "上ぶたがしっかり閉まっているか確認してください。"
+    ],
+    "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "ハイアール",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "FB",
+    "summary": "風呂水給水フィルターの目詰まり等",
+    "actions": [
+      "風呂水給水フィルターを清掃、ホースを確認してください。"
+    ],
+    "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "ハイアール",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "U6",
+    "summary": "風呂水の給水異常",
+    "actions": [
+      "風呂水ホースの接続部"
+    ],
+    "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "ハイアール",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "E2",
+    "summary": "ドアロック異常",
+    "actions": [
+      "ドアが閉まっているか、ドアに洗濯物のはさまりがないか確認してください。"
+    ],
+    "source": "https://www.haier.com/jp/service-support/self-service/20260602_291539.shtml",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "ハイアール",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "E61",
+    "summary": "乾燥フィルター位置異常",
+    "actions": [
+      "乾燥フィルターを正しくセットしてください。"
+    ],
+    "source": "https://www.haier.com/jp/service-support/self-service/20260602_291539.shtml",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "ハイアール",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "EB",
+    "summary": "衣類の挟み込み",
+    "actions": [
+      "ドアを開け、ドア周辺に衣類のはさまりがないか確認してください。"
+    ],
+    "source": "https://www.haier.com/jp/service-support/self-service/20260602_291539.shtml",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "ハイアール",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "F8",
+    "summary": "ドアロック異常",
+    "actions": [
+      "ドアが閉まっているか、ドアに洗濯物のはさまりがないか確認してください。"
+    ],
+    "source": "https://www.haier.com/jp/service-support/self-service/20260602_291539.shtml",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "ハイアール",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "FH",
+    "summary": "無線LAN接続失敗",
+    "actions": [
+      "インターネット接続環境を再確認してください。"
+    ],
+    "source": "https://www.haier.com/jp/service-support/self-service/20260602_291539.shtml",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "ハイアール",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "UH",
+    "summary": "排水フィルターが奥まで取り付けられていない",
+    "actions": [
+      "排水フィルターを奥までしっかり取り付けてください。"
+    ],
+    "source": "https://www.haier.com/jp/service-support/self-service/20260602_291539.shtml",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
   },
   {
     "manufacturer": "日立",

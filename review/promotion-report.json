@@ -2,26 +2,152 @@
   "verified_date": "2026-09-01",
   "policy": "strict dedicated official sources only; generic candidates are never auto-promoted; scoped conflicts are separated or rejected",
   "candidate_count": 390,
-  "dedicated_candidate_count": 252,
+  "dedicated_candidate_count": 301,
   "previous_published_count": 73,
   "manual_retained_count": 6,
   "previous_auto_count": 67,
-  "auto_rebuilt_count": 67,
-  "published_after": 73,
+  "auto_rebuilt_count": 97,
+  "published_after": 103,
   "auto_promote_limit": 10000,
   "promoted_by_manufacturer": {
+    "AQUA": 15,
     "ダイキン": 47,
+    "ハイアール": 15,
     "日立": 20
   },
   "rejected": {
+    "aqua_table_noise": 7,
     "conflicting_summaries": 1,
     "manual_published_key_collision": 3,
-    "not_dedicated": 138,
+    "not_dedicated": 89,
     "not_high_confidence": 31,
+    "status_not_error": 2,
     "summary_not_specific": 144,
-    "unscoped_shadowed_by_specific_scope": 1
+    "unexpected_code_family": 4,
+    "unscoped_shadowed_by_specific_scope": 1,
+    "weak_structured_summary": 6
   },
   "promoted": [
+    {
+      "manufacturer": "AQUA",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "E41",
+      "scope": "タテ型",
+      "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+      "method": "dedicated:aqua"
+    },
+    {
+      "manufacturer": "AQUA",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "E42",
+      "scope": "タテ型",
+      "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+      "method": "dedicated:aqua"
+    },
+    {
+      "manufacturer": "AQUA",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "E44",
+      "scope": "タテ型",
+      "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+      "method": "dedicated:aqua"
+    },
+    {
+      "manufacturer": "AQUA",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "E46",
+      "scope": "タテ型",
+      "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+      "method": "dedicated:aqua"
+    },
+    {
+      "manufacturer": "AQUA",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "E47",
+      "scope": "タテ型",
+      "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+      "method": "dedicated:aqua"
+    },
+    {
+      "manufacturer": "AQUA",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "E7",
+      "scope": "タテ型",
+      "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+      "method": "dedicated:aqua"
+    },
+    {
+      "manufacturer": "AQUA",
+      "appliance": "ドラム式洗濯機・洗濯乾燥機",
+      "code": "E8",
+      "scope": "ドラム式",
+      "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+      "method": "dedicated:aqua"
+    },
+    {
+      "manufacturer": "AQUA",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "EA",
+      "scope": "タテ型",
+      "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+      "method": "dedicated:aqua"
+    },
+    {
+      "manufacturer": "AQUA",
+      "appliance": "ドラム式洗濯機・洗濯乾燥機",
+      "code": "EC",
+      "scope": "ドラム式",
+      "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+      "method": "dedicated:aqua"
+    },
+    {
+      "manufacturer": "AQUA",
+      "appliance": "ドラム式洗濯機・洗濯乾燥機",
+      "code": "ED",
+      "scope": "ドラム式",
+      "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+      "method": "dedicated:aqua"
+    },
+    {
+      "manufacturer": "AQUA",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "EF",
+      "scope": "タテ型",
+      "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+      "method": "dedicated:aqua"
+    },
+    {
+      "manufacturer": "AQUA",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "EU",
+      "scope": "タテ型",
+      "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+      "method": "dedicated:aqua"
+    },
+    {
+      "manufacturer": "AQUA",
+      "appliance": "ドラム式洗濯機・洗濯乾燥機",
+      "code": "U8",
+      "scope": "ドラム式",
+      "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+      "method": "dedicated:aqua"
+    },
+    {
+      "manufacturer": "AQUA",
+      "appliance": "ドラム式洗濯機・洗濯乾燥機",
+      "code": "UA3",
+      "scope": "ドラム式",
+      "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+      "method": "dedicated:aqua"
+    },
+    {
+      "manufacturer": "AQUA",
+      "appliance": "ドラム式洗濯機・洗濯乾燥機",
+      "code": "UH",
+      "scope": "ドラム式",
+      "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
+      "method": "dedicated:aqua"
+    },
     {
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
@@ -397,6 +523,126 @@
       "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ハイアール",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "E0",
+      "scope": "タテ型",
+      "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+      "method": "dedicated:haier"
+    },
+    {
+      "manufacturer": "ハイアール",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "E2",
+      "scope": "タテ型",
+      "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+      "method": "dedicated:haier"
+    },
+    {
+      "manufacturer": "ハイアール",
+      "appliance": "ドラム式洗濯機・洗濯乾燥機",
+      "code": "E2",
+      "scope": "ドラム式",
+      "source": "https://www.haier.com/jp/service-support/self-service/20260602_291539.shtml",
+      "method": "dedicated:haier"
+    },
+    {
+      "manufacturer": "ハイアール",
+      "appliance": "ドラム式洗濯機・洗濯乾燥機",
+      "code": "E61",
+      "scope": "ドラム式",
+      "source": "https://www.haier.com/jp/service-support/self-service/20260602_291539.shtml",
+      "method": "dedicated:haier"
+    },
+    {
+      "manufacturer": "ハイアール",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "E8",
+      "scope": "タテ型",
+      "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+      "method": "dedicated:haier"
+    },
+    {
+      "manufacturer": "ハイアール",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "E9",
+      "scope": "タテ型",
+      "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+      "method": "dedicated:haier"
+    },
+    {
+      "manufacturer": "ハイアール",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "EA",
+      "scope": "タテ型",
+      "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+      "method": "dedicated:haier"
+    },
+    {
+      "manufacturer": "ハイアール",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "EB",
+      "scope": "タテ型",
+      "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+      "method": "dedicated:haier"
+    },
+    {
+      "manufacturer": "ハイアール",
+      "appliance": "ドラム式洗濯機・洗濯乾燥機",
+      "code": "EB",
+      "scope": "ドラム式",
+      "source": "https://www.haier.com/jp/service-support/self-service/20260602_291539.shtml",
+      "method": "dedicated:haier"
+    },
+    {
+      "manufacturer": "ハイアール",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "F2",
+      "scope": "タテ型",
+      "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+      "method": "dedicated:haier"
+    },
+    {
+      "manufacturer": "ハイアール",
+      "appliance": "ドラム式洗濯機・洗濯乾燥機",
+      "code": "F8",
+      "scope": "ドラム式",
+      "source": "https://www.haier.com/jp/service-support/self-service/20260602_291539.shtml",
+      "method": "dedicated:haier"
+    },
+    {
+      "manufacturer": "ハイアール",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "FB",
+      "scope": "タテ型",
+      "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+      "method": "dedicated:haier"
+    },
+    {
+      "manufacturer": "ハイアール",
+      "appliance": "ドラム式洗濯機・洗濯乾燥機",
+      "code": "FH",
+      "scope": "ドラム式",
+      "source": "https://www.haier.com/jp/service-support/self-service/20260602_291539.shtml",
+      "method": "dedicated:haier"
+    },
+    {
+      "manufacturer": "ハイアール",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
+      "code": "U6",
+      "scope": "タテ型",
+      "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
+      "method": "dedicated:haier"
+    },
+    {
+      "manufacturer": "ハイアール",
+      "appliance": "ドラム式洗濯機・洗濯乾燥機",
+      "code": "UH",
+      "scope": "ドラム式",
+      "source": "https://www.haier.com/jp/service-support/self-service/20260602_291539.shtml",
+      "method": "dedicated:haier"
     },
     {
       "manufacturer": "日立",
