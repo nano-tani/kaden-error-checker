@@ -5,7 +5,8 @@
     "url": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
     "title": "アクア（AQUA）洗濯機のエラーコード一覧｜原因別の対処法と解決策を解説| AQUA",
     "status": "ok",
-    "candidate_count": 15
+    "candidate_count": 15,
+    "collector": "generic"
   },
   {
     "manufacturer": "アイリスオーヤマ",
@@ -13,7 +14,8 @@
     "url": "https://www.irisohyama.co.jp/support/faq/categori.php?ID=44",
     "status": "fetch_error",
     "detail": "HTTPError: HTTP Error 403: Forbidden",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "コロナ",
@@ -21,7 +23,8 @@
     "url": "https://www.corona.co.jp/heating/faq/faq_maintenance01.html",
     "title": "長期使用製品安全点検制度｜サポート・お問い合わせ｜株式会社コロナ",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "コロナ",
@@ -29,7 +32,8 @@
     "url": "https://www.corona.co.jp/report/long/",
     "title": "長期使用製品安全点検制度／長期使用製品安全表示制度のお知らせ｜重要なお知らせ｜株式会社コロナ",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "コロナ",
@@ -37,7 +41,8 @@
     "url": "https://www.corona.co.jp/report/long/long01.html",
     "title": "点検制度のお知らせとお客様へのご対応についてのお願い｜重要なお知らせ｜株式会社コロナ",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "コロナ",
@@ -45,7 +50,8 @@
     "url": "https://www.corona.co.jp/support/error/",
     "title": "エラーサイン一覧｜サポート・お問い合わせ｜株式会社コロナ",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "コロナ",
@@ -53,7 +59,8 @@
     "url": "https://www.corona.co.jp/support/error/aircon.html",
     "title": "空調・家電機器｜エラーサイン一覧｜サポート・お問い合わせ｜株式会社コロナ",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "コロナ",
@@ -61,7 +68,8 @@
     "url": "https://www.corona.co.jp/support/error/aircon/index.html",
     "title": "エアコン｜エラーサイン一覧｜サポート・お問い合わせ｜株式会社コロナ",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "コロナ",
@@ -69,7 +77,8 @@
     "url": "https://www.corona.co.jp/support/error/aqua-air.html",
     "title": "美容・健康機器｜エラーサイン一覧｜サポート・お問い合わせ｜株式会社コロナ",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "コロナ",
@@ -77,119 +86,278 @@
     "url": "https://www.corona.co.jp/support/error/housing.html",
     "title": "住宅設備機器｜エラーサイン一覧｜サポート・お問い合わせ｜株式会社コロナ",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "シャープ",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/faq/qa?qid=154608",
-    "title": "本体がエラーを表示しています。 Ｑ＆Ａ情報（文書番号：154608）：シャープ",
-    "status": "ok",
-    "candidate_count": 10
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_9.html",
-    "title": "�G���[�₨�m�点�\\�����o��b�S��������@�b�̏�f�f�i�r�F�V���[�v",
-    "status": "ok",
-    "candidate_count": 0
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_gv/gv_diag09-1.html",
-    "title": "�G���[�₨�m�点�\\�����o��b�S��������@�b�̏�f�f�i�r�F�V���[�v",
-    "status": "ok",
-    "candidate_count": 0
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_gv/gv_diag09_03rn.html",
-    "title": "�G���[�₨�m�点�\\�����o��b�S��������@�b�̏�f�f�i�r�F�V���[�v",
-    "status": "ok",
-    "candidate_count": 0
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_gv/gv_diag09_05.html",
-    "title": "�G���[�₨�m�点�\\�����o��b�S��������@�b�̏�f�f�i�r�F�V���[�v",
-    "status": "ok",
-    "candidate_count": 0
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_gv/gv_diag09_07.html",
-    "title": "�G���[�₨�m�点�\\�����o��b�S��������@�b�̏�f�f�i�r�F�V���[�v",
-    "status": "ok",
-    "candidate_count": 0
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_gv/gv_diag09_09.html",
-    "title": "�G���[�₨�m�点�\\�����o��b�S��������@�b�̏�f�f�i�r�F�V���[�v",
-    "status": "ok",
-    "candidate_count": 0
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_gv/gv_diag09_11.html",
-    "title": "�G���[�₨�m�点�\\�����o��b�S��������@�b�̏�f�f�i�r�F�V���[�v",
-    "status": "ok",
-    "candidate_count": 0
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_gv/gv_diag09_19.html",
-    "title": "�G���[�₨�m�点�\\�����o��b�S��������@�b�̏�f�f�i�r�F�V���[�v",
-    "status": "ok",
-    "candidate_count": 0
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_gv/gv_diag_top.html",
-    "title": "全自動洗濯機│故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 0
-  },
-  {
-    "manufacturer": "ダイキン",
     "appliance": "ルームエアコン",
-    "url": "https://nacpt.daikincc.com/faq/customer/web/category1838.html",
-    "title": "故障かな？ - よくあるご質問",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18.html",
+    "title": "�G���[�\\�����o��b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "dedicated"
   },
   {
-    "manufacturer": "ダイキン",
+    "manufacturer": "シャープ",
     "appliance": "ルームエアコン",
-    "url": "https://nacpt.daikincc.com/faq/customer/web/category1840.html",
-    "title": "エラーコード - よくあるご質問",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-0_1.html",
+    "title": "�u2-0�v��\\������^�u2�v�Ɓu-0�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "dedicated"
   },
   {
-    "manufacturer": "ダイキン",
+    "manufacturer": "シャープ",
     "appliance": "ルームエアコン",
-    "url": "https://nacpt.daikincc.com/faq/customer/web/knowledge2732.html",
-    "title": "運転ランプが点滅する・エラーコードが表示される（修理金額） - よくあるご質問",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-1_1.html",
+    "title": "�u2-1�v��\\������^�u2�v�Ɓu-1�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
     "status": "ok",
-    "candidate_count": 17
+    "candidate_count": 0,
+    "collector": "dedicated"
   },
   {
-    "manufacturer": "ダイキン",
+    "manufacturer": "シャープ",
     "appliance": "ルームエアコン",
-    "url": "https://nacpt.daikincc.com/faq/customer/web/knowledge2945.html",
-    "title": "リモコンに標準、適温、＋1、－1と表示される（ルームエアコン） - よくあるご質問",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-2_1.html",
+    "title": "�u2-2�v��\\������^�u2�v�Ɓu-2�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-3_1.html",
+    "title": "�u2-3�v��\\������^�u2�v�Ɓu-3�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-4_1.html",
+    "title": "�u2-4�v��\\������^�u2�v�Ɓu-4�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-5_1.html",
+    "title": "�u2-5�v��\\������^�u2�v�Ɓu-5�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_21-0_1.html",
+    "title": "�u21-0�v��\\������^�u21�v�Ɓu-0�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_22-2ro.html",
+    "title": "�u22-2�v��\\������^�u22�v�Ɓu-2�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_23-0ro.html",
+    "title": "�u23-0�v��\\������^�u23�v�Ɓu-0�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_24-0_1.html",
+    "title": "�u24-0�v��\\������^�u24�v�Ɓu-0�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_24-1_1.html",
+    "title": "�u24-1�v��\\������^�u24�v�Ɓu-1�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_24-2_1.html",
+    "title": "�u24-2�v��\\������^�u24�v�Ɓu-2�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_24-3_1.html",
+    "title": "�u24-3�v��\\������^�u24�v�Ɓu-3�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_28-0_1.html",
+    "title": "�u28-0�v��\\������^�u28�v�Ɓu-0�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_28-1_1.html",
+    "title": "�u28-1�v��\\������^�u28�v�Ɓu-1�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_28-2_1.html",
+    "title": "�u28-2�v��\\������^�u28�v�Ɓu-2�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_28-3_1.html",
+    "title": "�u28-3�v��\\������^�u28�v�Ɓu-3�v�����݂ɕ\\�������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22.html",
+    "title": "�p�����G���[��\\������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_1.html",
+    "title": "EU��\\������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_12.html",
+    "title": "E6��\\������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_13.html",
+    "title": "F0��\\������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_16.html",
+    "title": "E2��\\������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_17.html",
+    "title": "E4��\\������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_18ro.html",
+    "title": "E9��\\������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_2.html",
+    "title": "E8��\\������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_20ro.html",
+    "title": "Fo��\\������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_4.html",
+    "title": "F6��\\������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_6.html",
+    "title": "F9��\\������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_9.html",
+    "title": "H5��\\������b�G�A�R���b�̏�f�f�i�r�F�V���[�v",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "ダイキン",
@@ -197,15 +365,8 @@
     "url": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
     "title": "エラーコードの内容と対処方法（ルームエアコン） - よくあるご質問",
     "status": "ok",
-    "candidate_count": 37
-  },
-  {
-    "manufacturer": "ダイキン",
-    "appliance": "ルームエアコン",
-    "url": "https://www.daikincc.com/errorcode/",
-    "title": "エラーコード検索 | ダイキン工業株式会社",
-    "status": "ok",
-    "candidate_count": 1
+    "candidate_count": 50,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "ハイアール",
@@ -213,7 +374,8 @@
     "url": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
     "title": "【縦型】エラー表示が出た-Haier （ハイアール）",
     "status": "ok",
-    "candidate_count": 14
+    "candidate_count": 14,
+    "collector": "generic"
   },
   {
     "manufacturer": "ハイアール",
@@ -221,55 +383,188 @@
     "url": "https://www.haier.com/jp/service-support/self-service/20260602_291539.shtml",
     "title": "【ドラム式】エラー表示が出た-Haier （ハイアール）",
     "status": "ok",
-    "candidate_count": 26
+    "candidate_count": 26,
+    "collector": "generic"
   },
   {
     "manufacturer": "パナソニック",
-    "appliance": "ルームエアコン",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/12073/related/1/session/L2F2LzEvdGltZS8xNzg4MTg0MjgyL2dlbi8xNzg4MTg0MjgyL3NpZC9mVVBHbHQyalA0S2U3bm93YjhMR0VnTThOaTJySmdBdUklN0VsMFFPTXBwWWZybFVVVlRRNVdCT1g4b3o3U1V3bEo2b0t3R0l0T1JPS1dWZEdtUFlXMGhtY0p3d3I0QWg1cE9NTzQ2Ym5vQUJkYU1hRFZaMURmelRqUSUyMSUyMQ==",
-    "title": "エアコンのリモコン「お知らせ」ボタンを押すと「もう一度」と表示されるときは - エアコン - Panasonic",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/101/related/1/session/L2F2LzEvdGltZS8xNzg4MTg1NTY2L2dlbi8xNzg4MTg1NTY2L3NpZC9mVWFPckVPN2ZHZHRwNGlpQmlhbExMT21DT0V3bDdSaGdWNFJJbHczVmhEZk1YY3JFQVVnVlRRSjBpdEg2cThGSldUbWU1Vk5CTkE2c002Z0glN0VVVWd6MFNXWDdIQTE5V2ZPdDNWWm14UWJVVkQ0Mk5KZlJ5VG5mQSUyMSUyMQ==",
+    "title": "洗濯機にエラー表示「U14」が出る・給水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
     "status": "ok",
-    "candidate_count": 2
+    "candidate_count": 2,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "パナソニック",
-    "appliance": "ルームエアコン",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/12073/related/1/session/L2F2LzIvdGltZS8xNzg4MTg0Mjg1L2dlbi8xNzg4MTg0MjgyL3NpZC9mVWlqbWZEYl9UODVQNiU3RVNnYkx1VkZhQVRoOGJVcDJERTl5eGU3OGY3OGUlN0VsU21rVHZydWtiNEFtNUwlN0V0eXMyMUZmbWF4U2d2SzVWN1d1ZXZrUjFnRnVXN0kxSTViVGdyakFnU21oUXRmdmlJWF9YTThuZVpmS3clMjElMjE=",
-    "title": "エアコンのリモコン「お知らせ」ボタンを押すと「もう一度」と表示されるときは - エアコン - Panasonic",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/101/related/1/session/L2F2LzIvdGltZS8xNzg4MTg1NTczL2dlbi8xNzg4MTg1NTY3L3NpZC9mVXhMM2dOSWJPbXlYdDJPeEEwcFFIemhPT3o5bGNuMVdnNmY3WUE0RHpnNGFFTDd5emxlVW9sb3pJR2xVbndwNXlxSjZCMXlFYUF5UUZJQjVkdSU3RWVtdWFpRTBTd0lvSGRkOXVGNmVrcjVNNzRPTmgzT24ya2QzdyUyMSUyMQ==",
+    "title": "洗濯機にエラー表示「U14」が出る・給水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
     "status": "ok",
-    "candidate_count": 2
+    "candidate_count": 2,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "パナソニック",
-    "appliance": "ルームエアコン",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/14912/related/1/session/L2F2LzEvdGltZS8xNzg4MTg0MjgyL2dlbi8xNzg4MTg0MjgyL3NpZC9mVVBHbHQyalA0S2U3bm93YjhMR0VnTThOaTJySmdBdUklN0VsMFFPTXBwWWZybFVVVlRRNVdCT1g4b3o3U1V3bEo2b0t3R0l0T1JPS1dWZEdtUFlXMGhtY0p3d3I0QWg1cE9NTzQ2Ym5vQUJkYU1hRFZaMURmelRqUSUyMSUyMQ==",
-    "title": "エオリア アプリに「リモコンで本体の遠隔操作を許可してください」と表示されるときは - エオリア アプリ - Panasonic",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/101/related/1/session/L2F2LzMvdGltZS8xNzg4MTg1NTc1L2dlbi8xNzg4MTg1NTY2L3NpZC9mVWxlN1o1YiU3RU0xckRvdjFfNU9IMnpKTHl2YTBwMDF6Vm5kVlg2bnBzQmhzSTV5Yk9jYVhianIwWE5Rb2JUZlZoTjJ6V1AybFRpZTUweWF5VFVHY181R3hnS2hvUnY3Q1JCVV9YQUhOc2lZbnVJRW95NDlHc2lHUSUyMSUyMQ==",
+    "title": "洗濯機にエラー表示「U14」が出る・給水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 2,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "パナソニック",
-    "appliance": "ルームエアコン",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/9669/",
-    "title": "エアコン本体のタイマーランプが点滅して、エラー表示「H**／F**」が出たら - エアコン - Panasonic",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/17045/related/1/session/L2F2LzIvdGltZS8xNzg4MTg1NTcwL2dlbi8xNzg4MTg1NTY2L3NpZC9mVTlQRVVDdFVYJTdFdEJaZFdtREpqRXhlU0tWeURXMEk2YklDRmtMMzhaaEpJRjFsZjFXQ21kOTNkTExlSG0wdDZoYTZ4VEV4ZGNHYjRyYmxLXzJsVUw3S1RqMGNlVTAwd1RWRUJJekc2bFBBRGZwdW02ajBydXBnQSUyMSUyMQ==",
+    "title": "【タテ型洗濯機】エラー表示「U19」が出たら - 縦型全自動洗濯機 - Panasonic",
     "status": "ok",
-    "candidate_count": 19
+    "candidate_count": 3,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "パナソニック",
-    "appliance": "ルームエアコン",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/9669/related/1/session/L2F2LzIvdGltZS8xNzg4MTg0Mjg0L2dlbi8xNzg4MTg0MjgyL3NpZC9mVVBLc3FrdVk4M2hCZW02QXJZU0xIcWF5OEs0ZCU3RUUxbDd5RVlOdmY4Qjg0JTdFMGh4X0QlN0VRclFadjVIakg2OWppcjFudW9aSDlzS1ZjXyU3RWlaUlE1TDZGR29WeUFRZUtfUkpld09iTG8ybmp6MXBKRTJ2bDdnNHV1QSUyMSUyMQ==",
-    "title": "エアコン本体のタイマーランプが点滅して、エラー表示「H**／F**」が出たら - エアコン - Panasonic",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/17207/related/1/session/L2F2LzEvdGltZS8xNzg4MTg1NTY2L2dlbi8xNzg4MTg1NTY2L3NpZC9mVWFPckVPN2ZHZHRwNGlpQmlhbExMT21DT0V3bDdSaGdWNFJJbHczVmhEZk1YY3JFQVVnVlRRSjBpdEg2cThGSldUbWU1Vk5CTkE2c002Z0glN0VVVWd6MFNXWDdIQTE5V2ZPdDNWWm14UWJVVkQ0Mk5KZlJ5VG5mQSUyMSUyMQ==",
+    "title": "【ドラム式洗濯機】エラー表示「U04」が出たら - ドラム式洗濯乾燥機 - Panasonic",
     "status": "ok",
-    "candidate_count": 19
+    "candidate_count": 2,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "パナソニック",
-    "appliance": "ルームエアコン",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/9918/related/1/session/L2F2LzIvdGltZS8xNzg4MTg0Mjg0L2dlbi8xNzg4MTg0MjgyL3NpZC9mVVBLc3FrdVk4M2hCZW02QXJZU0xIcWF5OEs0ZCU3RUUxbDd5RVlOdmY4Qjg0JTdFMGh4X0QlN0VRclFadjVIakg2OWppcjFudW9aSDlzS1ZjXyU3RWlaUlE1TDZGR29WeUFRZUtfUkpld09iTG8ybmp6MXBKRTJ2bDdnNHV1QSUyMSUyMQ==",
-    "title": "エアコンのリモコンを買い替えたいときは（故障・紛失したとき） - エアコン - Panasonic",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/17207/related/1/session/L2F2LzIvdGltZS8xNzg4MTg1NTczL2dlbi8xNzg4MTg1NTY3L3NpZC9mVXhMM2dOSWJPbXlYdDJPeEEwcFFIemhPT3o5bGNuMVdnNmY3WUE0RHpnNGFFTDd5emxlVW9sb3pJR2xVbndwNXlxSjZCMXlFYUF5UUZJQjVkdSU3RWVtdWFpRTBTd0lvSGRkOXVGNmVrcjVNNzRPTmgzT24ya2QzdyUyMSUyMQ==",
+    "title": "【ドラム式洗濯機】エラー表示「U04」が出たら - ドラム式洗濯乾燥機 - Panasonic",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 2,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/17207/related/1/session/L2F2LzMvdGltZS8xNzg4MTg1NTc1L2dlbi8xNzg4MTg1NTY2L3NpZC9mVWxlN1o1YiU3RU0xckRvdjFfNU9IMnpKTHl2YTBwMDF6Vm5kVlg2bnBzQmhzSTV5Yk9jYVhianIwWE5Rb2JUZlZoTjJ6V1AybFRpZTUweWF5VFVHY181R3hnS2hvUnY3Q1JCVV9YQUhOc2lZbnVJRW95NDlHc2lHUSUyMSUyMQ==",
+    "title": "【ドラム式洗濯機】エラー表示「U04」が出たら - ドラム式洗濯乾燥機 - Panasonic",
+    "status": "ok",
+    "candidate_count": 2,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/26936",
+    "title": "洗濯機にエラー表示「H＊＊」が出たら - 洗濯機／衣類乾燥機 - Panasonic",
+    "status": "ok",
+    "candidate_count": 14,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/26936/related/1/session/L2F2LzEvdGltZS8xNzg4MTg1NTY2L2dlbi8xNzg4MTg1NTY2L3NpZC9mVWFPckVPN2ZHZHRwNGlpQmlhbExMT21DT0V3bDdSaGdWNFJJbHczVmhEZk1YY3JFQVVnVlRRSjBpdEg2cThGSldUbWU1Vk5CTkE2c002Z0glN0VVVWd6MFNXWDdIQTE5V2ZPdDNWWm14UWJVVkQ0Mk5KZlJ5VG5mQSUyMSUyMQ==",
+    "title": "洗濯機にエラー表示「H＊＊」が出たら - 洗濯機／衣類乾燥機 - Panasonic",
+    "status": "ok",
+    "candidate_count": 14,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/26936/related/1/session/L2F2LzIvdGltZS8xNzg4MTg1NTczL2dlbi8xNzg4MTg1NTY3L3NpZC9mVXhMM2dOSWJPbXlYdDJPeEEwcFFIemhPT3o5bGNuMVdnNmY3WUE0RHpnNGFFTDd5emxlVW9sb3pJR2xVbndwNXlxSjZCMXlFYUF5UUZJQjVkdSU3RWVtdWFpRTBTd0lvSGRkOXVGNmVrcjVNNzRPTmgzT24ya2QzdyUyMSUyMQ==",
+    "title": "洗濯機にエラー表示「H＊＊」が出たら - 洗濯機／衣類乾燥機 - Panasonic",
+    "status": "ok",
+    "candidate_count": 14,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/26936/related/1/session/L2F2LzMvdGltZS8xNzg4MTg1NTc1L2dlbi8xNzg4MTg1NTY2L3NpZC9mVWxlN1o1YiU3RU0xckRvdjFfNU9IMnpKTHl2YTBwMDF6Vm5kVlg2bnBzQmhzSTV5Yk9jYVhianIwWE5Rb2JUZlZoTjJ6V1AybFRpZTUweWF5VFVHY181R3hnS2hvUnY3Q1JCVV9YQUhOc2lZbnVJRW95NDlHc2lHUSUyMSUyMQ==",
+    "title": "洗濯機にエラー表示「H＊＊」が出たら - 洗濯機／衣類乾燥機 - Panasonic",
+    "status": "ok",
+    "candidate_count": 14,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/31542/related/1/session/L2F2LzEvdGltZS8xNzg4MTg1NTY2L2dlbi8xNzg4MTg1NTY2L3NpZC9mVWFPckVPN2ZHZHRwNGlpQmlhbExMT21DT0V3bDdSaGdWNFJJbHczVmhEZk1YY3JFQVVnVlRRSjBpdEg2cThGSldUbWU1Vk5CTkE2c002Z0glN0VVVWd6MFNXWDdIQTE5V2ZPdDNWWm14UWJVVkQ0Mk5KZlJ5VG5mQSUyMSUyMQ==",
+    "title": "洗濯機にエラー表示「U11」が出る・排水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
+    "status": "ok",
+    "candidate_count": 2,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/31542/related/1/session/L2F2LzIvdGltZS8xNzg4MTg1NTcxL2dlbi8xNzg4MTg1NTY2L3NpZC9mVThnNHZwUl9hTHljaVdZV3lPS2s2a2VLeU9vX1pOdm1hSXRvT3hvVnVtc25ZUWxYa19UdEpWYTFsTzZ6NTI2eHlfQUN6QVVNemRtJTdFeWd6cldHZVU2NDFPX3FNJTdFSjJPbHppd0pwZW9manlXQWtCWTVta09uUnpBJTIxJTIx",
+    "title": "洗濯機にエラー表示「U11」が出る・排水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
+    "status": "ok",
+    "candidate_count": 2,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/31542/related/1/session/L2F2LzIvdGltZS8xNzg4MTg1NTcyL2dlbi8xNzg4MTg1NTY2L3NpZC9mVUNfZ0tPUXBLakhyZGI2VVdpJTdFUU9Eb244WGxmVEt5Rk03N0NSejdzQlFCY1lhaFpuNG5HQk1KS0ZVYyU3RTJIUm9DZXZ6WG81THp5VCU3RVN6SWNHbG1welllWSU3RXA0dVNpVmdLN0tiM2Qzdk1xWXVsbmJPcUEza0w0ZyUyMSUyMQ==",
+    "title": "洗濯機にエラー表示「U11」が出る・排水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
+    "status": "ok",
+    "candidate_count": 2,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/31542/related/1/session/L2F2LzIvdGltZS8xNzg4MTg1NTczL2dlbi8xNzg4MTg1NTY3L3NpZC9mVXhMM2dOSWJPbXlYdDJPeEEwcFFIemhPT3o5bGNuMVdnNmY3WUE0RHpnNGFFTDd5emxlVW9sb3pJR2xVbndwNXlxSjZCMXlFYUF5UUZJQjVkdSU3RWVtdWFpRTBTd0lvSGRkOXVGNmVrcjVNNzRPTmgzT24ya2QzdyUyMSUyMQ==",
+    "title": "洗濯機にエラー表示「U11」が出る・排水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
+    "status": "ok",
+    "candidate_count": 2,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/31542/related/1/session/L2F2LzMvdGltZS8xNzg4MTg1NTc1L2dlbi8xNzg4MTg1NTY2L3NpZC9mVWxlN1o1YiU3RU0xckRvdjFfNU9IMnpKTHl2YTBwMDF6Vm5kVlg2bnBzQmhzSTV5Yk9jYVhianIwWE5Rb2JUZlZoTjJ6V1AybFRpZTUweWF5VFVHY181R3hnS2hvUnY3Q1JCVV9YQUhOc2lZbnVJRW95NDlHc2lHUSUyMSUyMQ==",
+    "title": "洗濯機にエラー表示「U11」が出る・排水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
+    "status": "ok",
+    "candidate_count": 2,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/31542/related/1/session/L2F2LzMvdGltZS8xNzg4MTg1NTc2L2dlbi8xNzg4MTg1NTY2L3NpZC9mVWYycDRvX2xMRDBlQ1J6MFdoN2wwOEJtUXhxaERTS2NYeUhDOWN4Ul9xS0RQUkpzV1F5WnVzUml5NFVYdTRvcVNzbF9TbEdFVkNJXzBESF84eDBTall4bkIzV09YS0NNcGc0JTdFd1B3NWxvTkF3eVYzejBIRUROZyUyMSUyMQ==",
+    "title": "洗濯機にエラー表示「U11」が出る・排水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
+    "status": "ok",
+    "candidate_count": 2,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/84",
+    "title": "洗濯機にエラー表示「U＊＊」が出たら - 洗濯機／衣類乾燥機 - Panasonic",
+    "status": "ok",
+    "candidate_count": 20,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/84/related/1/session/L2F2LzEvdGltZS8xNzg4MTg1NTY3L2dlbi8xNzg4MTg1NTY3L3NpZC9mVW5Pb25sTTRGYkVzNzRZb0JCN3NmdHU4cWNoVGM3N001ZFoxcDFWNFQyN2xsc1JtbSU3RWIlN0VEMFhDcDFQNjc3WEpYQmI0b1FCOHlLbHF2XzYxMXlCN0NNcU5JTG0wMENBcVBmSkNGZDF3Y2lUWlh3QjBPS2s0RndRJTIxJTIx",
+    "title": "洗濯機にエラー表示「U＊＊」が出たら - 洗濯機／衣類乾燥機 - Panasonic",
+    "status": "ok",
+    "candidate_count": 20,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/84/related/1/session/L2F2LzIvdGltZS8xNzg4MTg1NTY5L2dlbi8xNzg4MTg1NTY2L3NpZC9mVUZFTGRwUlF1UTJMd2VNSno0bURtMkRVVHVkajBVN29GQXpHUiU3RWl6NmNmWFFPcFAzNWIlN0U2QnpoUCU3RWt1QnpKOV9kRnglN0V2WkZsaVRzSGZ6QWZmR3cwcmhoJTdFbUtXZ1V3bnJ6VTVxdUxidCU3RVFrckoycWIlN0VTcWhGUSUyMSUyMQ==",
+    "title": "洗濯機にエラー表示「U＊＊」が出たら - 洗濯機／衣類乾燥機 - Panasonic",
+    "status": "ok",
+    "candidate_count": 20,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "三菱電機",
@@ -277,7 +572,8 @@
     "url": "https://faq01.mitsubishielectric.co.jp/category/show/304?site_domain=default",
     "title": "故障かな？ | 三菱電機 よくあるご質問 FAQ",
     "status": "ok",
-    "candidate_count": 1
+    "candidate_count": 1,
+    "collector": "generic"
   },
   {
     "manufacturer": "三菱電機",
@@ -285,7 +581,8 @@
     "url": "https://faq01.mitsubishielectric.co.jp/faq/show/1354?back=front%2Fcategory%3Ashow&category_id=304&page=1&site_domain=default&sort=sort_access&sort_order=desc",
     "title": "運転しているのに、冷えない | 三菱電機 よくあるご質問 FAQ",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "三菱電機",
@@ -293,7 +590,8 @@
     "url": "https://faq01.mitsubishielectric.co.jp/faq/show/1912?back=front%2Fcategory%3Ashow&category_id=304&page=1&site_domain=default&sort=sort_access&sort_order=desc",
     "title": "室外のドレンホースからピンク（赤）色の水が出てくるのですが | 三菱電機 よくあるご質問 FAQ",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "三菱電機",
@@ -301,7 +599,8 @@
     "url": "https://faq01.mitsubishielectric.co.jp/faq/show/2619",
     "title": "室内機表示部に１、３、５などの数字が点滅しています | 三菱電機 よくあるご質問 FAQ",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "三菱電機",
@@ -309,7 +608,8 @@
     "url": "https://faq01.mitsubishielectric.co.jp/faq/show/5866?back=front%2Fcategory%3Ashow&category_id=304&page=1&site_domain=default&sort=sort_access&sort_order=desc",
     "title": "故障かな？診断 | 三菱電機 よくあるご質問 FAQ",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "三菱電機",
@@ -317,7 +617,8 @@
     "url": "https://faq01.mitsubishielectric.co.jp/faq/show/727?back=front%2Fcategory%3Ashow&category_id=304&page=1&site_domain=default&sort=sort_access&sort_order=desc",
     "title": "室内機の運転ランプが点滅して運転できません。 | 三菱電機 よくあるご質問 FAQ",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "三菱電機",
@@ -325,7 +626,8 @@
     "url": "https://www.mitsubishielectric.co.jp/ldg/wink/tc/setting.do",
     "title": "三菱電機 点検コード検索システム",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "三菱電機",
@@ -333,7 +635,8 @@
     "url": "https://www.mitsubishielectric.co.jp/ldg/wink/tc/tc_top.do",
     "title": "三菱電機 点検コード検索システム",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "富士通ゼネラル",
@@ -341,7 +644,8 @@
     "url": "https://www.fujitsu-general.com/jp/resources/pdf/support/faq/aircon/0084/chart-diagnosis-2007-03.pdf",
     "status": "fetch_error",
     "detail": "unsupported content-type: application/pdf",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "富士通ゼネラル",
@@ -349,7 +653,8 @@
     "url": "https://www.fujitsu-general.com/jp/resources/pdf/support/faq/aircon/0084/chart-diagnosis-2008-03.pdf",
     "status": "fetch_error",
     "detail": "unsupported content-type: application/pdf",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "富士通ゼネラル",
@@ -357,7 +662,8 @@
     "url": "https://www.fujitsu-general.com/jp/resources/pdf/support/faq/aircon/0084/chart-diagnosis-2011-03.pdf",
     "status": "fetch_error",
     "detail": "unsupported content-type: application/pdf",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "富士通ゼネラル",
@@ -365,7 +671,8 @@
     "url": "https://www.fujitsu-general.com/jp/support/diagnosis/as/failure/index.html?qa=lump",
     "title": "サポート エアコン故障診断ページ - ゼネラル JP",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "富士通ゼネラル",
@@ -373,7 +680,8 @@
     "url": "https://www.fujitsu-general.com/jp/support/diagnosis/index.html",
     "title": "サポート 故障診断 トップ - ゼネラル JP",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   },
   {
     "manufacturer": "富士通ゼネラル",
@@ -381,7 +689,8 @@
     "url": "https://www.fujitsu-general.com/jp/support/faq/as/0084/diagnosis.html",
     "title": "自己診断早見表 : よくあるご質問（エアコン） - ゼネラル JP",
     "status": "ok",
-    "candidate_count": 9
+    "candidate_count": 9,
+    "collector": "generic"
   },
   {
     "manufacturer": "富士通ゼネラル",
@@ -389,7 +698,8 @@
     "url": "https://www.fujitsu-general.com/jp/support/faq/as/0084/index.html",
     "title": "室内機のランプが点滅する : よくあるご質問（エアコン） - ゼネラル JP",
     "status": "ok",
-    "candidate_count": 1
+    "candidate_count": 1,
+    "collector": "generic"
   },
   {
     "manufacturer": "富士通ゼネラル",
@@ -397,15 +707,17 @@
     "url": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
     "title": "ノクリアアプリ エラーコード表 サポート & ダウンロード - ゼネラル JP",
     "status": "ok",
-    "candidate_count": 73
+    "candidate_count": 73,
+    "collector": "generic"
   },
   {
     "manufacturer": "日立",
     "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a124.html",
-    "title": "表示部に「A」や「F」から始まる番号が表示されます。：日立の家電品",
+    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a04.html",
+    "title": "表示部に「C19」や「乾燥容量オーバー」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 7
+    "candidate_count": 0,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "日立",
@@ -413,7 +725,17 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a125.html",
     "title": "排水されない／表示部に「C02」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 2
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a131.html",
+    "title": "表示部に「C8／C08」エラーが表示され、ふた（ドア）が閉まりません（ロックできません）。：日立の家電品",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "日立",
@@ -421,7 +743,17 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
     "title": "表示部に「C」や「D」から始まる番号が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 31
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a174.html",
+    "title": "表示部に「C09」／「C9」が表示されます。：日立の家電品",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "日立",
@@ -429,15 +761,107 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a207.html",
     "title": "表示部に「C6」／「C06」が表示されます。（ドラム式）：日立の家電品",
     "status": "ok",
-    "candidate_count": 3
+    "candidate_count": 0,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "日立",
     "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a253.html",
-    "title": "「洗濯槽内に糸くず・ホコリがたまっています」と表示されたり、「お手入れおすすめ」と「槽洗い」が点滅したりします。（ドラム式）：日立の家電品",
+    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a210.html",
+    "title": "泡が多量に発生し、脱水できません／表示部に「C18」「Cｈ」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a211.html",
+    "title": "表示部に「ドア開閉確認」や「C03」が表示されます。：日立の家電品",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a212.html",
+    "title": "表示部に「C16」が表示されます。：日立の家電品",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a213.html",
+    "title": "表示部に「C15」や「CF」が表示されます。：日立の家電品",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a214.html",
+    "title": "表示部に「C17」や「糸くずフィルター」、「異物トラップ」などが表示します。：日立の家電品",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a215.html",
+    "title": "表示部に「C0」が表示されます。：日立の家電品",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a216.html",
+    "title": "表示部に「C14」が表示されます。：日立の家電品",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a217.html",
+    "title": "表示部に「C20」が表示されています。：日立の家電品",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a240.html",
+    "title": "表示部に「C21」が表示されます。：日立の家電品",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a247.html",
+    "title": "表示部に「C6」／「C06」が表示されます。（タテ型）：日立の家電品",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a252.html",
+    "title": "表示部に「C07」／「C7」が表示されます。：日立の家電品",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "日立",
@@ -445,23 +869,26 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a62.html",
     "title": "脱水されない／表示部に「C04」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 2
+    "candidate_count": 0,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "日立",
     "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/category001/cat001-1.html",
-    "title": "洗濯機・洗濯乾燥機：日立の家電品",
+    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a64.html",
+    "title": "表示部に「水栓開確認」「C01」が表示される／給水がされない／給水に時間がかかります。：日立の家電品",
     "status": "ok",
-    "candidate_count": 69
+    "candidate_count": 0,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "日立",
     "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/category002/cat002-1.html",
-    "title": "洗濯機・洗濯乾燥機：日立の家電品",
+    "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a83.html",
+    "title": "風呂水が吸水されない／表示部に「C10」や「CP」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 66
+    "candidate_count": 0,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "東芝",
@@ -469,7 +896,8 @@
     "url": "https://www.toshiba-lifestyle.com/jp/info/2017/04/11/370/",
     "title": "【改訂】東芝全自動洗濯機／ドラム式洗濯乾燥機 －エラー表示についてのお願い－（発煙・発火の恐れ） | 東芝ライフスタイル株式会社",
     "status": "ok",
-    "candidate_count": 5
+    "candidate_count": 5,
+    "collector": "generic"
   },
   {
     "manufacturer": "東芝",
@@ -477,6 +905,7 @@
     "url": "https://www.toshiba-lifestyle.com/jp/support/laundries/",
     "title": "洗濯機・衣類乾燥機 お客様サポート | サポート | 東芝ライフスタイル株式会社",
     "status": "ok",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "collector": "generic"
   }
 ]
