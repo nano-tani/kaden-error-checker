@@ -12,7 +12,10 @@
     ],
     "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
     "verified": "2026-08-31",
-    "page": "errors/u4-e3c517273c.html"
+    "page": "errors/u4-e3c517273c.html",
+    "code_pages": {
+      "U4": "code/u4/"
+    }
   },
   {
     "manufacturer": "ダイキン",
@@ -27,7 +30,10 @@
     ],
     "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
     "verified": "2026-08-31",
-    "page": "errors/u5-ccd607cec2.html"
+    "page": "errors/u5-ccd607cec2.html",
+    "code_pages": {
+      "U5": "code/u5/"
+    }
   },
   {
     "manufacturer": "日立",
@@ -42,7 +48,11 @@
     ],
     "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
     "verified": "2026-08-31",
-    "page": "errors/c01-2f51efeb49.html"
+    "page": "errors/c01-2f51efeb49.html",
+    "code_pages": {
+      "C01": "code/c01/",
+      "C1": "code/c1/"
+    }
   },
   {
     "manufacturer": "日立",
@@ -60,7 +70,11 @@
     ],
     "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a125.html",
     "verified": "2026-08-31",
-    "page": "errors/c02-e34e330309.html"
+    "page": "errors/c02-e34e330309.html",
+    "code_pages": {
+      "C02": "code/c02/",
+      "C2": "code/c2/"
+    }
   },
   {
     "manufacturer": "日立",
@@ -75,7 +89,11 @@
     ],
     "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
     "verified": "2026-08-31",
-    "page": "errors/c03-6f7e1394eb.html"
+    "page": "errors/c03-6f7e1394eb.html",
+    "code_pages": {
+      "C03": "code/c03/",
+      "C3": "code/c3/"
+    }
   },
   {
     "manufacturer": "日立",
@@ -90,6 +108,10 @@
     ],
     "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
     "verified": "2026-08-31",
-    "page": "errors/c04-44b6b6ccf7.html"
+    "page": "errors/c04-44b6b6ccf7.html",
+    "code_pages": {
+      "C04": "code/c04/",
+      "C4": "code/c4/"
+    }
   }
 ]
