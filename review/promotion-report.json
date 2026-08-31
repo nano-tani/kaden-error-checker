@@ -1,22 +1,32 @@
 {
   "verified_date": "2026-09-01",
-  "policy": "strict dedicated official sources only; generic candidates are never auto-promoted",
+  "policy": "strict dedicated official sources only; generic candidates are never auto-promoted; scoped conflicts are separated or rejected",
   "candidate_count": 396,
-  "published_before": 6,
-  "promoted_count": 65,
-  "published_after": 71,
+  "dedicated_candidate_count": 252,
+  "previous_published_count": 71,
+  "manual_retained_count": 6,
+  "previous_auto_count": 65,
+  "auto_rebuilt_count": 67,
+  "published_after": 73,
   "auto_promote_limit": 10000,
+  "promoted_by_manufacturer": {
+    "ダイキン": 47,
+    "日立": 20
+  },
   "rejected": {
-    "already_published": 6,
+    "conflicting_summaries": 1,
+    "manual_published_key_collision": 3,
     "not_dedicated": 144,
     "not_high_confidence": 31,
-    "summary_not_specific": 144
+    "summary_not_specific": 144,
+    "unscoped_shadowed_by_specific_scope": 1
   },
   "promoted": [
     {
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "A0",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -24,6 +34,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "A1",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -31,6 +42,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "A3",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -38,6 +50,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "A5",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -45,6 +58,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "A6",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -52,6 +66,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "AH",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -59,6 +74,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "C4",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -66,6 +82,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "C7",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -73,6 +90,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "C9",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -80,6 +98,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "CA",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -87,6 +106,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "CC",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -94,6 +114,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "CE",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -101,6 +122,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "CH",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -108,6 +130,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "E1",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -115,6 +138,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "E5",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -122,6 +146,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "E6",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -129,6 +154,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "E7",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -136,6 +162,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "E8",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -143,6 +170,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "E9",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -150,6 +178,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "EA",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -157,6 +186,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "F3",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -164,6 +194,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "F6",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -171,6 +202,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "F8",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -178,6 +210,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "FA",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -185,6 +218,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "H0",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -192,6 +226,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "H1",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -199,6 +234,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "H6",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -206,6 +242,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "H8",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -213,6 +250,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "H9",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -220,6 +258,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "J3",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -227,6 +266,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "J6",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -234,6 +274,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "J8",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -241,6 +282,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "J9",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -248,6 +290,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "L3",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -255,6 +298,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "L4",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -262,6 +306,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "L5",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -269,6 +314,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "LC",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -276,6 +322,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "P4",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -283,6 +330,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "P9",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -290,6 +338,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "PA",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -297,6 +346,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "PH",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -304,6 +354,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "U0",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -311,6 +362,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "U2",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -318,6 +370,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "U3",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -325,6 +378,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "U7",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -332,6 +386,7 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "UH",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
@@ -339,20 +394,39 @@
       "manufacturer": "ダイキン",
       "appliance": "ルームエアコン",
       "code": "UJ",
+      "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
     },
     {
       "manufacturer": "日立",
-      "appliance": "洗濯機・洗濯乾燥機",
+      "appliance": "ドラム式洗濯機・洗濯乾燥機",
       "code": "C0",
+      "scope": "ドラム式",
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
       "method": "dedicated:hitachi"
     },
     {
       "manufacturer": "日立",
-      "appliance": "洗濯機・洗濯乾燥機",
+      "appliance": "ドラム式洗濯機・洗濯乾燥機",
+      "code": "C01",
+      "scope": "ドラム式",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a64.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "ドラム式洗濯機・洗濯乾燥機",
+      "code": "C02",
+      "scope": "ドラム式",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a125.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "ドラム式洗濯機・洗濯乾燥機",
       "code": "C06",
+      "scope": "ドラム式",
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a207.html",
       "method": "dedicated:hitachi"
     },
@@ -360,6 +434,7 @@
       "manufacturer": "日立",
       "appliance": "洗濯機・洗濯乾燥機",
       "code": "C07",
+      "scope": null,
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a252.html",
       "method": "dedicated:hitachi"
     },
@@ -367,6 +442,7 @@
       "manufacturer": "日立",
       "appliance": "洗濯機・洗濯乾燥機",
       "code": "C10",
+      "scope": null,
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
       "method": "dedicated:hitachi"
     },
@@ -374,6 +450,7 @@
       "manufacturer": "日立",
       "appliance": "洗濯機・洗濯乾燥機",
       "code": "C14",
+      "scope": null,
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a216.html",
       "method": "dedicated:hitachi"
     },
@@ -381,6 +458,7 @@
       "manufacturer": "日立",
       "appliance": "洗濯機・洗濯乾燥機",
       "code": "C15",
+      "scope": null,
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a213.html",
       "method": "dedicated:hitachi"
     },
@@ -388,6 +466,7 @@
       "manufacturer": "日立",
       "appliance": "洗濯機・洗濯乾燥機",
       "code": "C16",
+      "scope": null,
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a212.html",
       "method": "dedicated:hitachi"
     },
@@ -395,6 +474,7 @@
       "manufacturer": "日立",
       "appliance": "洗濯機・洗濯乾燥機",
       "code": "C18",
+      "scope": null,
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a210.html",
       "method": "dedicated:hitachi"
     },
@@ -402,6 +482,7 @@
       "manufacturer": "日立",
       "appliance": "洗濯機・洗濯乾燥機",
       "code": "C19",
+      "scope": null,
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a04.html",
       "method": "dedicated:hitachi"
     },
@@ -409,6 +490,7 @@
       "manufacturer": "日立",
       "appliance": "洗濯機・洗濯乾燥機",
       "code": "C21",
+      "scope": null,
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a240.html",
       "method": "dedicated:hitachi"
     },
@@ -416,6 +498,7 @@
       "manufacturer": "日立",
       "appliance": "洗濯機・洗濯乾燥機",
       "code": "C22",
+      "scope": null,
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a243.html",
       "method": "dedicated:hitachi"
     },
@@ -423,6 +506,7 @@
       "manufacturer": "日立",
       "appliance": "洗濯機・洗濯乾燥機",
       "code": "C23",
+      "scope": null,
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a244.html",
       "method": "dedicated:hitachi"
     },
@@ -430,6 +514,7 @@
       "manufacturer": "日立",
       "appliance": "洗濯機・洗濯乾燥機",
       "code": "C32",
+      "scope": null,
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a245.html",
       "method": "dedicated:hitachi"
     },
@@ -437,34 +522,39 @@
       "manufacturer": "日立",
       "appliance": "洗濯機・洗濯乾燥機",
       "code": "C42",
+      "scope": null,
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
       "method": "dedicated:hitachi"
     },
     {
       "manufacturer": "日立",
-      "appliance": "洗濯機・洗濯乾燥機",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
       "code": "CC",
+      "scope": "タテ型",
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
       "method": "dedicated:hitachi"
     },
     {
       "manufacturer": "日立",
-      "appliance": "洗濯機・洗濯乾燥機",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
       "code": "CF",
+      "scope": "タテ型",
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
       "method": "dedicated:hitachi"
     },
     {
       "manufacturer": "日立",
-      "appliance": "洗濯機・洗濯乾燥機",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
       "code": "CH",
+      "scope": "タテ型",
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
       "method": "dedicated:hitachi"
     },
     {
       "manufacturer": "日立",
-      "appliance": "洗濯機・洗濯乾燥機",
+      "appliance": "タテ型洗濯機・洗濯乾燥機",
       "code": "CP",
+      "scope": "タテ型",
       "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
       "method": "dedicated:hitachi"
     }
