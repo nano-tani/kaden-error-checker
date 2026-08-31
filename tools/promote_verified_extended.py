@@ -2,8 +2,8 @@
 """Strict promotion extension for additional dedicated manufacturer collectors.
 
 This wrapper keeps the core promotion policy in promote_verified.py and adds
-scope/status/noise handling for Haier and AQUA before running the same
-production rebuild. Generic candidates remain ineligible for publication.
+scope/status/noise handling for extra consumer-facing official sources.
+Generic candidates remain ineligible for publication.
 """
 from __future__ import annotations
 
@@ -19,6 +19,7 @@ _original_scoped_appliance = core.scoped_appliance
 _original_choose_summary = core.choose_summary
 _original_item_summary = core.item_summary
 _original_choose_actions = core.choose_actions
+_original_registry_rules = core.registry_rules
 
 STATUS_TERMS = (
     "故障ではありません",
@@ -54,6 +55,14 @@ ACTION_WORDS = (
 )
 
 
+def registry_rules() -> dict[tuple[str, str], list[str]]:
+    rules = _original_registry_rules()
+    sharp_domains = ["cs.sharp.co.jp"]
+    rules[("シャープ", "タテ型洗濯機・洗濯乾燥機")] = sharp_domains
+    rules[("シャープ", "ドラム式洗濯機・洗濯乾燥機")] = sharp_domains
+    return rules
+
+
 def candidate_valid(item: dict, domains: list[str]) -> tuple[bool, str]:
     valid, reason = _original_candidate_valid(item, domains)
     if not valid:
@@ -78,6 +87,14 @@ def candidate_valid(item: dict, domains: list[str]) -> tuple[bool, str]:
             return False, "aqua_table_noise"
         if summary[0] in ")]}】。、,.・:-" or evidence.startswith(("ALL ", "CO ")):
             return False, "aqua_table_noise"
+
+    if method == "dedicated:sharp" and item.get("appliance") in {
+        "タテ型洗濯機・洗濯乾燥機", "ドラム式洗濯機・洗濯乾燥機"
+    }:
+        if not re.fullmatch(r"(?:E|U|C)[A-Z0-9]{1,3}|UF", code):
+            return False, "unexpected_code_family"
+        if not 12 <= len(summary) <= 260:
+            return False, "weak_structured_summary"
 
     return True, "ok"
 
@@ -136,6 +153,7 @@ def scoped_appliance(manufacturer: str, appliance: str, scope: str) -> str:
     return _original_scoped_appliance(manufacturer, appliance, scope)
 
 
+core.registry_rules = registry_rules
 core.candidate_valid = candidate_valid
 core.choose_summary = choose_summary
 core.item_summary = item_summary
