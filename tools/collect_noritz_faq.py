@@ -15,6 +15,7 @@ CANDIDATES = ROOT / "review" / "candidates.json"
 SOURCES = ROOT / "review" / "discovered_sources.json"
 METHOD = "dedicated:noritz-faq"
 DOMAIN = "faq.noritz.co.jp"
+DEFAULT_HUB = "https://faq.noritz.co.jp/%E7%B5%A6%E6%B9%AF%E6%A9%9F%E5%99%A8-676cfdc6662649cbec0331a3"
 
 TITLE_RE = re.compile(
     r"^(.+?)[：:]\s*エラー表示\s*((?:〖[^〗]+〗)+)\s*が点滅",
@@ -106,19 +107,17 @@ def appliance_name(raw: str) -> str:
     return replacements.get(value, value[:70])
 
 
-def main() -> None:
-    registry = json.loads(REGISTRY.read_text(encoding="utf-8"))
-    cfg = next((
-        x for x in registry
-        if x.get("manufacturer") == "ノーリツ"
-        and x.get("collector") == "noritz_faq"
-        and x.get("enabled", True) is not False
-    ), None)
-    if not cfg:
-        print("Noritz collector disabled or not configured")
-        return
+def configured_hub() -> str:
+    if REGISTRY.exists():
+        rows = json.loads(REGISTRY.read_text(encoding="utf-8"))
+        row = next((x for x in rows if x.get("manufacturer") == "ノーリツ" and x.get("collector") == "noritz_faq"), None)
+        if row and row.get("source_url") and row.get("source_url") != "https://faq.noritz.co.jp/":
+            return str(row["source_url"])
+    return DEFAULT_HUB
 
-    hub_url = str(cfg["source_url"])
+
+def main() -> None:
+    hub_url = configured_hub()
     hub, error = fetch_page(hub_url)
     if error or hub is None:
         raise RuntimeError(f"Noritz hub fetch failed: {error}")
