@@ -16,6 +16,7 @@ on:
       - "tools/collect_category_tables.py"
       - "tools/collect_haier_categories.py"
       - "tools/collect_sharp_categories.py"
+      - "tools/collect_sharp_airpurifier.py"
       - "tools/collect_chofu.py"
       - "tools/collect_misc_official.py"
       - "tools/collect_misc_official_safe.py"
@@ -62,6 +63,9 @@ jobs:
 
       - name: Collect Sharp additional diagnosis categories
         run: python3 tools/collect_sharp_categories.py
+
+      - name: Collect Sharp air purifier series
+        run: python3 tools/collect_sharp_airpurifier.py
 
       - name: Collect CHOFU official all-category error tables
         run: python3 tools/collect_chofu.py
