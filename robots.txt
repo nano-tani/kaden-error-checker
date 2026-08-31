@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nano-tani.github.io/kaden-error-checker/sitemap.xml
