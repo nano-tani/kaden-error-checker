@@ -15,6 +15,7 @@ on:
       - "tools/collect_fujitsu_app.py"
       - "tools/collect_category_tables.py"
       - "tools/collect_rinnai_faq.py"
+      - "tools/collect_noritz_faq.py"
       - "tools/promote_verified.py"
       - "tools/promote_verified_extended.py"
       - "tools/promote_all_verified.py"
@@ -51,6 +52,9 @@ jobs:
 
       - name: Collect Rinnai official FAQ error catalog
         run: python3 tools/collect_rinnai_faq.py
+
+      - name: Collect Noritz official FAQ error catalog
+        run: python3 tools/collect_noritz_faq.py
 
       - name: Strictly verify and promote every eligible candidate
         run: python3 tools/promote_all_verified.py
