@@ -115,10 +115,25 @@ def fetch_page(url):
         if "text/html" not in ctype and "application/xhtml+xml" not in ctype:
             return None, f"unsupported content-type: {ctype}"
         raw = res.read(2_000_000)
-        charset = res.headers.get_content_charset() or "utf-8"
+        header_charset = res.headers.get_content_charset()
+        meta_match = re.search(
+            br"charset\s*=\s*[\"']?([A-Za-z0-9._-]+)",
+            raw[:8192],
+            re.IGNORECASE,
+        )
+        meta_charset = meta_match.group(1).decode("ascii", errors="ignore") if meta_match else None
+        charset = header_charset or meta_charset or "utf-8"
+        charset_aliases = {
+            "shift_jis": "cp932",
+            "shift-jis": "cp932",
+            "sjis": "cp932",
+            "x-sjis": "cp932",
+            "windows-31j": "cp932",
+        }
+        charset = charset_aliases.get(charset.lower(), charset)
         try:
             html = raw.decode(charset, errors="replace")
-        except LookupError:
+        except (LookupError, UnicodeDecodeError):
             html = raw.decode("utf-8", errors="replace")
     parser = PageParser()
     parser.feed(html)
