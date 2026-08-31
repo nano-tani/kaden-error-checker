@@ -1,0 +1,81 @@
+[
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "U4",
+    "summary": "室内機と室外機の通信不具合により停止しています。",
+    "actions": [
+      "運転を停止する",
+      "電源プラグを抜く",
+      "約1分後に電源を入れて再運転する",
+      "改善しない場合は販売店またはメーカーへ点検・修理を依頼する"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-08-31"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "U5",
+    "summary": "室内機とワイヤードリモコン間の通信不具合により停止しています。",
+    "actions": [
+      "運転を停止する",
+      "電源プラグを抜く",
+      "約1分後に電源を入れて再運転する",
+      "改善しない場合は販売店またはメーカーへ点検・修理を依頼する"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-08-31"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C01",
+    "aliases": ["C1"],
+    "summary": "正常に給水できないときに表示されるコードです。",
+    "actions": [
+      "機種によって確認項目が異なるため、公式サポートの案内を確認する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+    "verified": "2026-08-31"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C02",
+    "aliases": ["C2"],
+    "summary": "正常に排水できず、槽や排水ホースに水がたまっているときに表示されるコードです。",
+    "actions": [
+      "脱水のみ運転し、排水できるか確認する",
+      "排水ホースの状態を確認する",
+      "排水口・排水経路や糸くずフィルターの詰まりを確認・清掃する",
+      "改善しない場合はメーカーの修理相談窓口へ相談する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a125.html",
+    "verified": "2026-08-31"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C03",
+    "aliases": ["C3"],
+    "summary": "ドアまたはふたが開いている状態で運転を開始したときに表示されるコードです。",
+    "actions": [
+      "ドアまたはふたの状態を確認し、公式サポートの案内に従う"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+    "verified": "2026-08-31"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C04",
+    "aliases": ["C4"],
+    "summary": "脱水時に洗濯物が槽内で片寄り、脱水できないときに表示されるコードです。",
+    "actions": [
+      "洗濯物の片寄りを確認し、公式サポートの案内に従う"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+    "verified": "2026-08-31"
+  }
+]
