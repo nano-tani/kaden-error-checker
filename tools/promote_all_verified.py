@@ -20,6 +20,7 @@ core.DEDICATED.update({
     "dedicated:haier-extra",
     "dedicated:sharp-category",
     "dedicated:chofu",
+    "dedicated:misc-official",
 })
 
 
@@ -40,6 +41,9 @@ def combined_rules() -> dict[tuple[str, str], list[str]]:
     rules[("ハイアール", "*")] = ["www.haier.com", "haier.com"]
     rules[("シャープ", "*")] = ["cs.sharp.co.jp"]
     rules[("長府製作所", "*")] = ["www.chofu.co.jp", "chofu.co.jp"]
+    rules[("トヨトミ", "*")] = ["www.toyotomi.jp", "toyotomi.jp"]
+    rules[("ダイニチ", "*")] = ["www.dainichi-net.co.jp", "dainichi-net.co.jp"]
+    rules[("タイガー魔法瓶", "*")] = ["support.tiger-corporation.com"]
     return rules
 
 
