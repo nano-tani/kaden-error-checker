@@ -18,6 +18,7 @@ on:
       - "tools/collect_sharp_categories.py"
       - "tools/collect_chofu.py"
       - "tools/collect_misc_official.py"
+      - "tools/collect_misc_official_safe.py"
       - "tools/collect_iris_siroca.py"
       - "tools/collect_rinnai_faq.py"
       - "tools/collect_noritz_faq.py"
@@ -64,8 +65,8 @@ jobs:
       - name: Collect CHOFU official all-category error tables
         run: python3 tools/collect_chofu.py
 
-      - name: Collect Toyotomi Dainichi and Tiger official categories
-        run: python3 tools/collect_misc_official.py
+      - name: Collect Toyotomi and Dainichi official categories
+        run: python3 tools/collect_misc_official_safe.py
 
       - name: Collect Iris Ohyama and Siroca official categories
         run: python3 tools/collect_iris_siroca.py
