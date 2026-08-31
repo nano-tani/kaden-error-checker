@@ -33,8 +33,15 @@ def detail_for(code, links, base_url):
     target = normalize_code(code)
     for href, anchor in links or []:
         anchor_n = normalize_code(anchor)
-        if target and target in anchor_n:
-            return urljoin(base_url, href)
+        if not (target and target in anchor_n):
+            continue
+        href = str(href or "").strip()
+        if href.lower().startswith("javascript:"):
+            match = re.search(r"next\(\s*['\"]([^'\"]+)['\"]", href, re.IGNORECASE)
+            if match:
+                return urljoin(base_url, match.group(1))
+            continue
+        return urljoin(base_url, href)
     return None
 
 
