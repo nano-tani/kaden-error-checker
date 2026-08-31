@@ -14,9 +14,10 @@ on:
       - "tools/collect_extra_sources.py"
       - "tools/collect_fujitsu_app.py"
       - "tools/collect_category_tables.py"
+      - "tools/collect_haier_categories.py"
+      - "tools/collect_sharp_categories.py"
       - "tools/collect_rinnai_faq.py"
       - "tools/collect_noritz_faq.py"
-      - "tools/collect_haier_categories.py"
       - "tools/promote_verified.py"
       - "tools/promote_verified_extended.py"
       - "tools/promote_all_verified.py"
@@ -32,7 +33,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -53,6 +54,9 @@ jobs:
 
       - name: Collect Haier additional product categories
         run: python3 tools/collect_haier_categories.py
+
+      - name: Collect Sharp additional diagnosis categories
+        run: python3 tools/collect_sharp_categories.py
 
       - name: Collect Rinnai official FAQ error catalog
         run: python3 tools/collect_rinnai_faq.py
