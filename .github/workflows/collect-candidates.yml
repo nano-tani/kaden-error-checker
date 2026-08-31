@@ -11,6 +11,7 @@ on:
       - "tools/collect_candidates.py"
       - "tools/collectors.py"
       - "tools/promote_verified.py"
+      - "tools/promote_verified_extended.py"
       - ".github/workflows/collect-candidates.yml"
 
 permissions:
@@ -36,7 +37,7 @@ jobs:
       - name: Strictly verify and promote dedicated candidates
         env:
           AUTO_PROMOTE_LIMIT: "10000"
-        run: python3 tools/promote_verified.py
+        run: python3 tools/promote_verified_extended.py
 
       - name: Commit collected and verified data if changed
         run: |
