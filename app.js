@@ -45,6 +45,10 @@ function render(matches, query) {
   for (const item of matches) {
     const card = document.createElement('article');
     card.className = 'card';
+    const detailLink = item.page
+      ? `<a class="detail-link" href="${escapeHtml(item.page)}">このコードの詳細ページ →</a>`
+      : '';
+
     card.innerHTML = `
       <div class="meta">${escapeHtml(item.manufacturer)} / ${escapeHtml(item.appliance)}</div>
       <h2 class="code">${escapeHtml(item.code)}</h2>
@@ -52,8 +56,9 @@ function render(matches, query) {
       <ol class="actions">
         ${item.actions.map(action => `<li>${escapeHtml(action)}</li>`).join('')}
       </ol>
+      ${detailLink}
       <a class="source" href="${escapeHtml(item.source)}" target="_blank" rel="noopener noreferrer">メーカー公式情報を確認 →</a>
-      <div class="meta">確認日: ${escapeHtml(item.verified)}</div>
+      <div class="meta verified">確認日: ${escapeHtml(item.verified)}</div>
     `;
     results.appendChild(card);
   }
@@ -61,7 +66,12 @@ function render(matches, query) {
 
 async function loadData() {
   try {
-    const response = await fetch('./data/errors.json', { cache: 'no-store' });
+    let response = await fetch('./data/search-index.json', { cache: 'no-store' });
+
+    if (!response.ok) {
+      response = await fetch('./data/errors.json', { cache: 'no-store' });
+    }
+
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     records = await response.json();
     status.textContent = `登録コード: ${records.length}件`;

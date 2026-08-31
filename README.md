@@ -1,48 +1,60 @@
 # 家電エラーコード検索
 
-エラーコードを1つ入力すると、メーカー公式サポートで確認済みの原因・対処候補を返す静的サイトです。
+家電に表示されたエラーコードを入力すると、メーカー公式情報をもとに原因と対処方法の候補を表示する静的サイトです。
 
-## 方針
+## 仕組み
 
-- 入力はエラーコードだけ
-- 同じコードが複数メーカーで使われる場合は候補をすべて表示
-- 情報源は原則メーカー公式サイト
-- 各データに公式URLと確認日を保存
-- AI推測だけでエラー内容を追加しない
+編集する一次データは `data/errors.json` だけです。
+
+`data/errors.json` を main ブランチへ更新すると GitHub Actions が `tools/generate.py` を実行し、次のファイルを自動生成して main へコミットします。
+
+- `errors/*.html` — メーカー・家電種別・エラーコードごとの個別ページ
+- `data/search-index.json` — トップページ検索用データ
+- `sitemap.xml` — 検索エンジン向けサイトマップ
+- `robots.txt` — クローラー向け設定
+
+個別ページのファイル名は「メーカー + 家電種別 + エラーコード」から固定IDを作るため、`errors.json` の並び順を変えてもURLは変わりません。
 
 ## データ追加
 
-`data/errors.json` にレコードを追加します。
+`data/errors.json` に次の形式で1件追加します。
 
 ```json
 {
   "manufacturer": "メーカー名",
-  "appliance": "製品種別",
-  "code": "E01",
-  "aliases": ["E1"],
-  "summary": "公式情報を要約した内容",
-  "actions": ["対処1", "対処2"],
-  "source": "https://メーカー公式URL",
+  "appliance": "家電種別",
+  "code": "エラーコード",
+  "aliases": ["別表記"],
+  "summary": "原因・状態の要約",
+  "actions": [
+    "確認事項1",
+    "確認事項2"
+  ],
+  "source": "メーカー公式ページURL",
   "verified": "YYYY-MM-DD"
 }
 ```
 
-## GitHub Pages で公開
+掲載データはメーカー公式サポート・公式取扱説明書で確認した内容だけを追加してください。AIの推測だけでエラー内容を登録しない方針です。
 
-このサイトはビルド不要です。
+## 手動生成
 
-GitHub の `Settings → Pages → Build and deployment` で、
+```bash
+python3 tools/generate.py
+```
+
+標準の公開URLは `https://nano-tani.github.io/kaden-error-checker` です。変更する場合は `SITE_URL` 環境変数を指定します。
+
+```bash
+SITE_URL=https://example.com python3 tools/generate.py
+```
+
+## GitHub Pages
+
+GitHub Pages はリポジトリの `Settings` → `Pages` で次の設定にします。
 
 - Source: `Deploy from a branch`
 - Branch: `main`
 - Folder: `/(root)`
 
-を選んで保存してください。
-
-## AdSense / SEO の次段階
-
-検索ツール1ページだけでは、検索流入やAdSense審査には弱い構成です。データが増えたらJSONから静的HTMLを生成し、
-
-`/errors/<manufacturer>/<appliance>/<code>/`
-
-のようなコード別ページを作る想定です。各ページには公式情報の要約、対象機種、確認手順、出典、更新日を持たせます。
+GitHub Pages の初回有効化だけはリポジトリ設定から行う必要があります。

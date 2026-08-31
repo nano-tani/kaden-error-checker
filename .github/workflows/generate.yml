@@ -1,0 +1,42 @@
+name: Generate error pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/errors.json"
+      - "tools/generate.py"
+      - ".github/workflows/generate.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-error-pages
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    if: ${{ !contains(github.event.head_commit.message || '', '[skip ci]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate static pages
+        env:
+          SITE_URL: https://nano-tani.github.io/kaden-error-checker
+        run: python3 tools/generate.py
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add errors data/search-index.json sitemap.xml robots.txt
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+            exit 0
+          fi
+          git commit -m "Generate error pages [skip ci]"
+          git push
