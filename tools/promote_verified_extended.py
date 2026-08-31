@@ -16,6 +16,9 @@ core.DEDICATED.update({"dedicated:haier", "dedicated:aqua"})
 _original_candidate_valid = core.candidate_valid
 _original_infer_scope = core.infer_scope
 _original_scoped_appliance = core.scoped_appliance
+_original_choose_summary = core.choose_summary
+_original_item_summary = core.item_summary
+_original_choose_actions = core.choose_actions
 
 STATUS_TERMS = (
     "故障ではありません",
@@ -44,6 +47,12 @@ AQUA_NOISE_TERMS = (
     "エラーコードを紹介します",
 )
 
+ACTION_WORDS = (
+    "確認", "してください", "下さい", "依頼", "取り除", "閉", "開", "掃除", "清掃",
+    "入れ", "抜", "取り付け", "セット", "再運転", "減ら", "調整", "連絡", "交換",
+    "水洗い", "差し", "直し", "相談", "停止",
+)
+
 
 def candidate_valid(item: dict, domains: list[str]) -> tuple[bool, str]:
     valid, reason = _original_candidate_valid(item, domains)
@@ -59,8 +68,6 @@ def candidate_valid(item: dict, domains: list[str]) -> tuple[bool, str]:
     if method in {"dedicated:haier", "dedicated:aqua"}:
         if any(term in text for term in STATUS_TERMS):
             return False, "status_not_error"
-        # These manufacturers' official washer error tables use E/F/U families
-        # for actionable error codes. This also rejects footer/prose tokens.
         if not re.fullmatch(r"[EFU][A-Z0-9]{0,3}", code):
             return False, "unexpected_code_family"
         if not 5 <= len(summary) <= 180:
@@ -73,6 +80,44 @@ def candidate_valid(item: dict, domains: list[str]) -> tuple[bool, str]:
             return False, "aqua_table_noise"
 
     return True, "ok"
+
+
+def _polish_summary(value: str) -> str:
+    text = core.clean(value)
+    text = re.sub(r"^(?:など|等)\s*", "", text)
+    return text
+
+
+def choose_summary(group: list[dict]) -> str:
+    value = _original_choose_summary(group)
+    method = core.clean(group[0].get("extraction_method")) if group else ""
+    return _polish_summary(value) if method in {"dedicated:haier", "dedicated:aqua"} else value
+
+
+def item_summary(item: dict) -> str:
+    value = _original_item_summary(item)
+    method = core.clean(item.get("extraction_method"))
+    return _polish_summary(value) if method in {"dedicated:haier", "dedicated:aqua"} else value
+
+
+def choose_actions(group: list[dict]) -> list[str]:
+    actions = _original_choose_actions(group)
+    method = core.clean(group[0].get("extraction_method")) if group else ""
+    if method not in {"dedicated:haier", "dedicated:aqua"}:
+        return actions
+
+    cleaned = []
+    for action in actions:
+        text = core.clean(action).lstrip("・※ ")
+        if re.match(r"^\d+[.．]", text):
+            continue
+        if "エラーを解消する方法" in text or "焦って修理" in text:
+            continue
+        if not any(word in text for word in ACTION_WORDS):
+            continue
+        if text not in cleaned:
+            cleaned.append(text)
+    return cleaned or ["メーカー公式の案内で対象機種と対処方法を確認する"]
 
 
 def infer_scope(item: dict) -> str:
@@ -92,6 +137,9 @@ def scoped_appliance(manufacturer: str, appliance: str, scope: str) -> str:
 
 
 core.candidate_valid = candidate_valid
+core.choose_summary = choose_summary
+core.item_summary = item_summary
+core.choose_actions = choose_actions
 core.infer_scope = infer_scope
 core.scoped_appliance = scoped_appliance
 
