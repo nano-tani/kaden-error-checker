@@ -389,7 +389,7 @@
   {
     "manufacturer": "パナソニック",
     "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/101/related/1/session/L2F2LzEvdGltZS8xNzg4MTg1OTY0L2dlbi8xNzg4MTg1OTY0L3NpZC9mVXFZR0dVSno1T2J5ZVFaRTZ1TG8wemJ4OSU3RUlBWkU5M0c4eldsMzJCZVoySVA0dURwV0JNMG9GOFM1Z19ad21LOCU3RXBON2J0enlMVFR1NUFoaXZrRHBoQ2pQX1lSeDdvRiU3RTVTcjE1anVmdkFOalg4VllHVGdrbHclMjElMjE=",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/101",
     "title": "洗濯機にエラー表示「U14」が出る・給水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
     "status": "ok",
     "candidate_count": 2,
@@ -398,8 +398,8 @@
   {
     "manufacturer": "パナソニック",
     "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/101/related/1/session/L2F2LzIvdGltZS8xNzg4MTg1OTcxL2dlbi8xNzg4MTg1OTY1L3NpZC9mVVdvaU55M2JNb1BZWks0eDM1eUQwdyU3RUw3QmlhN0J1bWslN0VLRjdfaXNhQlBtVVk1ZjNvd0UwakkweWJYNmNwbHl5YWV5cTJXdDBoam9nRExpcmJkRkFnRFhsbnRpbmNyMDkxTUxEbDczTF9kRXhRWUd2UXZNM3FRJTIxJTIx",
-    "title": "洗濯機にエラー表示「U14」が出る・給水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/15377",
+    "title": "【ドラム式洗濯機】エラー表示「U13」が出る・すすぎから進まず脱水できないときは - ドラム式洗濯乾燥機 - Panasonic",
     "status": "ok",
     "candidate_count": 2,
     "collector": "dedicated"
@@ -407,16 +407,7 @@
   {
     "manufacturer": "パナソニック",
     "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/101/related/1/session/L2F2LzMvdGltZS8xNzg4MTg1OTcyL2dlbi8xNzg4MTg1OTY0L3NpZC9mVW1fMWlHUHpDZzVXUnpNS25rN0RuQzdiTXB2ZFNlQm5WYmxmT2NSY2ZoUXFEWkNtMWlyTldYd3dVTmhiOGh6VzhIanlJQVl6SHBJTEdSMlFqMTFiMERhQWVpQ2JHekVacERlNjl1UHlOUHFsUFRScVVDdlhCakElMjElMjE=",
-    "title": "洗濯機にエラー表示「U14」が出る・給水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
-    "status": "ok",
-    "candidate_count": 2,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "パナソニック",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/17045/related/1/session/L2F2LzIvdGltZS8xNzg4MTg1OTY4L2dlbi8xNzg4MTg1OTY0L3NpZC9mVURjZWRGRWRjWHFwQXBSb25UMklCNGpfUXlFdHNTUEk5cmpQTWtNU2lJNWlYN05PQ0hNVWdEaVQ4dHp0bWtCZVhQZUY5dGhKVyU3RUNWZWlsUmdtMnBnOEtVSTNYWlBYcEZjOUQwUW1MRURad3dKc1k2RkpFdDZ4USUyMSUyMQ==",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/17045",
     "title": "【タテ型洗濯機】エラー表示「U19」が出たら - 縦型全自動洗濯機 - Panasonic",
     "status": "ok",
     "candidate_count": 3,
@@ -425,25 +416,7 @@
   {
     "manufacturer": "パナソニック",
     "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/17207/related/1/session/L2F2LzEvdGltZS8xNzg4MTg1OTY0L2dlbi8xNzg4MTg1OTY0L3NpZC9mVXFZR0dVSno1T2J5ZVFaRTZ1TG8wemJ4OSU3RUlBWkU5M0c4eldsMzJCZVoySVA0dURwV0JNMG9GOFM1Z19ad21LOCU3RXBON2J0enlMVFR1NUFoaXZrRHBoQ2pQX1lSeDdvRiU3RTVTcjE1anVmdkFOalg4VllHVGdrbHclMjElMjE=",
-    "title": "【ドラム式洗濯機】エラー表示「U04」が出たら - ドラム式洗濯乾燥機 - Panasonic",
-    "status": "ok",
-    "candidate_count": 2,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "パナソニック",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/17207/related/1/session/L2F2LzIvdGltZS8xNzg4MTg1OTcxL2dlbi8xNzg4MTg1OTY1L3NpZC9mVVdvaU55M2JNb1BZWks0eDM1eUQwdyU3RUw3QmlhN0J1bWslN0VLRjdfaXNhQlBtVVk1ZjNvd0UwakkweWJYNmNwbHl5YWV5cTJXdDBoam9nRExpcmJkRkFnRFhsbnRpbmNyMDkxTUxEbDczTF9kRXhRWUd2UXZNM3FRJTIxJTIx",
-    "title": "【ドラム式洗濯機】エラー表示「U04」が出たら - ドラム式洗濯乾燥機 - Panasonic",
-    "status": "ok",
-    "candidate_count": 2,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "パナソニック",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/17207/related/1/session/L2F2LzMvdGltZS8xNzg4MTg1OTcyL2dlbi8xNzg4MTg1OTY0L3NpZC9mVW1fMWlHUHpDZzVXUnpNS25rN0RuQzdiTXB2ZFNlQm5WYmxmT2NSY2ZoUXFEWkNtMWlyTldYd3dVTmhiOGh6VzhIanlJQVl6SHBJTEdSMlFqMTFiMERhQWVpQ2JHekVacERlNjl1UHlOUHFsUFRScVVDdlhCakElMjElMjE=",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/17207",
     "title": "【ドラム式洗濯機】エラー表示「U04」が出たら - ドラム式洗濯乾燥機 - Panasonic",
     "status": "ok",
     "candidate_count": 2,
@@ -461,35 +434,8 @@
   {
     "manufacturer": "パナソニック",
     "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/26936/related/1/session/L2F2LzEvdGltZS8xNzg4MTg1OTY0L2dlbi8xNzg4MTg1OTY0L3NpZC9mVXFZR0dVSno1T2J5ZVFaRTZ1TG8wemJ4OSU3RUlBWkU5M0c4eldsMzJCZVoySVA0dURwV0JNMG9GOFM1Z19ad21LOCU3RXBON2J0enlMVFR1NUFoaXZrRHBoQ2pQX1lSeDdvRiU3RTVTcjE1anVmdkFOalg4VllHVGdrbHclMjElMjE=",
-    "title": "洗濯機にエラー表示「H＊＊」が出たら - 洗濯機／衣類乾燥機 - Panasonic",
-    "status": "ok",
-    "candidate_count": 14,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "パナソニック",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/26936/related/1/session/L2F2LzIvdGltZS8xNzg4MTg1OTcxL2dlbi8xNzg4MTg1OTY1L3NpZC9mVVdvaU55M2JNb1BZWks0eDM1eUQwdyU3RUw3QmlhN0J1bWslN0VLRjdfaXNhQlBtVVk1ZjNvd0UwakkweWJYNmNwbHl5YWV5cTJXdDBoam9nRExpcmJkRkFnRFhsbnRpbmNyMDkxTUxEbDczTF9kRXhRWUd2UXZNM3FRJTIxJTIx",
-    "title": "洗濯機にエラー表示「H＊＊」が出たら - 洗濯機／衣類乾燥機 - Panasonic",
-    "status": "ok",
-    "candidate_count": 14,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "パナソニック",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/26936/related/1/session/L2F2LzMvdGltZS8xNzg4MTg1OTcyL2dlbi8xNzg4MTg1OTY0L3NpZC9mVW1fMWlHUHpDZzVXUnpNS25rN0RuQzdiTXB2ZFNlQm5WYmxmT2NSY2ZoUXFEWkNtMWlyTldYd3dVTmhiOGh6VzhIanlJQVl6SHBJTEdSMlFqMTFiMERhQWVpQ2JHekVacERlNjl1UHlOUHFsUFRScVVDdlhCakElMjElMjE=",
-    "title": "洗濯機にエラー表示「H＊＊」が出たら - 洗濯機／衣類乾燥機 - Panasonic",
-    "status": "ok",
-    "candidate_count": 14,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "パナソニック",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/31542/related/1/session/L2F2LzEvdGltZS8xNzg4MTg1OTY0L2dlbi8xNzg4MTg1OTY0L3NpZC9mVXFZR0dVSno1T2J5ZVFaRTZ1TG8wemJ4OSU3RUlBWkU5M0c4eldsMzJCZVoySVA0dURwV0JNMG9GOFM1Z19ad21LOCU3RXBON2J0enlMVFR1NUFoaXZrRHBoQ2pQX1lSeDdvRiU3RTVTcjE1anVmdkFOalg4VllHVGdrbHclMjElMjE=",
-    "title": "洗濯機にエラー表示「U11」が出る・排水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/31513",
+    "title": "【タテ型洗濯機】脱水中にすすぎに戻るときは／エラー表示「U13（脱水できない）」が出たら - 縦型全自動洗濯機 - Panasonic",
     "status": "ok",
     "candidate_count": 2,
     "collector": "dedicated"
@@ -497,43 +443,7 @@
   {
     "manufacturer": "パナソニック",
     "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/31542/related/1/session/L2F2LzIvdGltZS8xNzg4MTg1OTY5L2dlbi8xNzg4MTg1OTY0L3NpZC9mVXppeEdCbjA0N09HVnBZJTdFaUQwd2FXWm5QZTc5S2l5ejdBRHZSYnI4TkV5X09XNFUlN0V3eWdCR0psbTZyUkVGUUMxSHZadFdrVUc3dElTWkpSalBWUUVYTUEySUJiVFBSVkduUWhwT1olN0VPbEdyNkZ2ekJKdWNhTFElMjElMjE=",
-    "title": "洗濯機にエラー表示「U11」が出る・排水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
-    "status": "ok",
-    "candidate_count": 2,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "パナソニック",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/31542/related/1/session/L2F2LzIvdGltZS8xNzg4MTg1OTcwL2dlbi8xNzg4MTg1OTY0L3NpZC9mVWs3TE5NUDA3Uk4xbmZFellLdkI4Nm5iYktyNVdxSFYlN0VCekNiZnFVNHlqcUE4b2JNaHJ3MDVXOFhoZHN5RlFCYW1GRE5pWlo3OUdOT0xyJTdFMlFuekMlN0UwUU5pdXdCZ3ZCaFVTQjdyS25WUXlhN3BvYjNyVUNRaUElMjElMjE=",
-    "title": "洗濯機にエラー表示「U11」が出る・排水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
-    "status": "ok",
-    "candidate_count": 2,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "パナソニック",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/31542/related/1/session/L2F2LzIvdGltZS8xNzg4MTg1OTcxL2dlbi8xNzg4MTg1OTY1L3NpZC9mVVdvaU55M2JNb1BZWks0eDM1eUQwdyU3RUw3QmlhN0J1bWslN0VLRjdfaXNhQlBtVVk1ZjNvd0UwakkweWJYNmNwbHl5YWV5cTJXdDBoam9nRExpcmJkRkFnRFhsbnRpbmNyMDkxTUxEbDczTF9kRXhRWUd2UXZNM3FRJTIxJTIx",
-    "title": "洗濯機にエラー表示「U11」が出る・排水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
-    "status": "ok",
-    "candidate_count": 2,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "パナソニック",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/31542/related/1/session/L2F2LzMvdGltZS8xNzg4MTg1OTc0L2dlbi8xNzg4MTg1OTY0L3NpZC9mVU5HQkRtU2J0UVhCYlB1Sjk4b1ROJTdFSU40ZlhGZG5FclFJbWFiclJ6MGtmeWZRWkU5UG1HVGcyOXZwUzVlX2VzbHp6M0Z2elJjZFdBaExON0xmS1RkYkFrUjNfYjdkRDFGc2JoY2hmYmtZVXElN0VqTlJZeU9QQWZBJTIxJTIx",
-    "title": "洗濯機にエラー表示「U11」が出る・排水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
-    "status": "ok",
-    "candidate_count": 2,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "パナソニック",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/31542/related/1/session/L2F2LzMvdGltZS8xNzg4MTg1OTcyL2dlbi8xNzg4MTg1OTY0L3NpZC9mVW1fMWlHUHpDZzVXUnpNS25rN0RuQzdiTXB2ZFNlQm5WYmxmT2NSY2ZoUXFEWkNtMWlyTldYd3dVTmhiOGh6VzhIanlJQVl6SHBJTEdSMlFqMTFiMERhQWVpQ2JHekVacERlNjl1UHlOUHFsUFRScVVDdlhCakElMjElMjE=",
+    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/31542",
     "title": "洗濯機にエラー表示「U11」が出る・排水できないときは - 洗濯機／衣類乾燥機 - Panasonic",
     "status": "ok",
     "candidate_count": 2,
@@ -543,24 +453,6 @@
     "manufacturer": "パナソニック",
     "appliance": "洗濯機・洗濯乾燥機",
     "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/84",
-    "title": "洗濯機にエラー表示「U＊＊」が出たら - 洗濯機／衣類乾燥機 - Panasonic",
-    "status": "ok",
-    "candidate_count": 20,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "パナソニック",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/84/related/1/session/L2F2LzEvdGltZS8xNzg4MTg1OTY1L2dlbi8xNzg4MTg1OTY1L3NpZC9mVTFyR2d0eXRuaTBmbFQxemhSTUJSV3Fhb2lDMmNjbmpIbmFucm02U0NOMkhfUkluTERkb3hwdjBWJTdFbVFXN1FOMHljdGd3OHBCTGhtJTdFU0MwdmxkdnllYzl2V1VkTTNpVHd3ZkxSUTl6NGJldmFQMFo3U0pzSFRnJTIxJTIx",
-    "title": "洗濯機にエラー表示「U＊＊」が出たら - 洗濯機／衣類乾燥機 - Panasonic",
-    "status": "ok",
-    "candidate_count": 20,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "パナソニック",
-    "appliance": "洗濯機・洗濯乾燥機",
-    "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/84/related/1/session/L2F2LzIvdGltZS8xNzg4MTg1OTY3L2dlbi8xNzg4MTg1OTY0L3NpZC9mVSU3RVdkalR2VDFjM2NvX2YzX3BHa0NxbUVQWHM2VUVNVkZPMVB6Vmd5R25FdWlUUE9xbGhsa25HZ3JON0FLWV9xdzhqa2dvWEtad1FMcHhIeFE3VFNCQm9hU1ZsTnM3MVZ6U0FWVHRhSU1VN2ZiU0dUNzVzcTBXQSUyMSUyMQ==",
     "title": "洗濯機にエラー表示「U＊＊」が出たら - 洗濯機／衣類乾燥機 - Panasonic",
     "status": "ok",
     "candidate_count": 20,
