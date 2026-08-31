@@ -96,6 +96,13 @@ def candidate_valid(item: dict, domains: list[str]) -> tuple[bool, str]:
             return False, "unexpected_code_family"
         if not 12 <= len(summary) <= 260:
             return False, "weak_structured_summary"
+        if any(phrase in summary for phrase in (
+            "以下の状況が考えられます",
+            "下記の状況が考えられます",
+            "以下をご確認ください",
+            "下記をご確認ください",
+        )):
+            return False, "weak_structured_summary"
 
     if method == "dedicated:fujitsu-app":
         if not re.fullmatch(r"\d{4}", code):
@@ -106,27 +113,52 @@ def candidate_valid(item: dict, domains: list[str]) -> tuple[bool, str]:
     return True, "ok"
 
 
-def _polish_summary(value: str) -> str:
+def _polish_summary(value: str, method: str = "") -> str:
     text = core.clean(value)
     text = re.sub(r"^(?:など|等)\s*", "", text)
+    if method == "dedicated:fujitsu-app" and "※" in text:
+        text = core.clean(text.split("※", 1)[0])
     return text
 
 
 def choose_summary(group: list[dict]) -> str:
     value = _original_choose_summary(group)
     method = core.clean(group[0].get("extraction_method")) if group else ""
-    return _polish_summary(value) if method in {"dedicated:haier", "dedicated:aqua"} else value
+    if method in {"dedicated:haier", "dedicated:aqua", "dedicated:fujitsu-app"}:
+        return _polish_summary(value, method)
+    return value
 
 
 def item_summary(item: dict) -> str:
     value = _original_item_summary(item)
     method = core.clean(item.get("extraction_method"))
-    return _polish_summary(value) if method in {"dedicated:haier", "dedicated:aqua"} else value
+    if method in {"dedicated:haier", "dedicated:aqua", "dedicated:fujitsu-app"}:
+        return _polish_summary(value, method)
+    return value
+
+
+def _fujitsu_actions(group: list[dict]) -> list[str]:
+    result = []
+    for item in group:
+        raw = core.clean(item.get("action_hint"))
+        for chunk in re.split(r"(?<=[。！？!?])\s*", raw):
+            text = core.clean(chunk).strip("・※ ")
+            text = re.sub(r"^\d+(?:-\d+)?[.．]\s*", "", text)
+            if not 6 <= len(text) <= 180:
+                continue
+            if text not in result:
+                result.append(text)
+            if len(result) >= 5:
+                return result
+    return result or ["富士通ゼネラル公式のエラーコード表で確認内容を確認する"]
 
 
 def choose_actions(group: list[dict]) -> list[str]:
-    actions = _original_choose_actions(group)
     method = core.clean(group[0].get("extraction_method")) if group else ""
+    if method == "dedicated:fujitsu-app":
+        return _fujitsu_actions(group)
+
+    actions = _original_choose_actions(group)
     if method not in {"dedicated:haier", "dedicated:aqua"}:
         return actions
 
