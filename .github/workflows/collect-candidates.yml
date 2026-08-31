@@ -11,6 +11,7 @@ on:
       - "tools/collect_candidates.py"
       - "tools/collectors.py"
       - "tools/collect_extra_sources.py"
+      - "tools/collect_fujitsu_app.py"
       - "tools/promote_verified.py"
       - "tools/promote_verified_extended.py"
       - ".github/workflows/collect-candidates.yml"
@@ -35,8 +36,11 @@ jobs:
       - name: Collect candidates from registered official pages
         run: python3 tools/collect_candidates.py
 
-      - name: Collect extra consumer-facing official diagnosis pages
+      - name: Collect Sharp washer diagnosis pages
         run: python3 tools/collect_extra_sources.py
+
+      - name: Collect Fujitsu Nocria app error table
+        run: python3 tools/collect_fujitsu_app.py
 
       - name: Strictly verify and promote dedicated candidates
         env:
@@ -53,4 +57,5 @@ jobs:
             exit 0
           fi
           git commit -m "Auto-promote strictly verified official error codes"
+          git pull --rebase origin main
           git push
