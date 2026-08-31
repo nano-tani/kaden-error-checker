@@ -8,12 +8,16 @@ on:
     branches: [main]
     paths:
       - "data/source_registry.json"
+      - "data/category_source_registry.json"
       - "tools/collect_candidates.py"
       - "tools/collectors.py"
       - "tools/collect_extra_sources.py"
       - "tools/collect_fujitsu_app.py"
+      - "tools/collect_category_tables.py"
+      - "tools/collect_rinnai_faq.py"
       - "tools/promote_verified.py"
       - "tools/promote_verified_extended.py"
+      - "tools/promote_all_verified.py"
       - ".github/workflows/collect-candidates.yml"
 
 permissions:
@@ -26,7 +30,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -42,10 +46,14 @@ jobs:
       - name: Collect Fujitsu Nocria app error table
         run: python3 tools/collect_fujitsu_app.py
 
-      - name: Strictly verify and promote dedicated candidates
-        env:
-          AUTO_PROMOTE_LIMIT: "10000"
-        run: python3 tools/promote_verified_extended.py
+      - name: Collect configured official category tables
+        run: python3 tools/collect_category_tables.py
+
+      - name: Collect Rinnai official FAQ error catalog
+        run: python3 tools/collect_rinnai_faq.py
+
+      - name: Strictly verify and promote every eligible candidate
+        run: python3 tools/promote_all_verified.py
 
       - name: Generate production search and SEO pages
         env:
@@ -61,6 +69,6 @@ jobs:
             echo "No collected, verified, or generated changes."
             exit 0
           fi
-          git commit -m "Auto-promote and generate verified official error codes"
+          git commit -m "Auto-promote and generate all verified official error codes"
           git pull --rebase origin main
           git push
