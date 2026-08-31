@@ -2,10 +2,12 @@
 """Strict promotion extension for additional dedicated manufacturer collectors.
 
 This wrapper keeps the core promotion policy in promote_verified.py and adds
-scope/status handling for Haier and AQUA before running the same production
-rebuild. Generic candidates remain ineligible for automatic publication.
+scope/status/noise handling for Haier and AQUA before running the same
+production rebuild. Generic candidates remain ineligible for publication.
 """
 from __future__ import annotations
+
+import re
 
 import promote_verified as core
 
@@ -30,6 +32,18 @@ STATUS_TERMS = (
     "運転していない(一時停止)",
 )
 
+AQUA_NOISE_TERMS = (
+    "ALL rights reserved",
+    "【一覧表】",
+    "エラーコードと原因・対処法",
+    "どうしても直らない場合",
+    "電源リセットと修理依頼",
+    "まとめ",
+    "エラー表示には",
+    "縦型とドラム式に分けて",
+    "エラーコードを紹介します",
+)
+
 
 def candidate_valid(item: dict, domains: list[str]) -> tuple[bool, str]:
     valid, reason = _original_candidate_valid(item, domains)
@@ -37,13 +51,27 @@ def candidate_valid(item: dict, domains: list[str]) -> tuple[bool, str]:
         return valid, reason
 
     method = core.clean(item.get("extraction_method"))
+    code = core.norm_code(item.get("code"))
+    summary = core.clean(item.get("summary_hint"))
+    evidence = core.clean(item.get("evidence"))
+    text = core.clean(f"{summary} {item.get('action_hint', '')} {evidence}")
+
     if method in {"dedicated:haier", "dedicated:aqua"}:
-        text = core.clean(
-            f"{item.get('summary_hint', '')} {item.get('action_hint', '')} "
-            f"{item.get('evidence', '')}"
-        )
         if any(term in text for term in STATUS_TERMS):
             return False, "status_not_error"
+        # These manufacturers' official washer error tables use E/F/U families
+        # for actionable error codes. This also rejects footer/prose tokens.
+        if not re.fullmatch(r"[EFU][A-Z0-9]{0,3}", code):
+            return False, "unexpected_code_family"
+        if not 5 <= len(summary) <= 180:
+            return False, "weak_structured_summary"
+
+    if method == "dedicated:aqua":
+        if any(term in text for term in AQUA_NOISE_TERMS):
+            return False, "aqua_table_noise"
+        if summary[0] in ")]}】。、,.・:-" or evidence.startswith(("ALL ", "CO ")):
+            return False, "aqua_table_noise"
+
     return True, "ok"
 
 
