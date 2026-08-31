@@ -14,7 +14,8 @@ REGISTRY = ROOT / "data" / "category_source_registry.json"
 CANDIDATES = ROOT / "review" / "candidates.json"
 SOURCES = ROOT / "review" / "discovered_sources.json"
 METHOD = "dedicated:rinnai-faq"
-TITLE_RE = re.compile(r"^(.+?)｜\s*エラーコード\s*([A-Za-z0-9-]{1,7})\s*が表示", re.IGNORECASE)
+# clean_context applies NFKC, so the full-width Japanese separator "｜" becomes "|".
+TITLE_RE = re.compile(r"^(.+?)[|｜]\s*エラーコード\s*([A-Za-z0-9-]{1,7})\s*が表示", re.IGNORECASE)
 
 
 def first_sentence(text: str) -> str:
@@ -106,7 +107,7 @@ def collect_page(base: str, page: int) -> tuple[list[dict], dict]:
             continue
         pos = text.find(title)
         tail = text[pos + len(title):] if pos >= 0 else ""
-        end_positions = [p for p in (tail.find("No："), tail.find("No:")) if p >= 0]
+        end_positions = [p for p in (tail.find("No:"), tail.find("No：")) if p >= 0]
         if end_positions:
             tail = tail[:min(end_positions)]
         tail = clean_context(tail.replace("詳細表示", " "))[:1200]
@@ -150,6 +151,9 @@ def main() -> None:
     base = str(cfg["source_url"])
     existing = json.loads(CANDIDATES.read_text(encoding="utf-8")) if CANDIDATES.exists() else []
     source_rows = json.loads(SOURCES.read_text(encoding="utf-8")) if SOURCES.exists() else []
+    # Rebuild this source method each run so parser fixes remove stale candidates.
+    existing = [x for x in existing if x.get("extraction_method") != METHOD]
+    source_rows = [x for x in source_rows if x.get("collector") != METHOD]
     added = []
     empty_streak = 0
 
