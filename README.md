@@ -4,16 +4,21 @@
 
 ## 仕組み
 
-編集する一次データは `data/errors.json` だけです。
+公開用の一次データは `data/errors.json` です。
 
 `data/errors.json` を main ブランチへ更新すると GitHub Actions が `tools/generate.py` を実行し、次のファイルを自動生成して main へコミットします。
 
 - `errors/*.html` — メーカー・家電種別・エラーコードごとの個別ページ
+- `code/<code>/index.html` — 同じエラーコードをメーカー・家電横断でまとめるページ
 - `data/search-index.json` — トップページ検索用データ
 - `sitemap.xml` — 検索エンジン向けサイトマップ
 - `robots.txt` — クローラー向け設定
 
 個別ページのファイル名は「メーカー + 家電種別 + エラーコード」から固定IDを作るため、`errors.json` の並び順を変えてもURLは変わりません。
+
+横断ページは、たとえば `U4` なら `/code/u4/` に生成されます。`aliases` に `C1` のような別表記がある場合は `/code/c1/` も生成され、トップページでその表記を検索した場合も横断ページへ移動できます。
+
+横断ページ・個別ページとも、`data/errors.json` に登録された確認済みデータだけを使用します。`review/candidates.json` の未確認候補は公開ページには入りません。
 
 ## データ追加
 
