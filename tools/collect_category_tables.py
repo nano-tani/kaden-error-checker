@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "data" / "category_source_registry.json"
 CANDIDATES = ROOT / "review" / "candidates.json"
 SOURCES = ROOT / "review" / "discovered_sources.json"
-UA = "kaden-error-checker/1.2 (+https://github.com/nano-tani/kaden-error-checker)"
+UA = "kaden-error-checker/1.3 (+https://github.com/nano-tani/kaden-error-checker)"
 METHOD = "dedicated:official-table"
 
 BLOCKED_CODES = {
@@ -22,6 +22,10 @@ CODE_TOKEN_RE = re.compile(
     r"(?<![A-Z0-9])(?:[A-Z]{1,3}\d{1,4}[A-Z]?|\d{2,4}|[A-Z]{2,3})(?![A-Z0-9])",
     re.IGNORECASE,
 )
+# Product model names frequently look like codes (CNF-M1800C, S3000D, ...).
+# Dedicated app collectors handle legitimate 4-digit code families separately.
+MODEL_LIKE_CODE_RE = re.compile(r"^[A-Z]{1,3}\d{4}[A-Z]?$", re.IGNORECASE)
+MODEL_LIKE_TEXT_RE = re.compile(r"^(?:[A-Z]{1,5}-?)?[A-Z]{0,3}\d{3,6}[A-Z0-9-]*$", re.IGNORECASE)
 
 
 def norm(value: object) -> str:
@@ -131,7 +135,7 @@ def header_indices(row: list[str]) -> tuple[int, int, int | None] | None:
     joined = " ".join(row)
     if not any(word in joined for word in ("エラー", "故障", "表示", "サイン", "コード")):
         return None
-    code_idx = next((i for i, x in enumerate(row) if any(k in x for k in ("エラーコード", "エラーサイン", "コード", "表示"))), 0)
+    code_idx = next((i for i, x in enumerate(row) if any(k in x for k in ("エラーコード", "エラーサイン", "お知らせコード", "コード", "表示"))), 0)
     summary_idx = next((i for i, x in enumerate(row) if i != code_idx and any(k in x for k in ("内容", "原因", "意味", "故障", "状態"))), None)
     action_idx = next((i for i, x in enumerate(row) if i != code_idx and any(k in x for k in ("処置", "対処", "確認", "対応"))), None)
     if summary_idx is None:
@@ -152,6 +156,8 @@ def extract_codes(cell: str, explicit_table: bool) -> list[str]:
         code = norm_code(match.group(0))
         if code in BLOCKED_CODES or len(code) > 7:
             continue
+        if MODEL_LIKE_CODE_RE.fullmatch(code):
+            continue
         if code.isdigit() and not explicit_table:
             continue
         if code not in codes:
@@ -161,8 +167,11 @@ def extract_codes(cell: str, explicit_table: bool) -> list[str]:
 
 def summary_text(value: str) -> str:
     text = clean(value).strip("・:：")
-    text = re.sub(r"^(?:エラーコードの内容|内容|原因|故障内容)\s*[:：]?\s*", "", text)
+    text = re.sub(r"^(?:エラーコードの内容|お知らせコードの内容|内容|原因|故障内容)\s*[:：]?\s*", "", text)
     if not text:
+        return ""
+    compact = re.sub(r"\s+", "", text)
+    if MODEL_LIKE_TEXT_RE.fullmatch(compact):
         return ""
     chunks = re.split(r"(?<=[。！？!?])\s*", text)
     first = clean(chunks[0]) if chunks else text
@@ -189,6 +198,41 @@ def action_text(value: str) -> str:
     return " ".join(useful)[:450]
 
 
+def data_row_parts(row: list[str], header: tuple[int, int, int | None], explicit: bool) -> tuple[list[str], str, str]:
+    code_idx, summary_idx, action_idx = header
+
+    # Some official tables use colspan in the header and then one code column per model.
+    # Example: [E01, H4, 排水異常, 処置]. Treat the trailing content/action cells as
+    # semantic columns and every preceding cell as a model-specific code column.
+    if explicit and action_idx is not None and len(row) >= 4:
+        raw_summary = row[-2]
+        raw_action = row[-1]
+        code_cells = row[:-2]
+        codes: list[str] = []
+        for cell in code_cells:
+            for code in extract_codes(cell, explicit_table=True):
+                if code not in codes:
+                    codes.append(code)
+        return codes, raw_summary, raw_action
+
+    if explicit and action_idx is None and len(row) >= 3:
+        raw_summary = row[-1]
+        code_cells = row[:-1]
+        codes = []
+        for cell in code_cells:
+            for code in extract_codes(cell, explicit_table=True):
+                if code not in codes:
+                    codes.append(code)
+        return codes, raw_summary, ""
+
+    if len(row) <= max(code_idx, summary_idx):
+        return [], "", ""
+    codes = extract_codes(row[code_idx], explicit_table=explicit)
+    raw_summary = row[summary_idx]
+    raw_action = row[action_idx] if action_idx is not None and action_idx < len(row) else ""
+    return codes, raw_summary, raw_action
+
+
 def collect_from_table(row_cfg: dict, parser: TableParser) -> list[dict]:
     manufacturer = clean(row_cfg.get("manufacturer"))
     appliance = clean(row_cfg.get("appliance"))
@@ -207,18 +251,14 @@ def collect_from_table(row_cfg: dict, parser: TableParser) -> list[dict]:
         explicit = indices is not None
         if indices is None:
             indices = (0, 1, 2)
-        code_idx, summary_idx, action_idx = indices
 
         for row in table[header_row_index + 1:]:
-            if len(row) <= max(code_idx, summary_idx):
-                continue
-            codes = extract_codes(row[code_idx], explicit_table=explicit)
+            codes, raw_summary, raw_action = data_row_parts(row, indices, explicit)
             if not codes:
                 continue
-            summary = summary_text(row[summary_idx])
+            summary = summary_text(raw_summary)
             if not 5 <= len(summary) <= 240:
                 continue
-            raw_action = row[action_idx] if action_idx is not None and action_idx < len(row) else (row[2] if len(row) > 2 and summary_idx != 2 else "")
             action = action_text(raw_action)
             for code in codes:
                 key = (code, summary)
@@ -247,6 +287,9 @@ def main() -> None:
     registry = json.loads(REGISTRY.read_text(encoding="utf-8"))
     existing = json.loads(CANDIDATES.read_text(encoding="utf-8")) if CANDIDATES.exists() else []
     source_rows = json.loads(SOURCES.read_text(encoding="utf-8")) if SOURCES.exists() else []
+    # Rebuild this method from source every run so stale/incorrect table parses disappear.
+    existing = [x for x in existing if x.get("extraction_method") != METHOD]
+    source_rows = [x for x in source_rows if x.get("collector") != METHOD]
     added: list[dict] = []
 
     for cfg in registry:
