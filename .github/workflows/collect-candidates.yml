@@ -1,4 +1,4 @@
-name: Collect official error-code candidates
+name: Collect and verify official error codes
 
 on:
   workflow_dispatch:
@@ -10,6 +10,7 @@ on:
       - "data/source_registry.json"
       - "tools/collect_candidates.py"
       - "tools/collectors.py"
+      - "tools/promote_verified.py"
       - ".github/workflows/collect-candidates.yml"
 
 permissions:
@@ -32,14 +33,19 @@ jobs:
       - name: Collect candidates from official pages
         run: python3 tools/collect_candidates.py
 
-      - name: Commit review files if changed
+      - name: Strictly verify and promote dedicated candidates
+        env:
+          AUTO_PROMOTE_LIMIT: "10000"
+        run: python3 tools/promote_verified.py
+
+      - name: Commit collected and verified data if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add review/candidates.json review/discovered_sources.json
+          git add review/candidates.json review/discovered_sources.json review/promotion-report.json data/errors.json
           if git diff --cached --quiet; then
-            echo "No candidate changes."
+            echo "No collected or verified changes."
             exit 0
           fi
-          git commit -m "Update official error-code candidates [skip ci]"
+          git commit -m "Auto-promote strictly verified official error codes"
           git push
