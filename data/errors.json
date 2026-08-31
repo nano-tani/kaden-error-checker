@@ -2,6 +2,611 @@
   {
     "manufacturer": "ダイキン",
     "appliance": "ルームエアコン",
+    "code": "A0",
+    "summary": "冷媒漏えいセンサ-が冷媒などのガスを検知したことにより停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "A1",
+    "summary": "プリント基板のマイコンが正常に作動していません。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "A3",
+    "summary": "ドレンパン内の水位上昇によりフロートスイッチが作動し停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "A5",
+    "summary": "冷房運転時 室内熱交換器の温度が低下しすぎたため停止しています。 または室外熱交換器の温度が上昇しすぎたため停止しています。",
+    "actions": [
+      "室内機のエアフィルターを掃除してください。",
+      "(フィルター自動お掃除機能付きの場合は、フィルター掃除運転をしてください。",
+      ") エアフィルターのお手入れ方法については、取扱説明書をご確認ください。",
+      "その後、運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "A6",
+    "summary": "ファンモ-タの不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "AH",
+    "summary": "「マイナスイオン発生器」、「ストリーマ」、「フィルター自動おそうじ」などの不具合が発生しています。 冷暖房運転は可能です。",
+    "actions": [
+      "運転を停止し、電源プラグを抜いて以下のお手入れをしてください。",
+      "マイナスイオン発生器の場合 マイナスイオン電極部のお手入れをしてください。",
+      "ストリーマの場合 ストリーマユニットのお手入れをしてください。",
+      "フィルター自動おそうじの場合 フィルターの変形を確認してください。",
+      "お手入れ方法については、取扱説明書をご確認ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "C4",
+    "summary": "熱交換器の温度を検知しているサーミスタの不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "C7",
+    "summary": "壁掛タイプと天井カセット一方吹きタイプ パネル開閉の不具合により停止しています。 床置タイプ 下吹出口シャッター開閉機構の不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "C9",
+    "summary": "吸込空気の温度を検知しているサーミスタの不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "CA",
+    "summary": "吸込空気の温度を検知しているサーミスタの不具合により停止しています。 運転は可能です。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "CC",
+    "summary": "湿度を検知している 湿度センサ-に不具合が発生しています。 運転は可能です。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "CE",
+    "summary": "床温度、人検知センサーの不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "CH",
+    "summary": "ガス(ニオイ)センサーまたは、冷媒漏洩センサーに不具合が発生しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "E1",
+    "summary": "プリント基板のマイコンが正常に作動していません。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "E5",
+    "summary": "圧縮機の吐出管温度が高くなりすぎたことにより停止しています。",
+    "actions": [
+      "冷房運転時 車や物が室外機の前にありませんか?",
+      "障害物がある場合は取り除いてください。",
+      "暖房運転時 室内機のエアフィルターを掃除してください。",
+      "(フィルター自動お掃除機能付きの場合は、フィルター掃除運転をしてください。",
+      ") エアフィルターのお手入れ方法については、取扱説明書をご確認ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "E6",
+    "summary": "圧縮機の過電流により停止しています。",
+    "actions": [
+      "冷房運転時 車や物が室外機の前にありませんか?",
+      "障害物がある場合は取り除いてください。",
+      "暖房運転時 室内機のエアフィルターを掃除してください。",
+      "(フィルター自動お掃除機能付きの場合は、フィルター掃除運転をしてください。",
+      ") エアフィルターのお手入れ方法については、取扱説明書をご確認ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "E7",
+    "summary": "ファンモーターがうまく動いていないことで停止しています。",
+    "actions": [
+      "室外機のファンに棒などの異物が入っていませんか?",
+      "異物がある場合は取り除いてください。",
+      "冬の場合は室外機に雪が入りこんだり、凍りつくことで、ファンが回らなくなっている場合もあります。",
+      "その後、運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "E8",
+    "summary": "圧縮機の過電流により停止しています。",
+    "actions": [
+      "冷房運転時 車や物が室外機の前にありませんか?",
+      "障害物がある場合は取り除いてください。",
+      "暖房運転時 室内機のエアフィルターを掃除してください。",
+      "(フィルター自動お掃除機能付きの場合は、フィルター掃除運転をしてください。",
+      ") エアフィルターのお手入れ方法については、取扱説明書をご確認ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "E9",
+    "summary": "電動弁の不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "EA",
+    "summary": "四路切替弁(冷暖房の切替弁)の不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "F3",
+    "summary": "圧縮機の吐出管温度が上昇しすぎたことにより停止しています。",
+    "actions": [
+      "冷房運転時 車や物が室外機の前にありませんか?",
+      "障害物がある場合は取り除いてください。",
+      "暖房運転時 室内機のエアフィルターを掃除してください。",
+      "(フィルター自動お掃除機能付きの場合は、フィルター掃除運転をしてください。",
+      ") エアフィルターのお手入れ方法については、取扱説明書をご確認ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "F6",
+    "summary": "冷房運転時 高圧圧力が上昇したことにより停止しています。 暖房運転時 室外熱交換器の温度上昇により停止しています。",
+    "actions": [
+      "冷房運転時 車や物が室外機の前にありませんか?",
+      "障害物がある場合は取り除いてください。",
+      "その後、運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。",
+      "暖房運転時 運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "F8",
+    "summary": "圧縮機内部温度が上昇しすぎたことにより停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "FA",
+    "summary": "冷媒圧力が基準値以上に上昇しすぎたことにより停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "H0",
+    "summary": "機内配線接続部の不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "H1",
+    "summary": "加湿ユニットのダンパーに不具合が発生しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "H6",
+    "summary": "圧縮機の運転を検出するセンサ-に不具合があるため停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "H8",
+    "summary": "圧縮機の起動電流が上昇しないことにより停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "H9",
+    "summary": "外気温度を検知しているサーミスタの不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "J3",
+    "summary": "圧縮機の吐出管温度を検知しているサーミスタの不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "J6",
+    "summary": "熱交換器の温度を検知しているサーミスタの不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "J8",
+    "summary": "液管の温度を検知しているサーミスタの不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "J9",
+    "summary": "ガス管温度を検知しているサーミスタの不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "L3",
+    "summary": "圧縮機の停止時に放熱フィン温度が高すぎる温度を検知したことにより停止しています。",
+    "actions": [
+      "冷房運転時 車や物が室外機の前にありませんか?",
+      "障害物がある場合は取り除いてください。",
+      "暖房運転時 室内機のエアフィルターを掃除してください。",
+      "(フィルター自動お掃除機能付きの場合は、フィルター掃除運転をしてください。",
+      ") エアフィルターのお手入れ方法については、取扱説明書をご確認ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "L4",
+    "summary": "圧縮機の運転中に放熱フィン温度が高すぎる温度を検知したことにより停止しています。",
+    "actions": [
+      "冷房運転時 車や物が室外機の前にありませんか?",
+      "障害物がある場合は取り除いてください。",
+      "暖房運転時 室内機のエアフィルターを掃除してください。",
+      "(フィルター自動お掃除機能付きの場合は、フィルター掃除運転をしてください。",
+      ") エアフィルターのお手入れ方法については、取扱説明書をご確認ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "L5",
+    "summary": "インバータ圧縮機の過電流により停止しています。",
+    "actions": [
+      "冷房運転時 車や物が室外機の前にありませんか?",
+      "障害物がある場合は取り除いてください。",
+      "暖房運転時 室内機のエアフィルターを掃除してください。",
+      "(フィルター自動お掃除機能付きの場合は、フィルター掃除運転をしてください。",
+      ") エアフィルターのお手入れ方法については、取扱説明書をご確認ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "LC",
+    "summary": "ファンモーター回路の通信不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "P4",
+    "summary": "放熱フィン温度を検知しているサーミスタの不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "P9",
+    "summary": "加湿ユニットの加湿ファンモーターに不具合が発生しています。 運転は可能です。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "PA",
+    "summary": "加湿ユニットの加湿ファンモーターに不具合が発生しています。 運転は可能です。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "PH",
+    "summary": "加湿ユニットの出口温度サーミスタに不具合が発生しています。 運転は可能です。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "U0",
+    "summary": "冷媒ガスが不足していることを検出して停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "U2",
+    "summary": "インバータ回路の不足電圧・過電圧により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "U3",
+    "summary": "チェック運転未完了もしくは室内/室外機の組み合わせ間違いです。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
     "code": "U4",
     "summary": "室内機と室外機の通信不具合により停止しています。",
     "actions": [
@@ -28,10 +633,66 @@
     "verified": "2026-08-31"
   },
   {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "U7",
+    "summary": "室外基板と加湿ユニット間や、室外基板と室外インバータユニット間の通信不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "UH",
+    "summary": "システムのエラーです。 室内機と室外機の組み合わせが異なるために停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "ルームエアコン",
+    "code": "UJ",
+    "summary": "加湿ユニットと室外機回路間の通信不具合により停止しています。",
+    "actions": [
+      "運転を停止した状態で電源プラグを抜き 約 1分後、電源を入れて再運転してください。",
+      "改善しない場合は、お買い上げの販売店または当社に点検・修理をご依頼ください。"
+    ],
+    "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C0",
+    "summary": "洗濯物の入れすぎ",
+    "actions": [
+      "運転コースをご確認いただき、洗濯物の量を調整してください。",
+      "洗濯物の量を調整しても「C0」が表示される場合は、洗濯機に問題が発生している可能性があります。",
+      "恐れ入りますがお買い上げの販売店、または 修理相談窓口 へご相談ください。",
+      "洗濯物の重さの目安 「お客さまサポート 洗濯機・洗濯乾燥機」TOPページへ戻る カテゴリ別に探す お手入れ (28) お湯取り運転 (12) お知らせ表示 (68) すすぎ (13) アプリ・IoT (11) ドラム式洗濯機 (235) 乾燥 (34) 使い方(機能・その他) (48) 困ったとき (109) 洗い(コー"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
     "manufacturer": "日立",
     "appliance": "洗濯機・洗濯乾燥機",
     "code": "C01",
-    "aliases": ["C1"],
+    "aliases": [
+      "C1"
+    ],
     "summary": "正常に給水できないときに表示されるコードです。",
     "actions": [
       "機種によって確認項目が異なるため、公式サポートの案内を確認する"
@@ -43,7 +704,9 @@
     "manufacturer": "日立",
     "appliance": "洗濯機・洗濯乾燥機",
     "code": "C02",
-    "aliases": ["C2"],
+    "aliases": [
+      "C2"
+    ],
     "summary": "正常に排水できず、槽や排水ホースに水がたまっているときに表示されるコードです。",
     "actions": [
       "脱水のみ運転し、排水できるか確認する",
@@ -58,7 +721,9 @@
     "manufacturer": "日立",
     "appliance": "洗濯機・洗濯乾燥機",
     "code": "C03",
-    "aliases": ["C3"],
+    "aliases": [
+      "C3"
+    ],
     "summary": "ドアまたはふたが開いている状態で運転を開始したときに表示されるコードです。",
     "actions": [
       "ドアまたはふたの状態を確認し、公式サポートの案内に従う"
@@ -70,12 +735,235 @@
     "manufacturer": "日立",
     "appliance": "洗濯機・洗濯乾燥機",
     "code": "C04",
-    "aliases": ["C4"],
+    "aliases": [
+      "C4"
+    ],
     "summary": "脱水時に洗濯物が槽内で片寄り、脱水できないときに表示されるコードです。",
     "actions": [
       "洗濯物の片寄りを確認し、公式サポートの案内に従う"
     ],
     "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
     "verified": "2026-08-31"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C06",
+    "aliases": [
+      "C6"
+    ],
+    "summary": "乾燥運転が終わらない:ドラム式",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a207.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C07",
+    "aliases": [
+      "C7"
+    ],
+    "summary": "基板の通信に不具合",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a252.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C10",
+    "aliases": [
+      "CP"
+    ],
+    "summary": "風呂水が給水できない",
+    "actions": [
+      "をお試しください。",
+      "対処方法 水栓(蛇口)が開いているか確認する 設定を確認する お湯取ホースを確認する クリーンフィルターを確認する 風呂水の状態を確認する 洗濯物の量を確認する 上記を確認しても改善しない場合 ご注意 購入直後はじめて運転するときは、風呂水が吸水されないことがあります。",
+      "水栓(蛇口)が開いているか確認する 風呂水ポンプの吸い上げ運転の際、一定量の水(呼び水)の給水が必要なため、水道水が使われます。",
+      "運転中は必ず水栓を開けておいてください。",
+      "運転終了後、水栓は閉めてください。"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C14",
+    "summary": "振動センサーに一時的な不具合",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a216.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C15",
+    "summary": "乾燥フィルター外れ",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a213.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C16",
+    "summary": "糸くずフィルター外れ",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a212.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C18",
+    "summary": "泡が多量に発生し、脱水できない",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a210.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C19",
+    "summary": "乾燥容量オーバー",
+    "actions": [
+      "をお試しください。",
+      "対処方法 コースにあわせて、洗濯物の量を調整します。",
+      "脱水運転をお試しください。",
+      "上記をお試しいただいても「C19」や「乾燥容量オーバー」など表示される場合は、恐れ入りますがお買い上げの販売店、または 修理相談窓口 へご相談ください。",
+      "「お客さまサポート 洗濯機・洗濯乾燥機」TOPページへ戻る カテゴリ別に探す お手入れ (29) お湯"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a04.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C21",
+    "summary": "メイン基盤、駆動部品の不具合",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a240.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C22",
+    "summary": "モーターブレーキの不具合",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a243.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C23",
+    "summary": "モーターの不具合",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a244.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C32",
+    "summary": "洗剤や柔軟剤の投入経路に目詰まり",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a245.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "C42",
+    "summary": "本体ソフトウェアの更新不良",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "CC",
+    "summary": "洗剤クリーマー動作時に不具合",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "CF",
+    "summary": "乾燥フィルター取付不備",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "CH",
+    "summary": "泡が多量に発生し脱水できない",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "code": "CP",
+    "summary": "風呂水が給水できない",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
   }
 ]

@@ -1,0 +1,472 @@
+{
+  "verified_date": "2026-09-01",
+  "policy": "strict dedicated official sources only; generic candidates are never auto-promoted",
+  "candidate_count": 396,
+  "published_before": 6,
+  "promoted_count": 65,
+  "published_after": 71,
+  "auto_promote_limit": 10000,
+  "rejected": {
+    "already_published": 6,
+    "not_dedicated": 144,
+    "not_high_confidence": 31,
+    "summary_not_specific": 144
+  },
+  "promoted": [
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "A0",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "A1",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "A3",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "A5",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "A6",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "AH",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "C4",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "C7",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "C9",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "CA",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "CC",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "CE",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "CH",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "E1",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "E5",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "E6",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "E7",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "E8",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "E9",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "EA",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "F3",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "F6",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "F8",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "FA",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "H0",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "H1",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "H6",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "H8",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "H9",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "J3",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "J6",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "J8",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "J9",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "L3",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "L4",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "L5",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "LC",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "P4",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "P9",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "PA",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "PH",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "U0",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "U2",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "U3",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "U7",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "UH",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "ルームエアコン",
+      "code": "UJ",
+      "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
+      "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "C0",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "C06",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a207.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "C07",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a252.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "C10",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "C14",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a216.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "C15",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a213.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "C16",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a212.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "C18",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a210.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "C19",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a04.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "C21",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a240.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "C22",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a243.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "C23",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a244.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "C32",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a245.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "C42",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "CC",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "CF",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "CH",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+      "method": "dedicated:hitachi"
+    },
+    {
+      "manufacturer": "日立",
+      "appliance": "洗濯機・洗濯乾燥機",
+      "code": "CP",
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
+      "method": "dedicated:hitachi"
+    }
+  ]
+}
