@@ -21,6 +21,7 @@ core.DEDICATED.update({
     "dedicated:sharp-category",
     "dedicated:chofu",
     "dedicated:misc-official",
+    "dedicated:iris-siroca",
 })
 
 
@@ -44,6 +45,8 @@ def combined_rules() -> dict[tuple[str, str], list[str]]:
     rules[("トヨトミ", "*")] = ["www.toyotomi.jp", "toyotomi.jp"]
     rules[("ダイニチ", "*")] = ["www.dainichi-net.co.jp", "dainichi-net.co.jp"]
     rules[("タイガー魔法瓶", "*")] = ["support.tiger-corporation.com"]
+    rules[("アイリスオーヤマ", "*")] = ["www.irisohyama.co.jp", "irisohyama.co.jp"]
+    rules[("シロカ", "*")] = ["www.siroca.co.jp", "siroca.co.jp"]
     return rules
 
 
