@@ -6,7 +6,6 @@
     "summary": "ふたロックの不具合です。",
     "actions": [
       "上ぶたがしっかりと閉まっているか ・ふたロック中に無理に開けたりしていないか 確認してください。",
-      "※機種によっては部品の点検・修理が必要なエラー表示になります。",
       "詳しくは取扱説明書を確認してください。"
     ],
     "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
@@ -21,7 +20,6 @@
     "summary": "ふたロックの不具合です。",
     "actions": [
       "上ぶたがしっかりと閉まっているか ・ふたロック中に無理に開けたりしていないか 確認してください。",
-      "※機種によっては部品の点検・修理が必要なエラー表示になります。",
       "詳しくは取扱説明書を確認してください。"
     ],
     "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
@@ -36,7 +34,6 @@
     "summary": "ふたロックの不具合です。",
     "actions": [
       "上ぶたがしっかりと閉まっているか ・ふたロック中に無理に開けたりしていないか 確認してください。",
-      "※機種によっては部品の点検・修理が必要なエラー表示になります。",
       "詳しくは取扱説明書を確認してください。"
     ],
     "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
@@ -48,7 +45,7 @@
     "manufacturer": "AQUA",
     "appliance": "タテ型洗濯機・洗濯乾燥機",
     "code": "E46",
-    "summary": "など 部品の点検・修理が必要です。",
+    "summary": "部品の点検・修理が必要です。",
     "actions": [
       "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。"
     ],
@@ -64,7 +61,6 @@
     "summary": "ふたロックの不具合です。",
     "actions": [
       "上ぶたがしっかりと閉まっているか ・ふたロック中に無理に開けたりしていないか 確認してください。",
-      "※機種によっては部品の点検・修理が必要なエラー表示になります。",
       "詳しくは取扱説明書を確認してください。"
     ],
     "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
@@ -76,7 +72,7 @@
     "manufacturer": "AQUA",
     "appliance": "タテ型洗濯機・洗濯乾燥機",
     "code": "E7",
-    "summary": "など 部品の点検・修理が必要です。",
+    "summary": "部品の点検・修理が必要です。",
     "actions": [
       "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。"
     ],
@@ -89,7 +85,7 @@
     "manufacturer": "AQUA",
     "appliance": "タテ型洗濯機・洗濯乾燥機",
     "code": "EA",
-    "summary": "など 部品の点検・修理が必要です。",
+    "summary": "部品の点検・修理が必要です。",
     "actions": [
       "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。"
     ],
@@ -102,7 +98,7 @@
     "manufacturer": "AQUA",
     "appliance": "タテ型洗濯機・洗濯乾燥機",
     "code": "EF",
-    "summary": "など 部品の点検・修理が必要です。",
+    "summary": "部品の点検・修理が必要です。",
     "actions": [
       "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。"
     ],
@@ -115,7 +111,7 @@
     "manufacturer": "AQUA",
     "appliance": "タテ型洗濯機・洗濯乾燥機",
     "code": "EU",
-    "summary": "など 部品の点検・修理が必要です。",
+    "summary": "部品の点検・修理が必要です。",
     "actions": [
       "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。"
     ],
@@ -128,11 +124,9 @@
     "manufacturer": "AQUA",
     "appliance": "ドラム式洗濯機・洗濯乾燥機",
     "code": "E8",
-    "summary": "など 部品の点検・修理が必要です。",
+    "summary": "部品の点検・修理が必要です。",
     "actions": [
-      "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。",
-      "2.自分で試せる!",
-      "エラーを解消する方法 エラーコードが表示された際、焦って修理を依頼しなくても、自分で解決できるものも多いです。"
+      "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。"
     ],
     "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
     "verified": "2026-09-01",
@@ -143,11 +137,9 @@
     "manufacturer": "AQUA",
     "appliance": "ドラム式洗濯機・洗濯乾燥機",
     "code": "EC",
-    "summary": "など 部品の点検・修理が必要です。",
+    "summary": "部品の点検・修理が必要です。",
     "actions": [
-      "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。",
-      "2.自分で試せる!",
-      "エラーを解消する方法 エラーコードが表示された際、焦って修理を依頼しなくても、自分で解決できるものも多いです。"
+      "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。"
     ],
     "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
     "verified": "2026-09-01",
@@ -158,11 +150,9 @@
     "manufacturer": "AQUA",
     "appliance": "ドラム式洗濯機・洗濯乾燥機",
     "code": "ED",
-    "summary": "など 部品の点検・修理が必要です。",
+    "summary": "部品の点検・修理が必要です。",
     "actions": [
-      "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。",
-      "2.自分で試せる!",
-      "エラーを解消する方法 エラーコードが表示された際、焦って修理を依頼しなくても、自分で解決できるものも多いです。"
+      "お買い上げの販売店へ連絡し、点検・修理を依頼して下さい。"
     ],
     "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
     "verified": "2026-09-01",
@@ -989,7 +979,7 @@
     "code": "U6",
     "summary": "風呂水の給水異常",
     "actions": [
-      "風呂水ホースの接続部"
+      "メーカー公式の案内で対象機種と対処方法を確認する"
     ],
     "source": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
     "verified": "2026-09-01",
