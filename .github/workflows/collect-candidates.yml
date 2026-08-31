@@ -47,15 +47,20 @@ jobs:
           AUTO_PROMOTE_LIMIT: "10000"
         run: python3 tools/promote_verified_extended.py
 
-      - name: Commit collected and verified data if changed
+      - name: Generate production search and SEO pages
+        env:
+          SITE_URL: https://nano-tani.github.io/kaden-error-checker
+        run: python3 tools/generate.py
+
+      - name: Commit collected verified and generated data if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add review/candidates.json review/discovered_sources.json review/promotion-report.json data/errors.json
+          git add review/candidates.json review/discovered_sources.json review/promotion-report.json data/errors.json data/search-index.json errors code sitemap.xml robots.txt
           if git diff --cached --quiet; then
-            echo "No collected or verified changes."
+            echo "No collected, verified, or generated changes."
             exit 0
           fi
-          git commit -m "Auto-promote strictly verified official error codes"
+          git commit -m "Auto-promote and generate verified official error codes"
           git pull --rebase origin main
           git push
