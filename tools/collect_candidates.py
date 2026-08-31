@@ -101,6 +101,16 @@ def clean_context(text):
     return re.sub(r"\s+", " ", normalize(text)).strip()
 
 
+def canonicalize_url(url, manufacturer=None):
+    url = urldefrag(str(url or ""))[0]
+    if manufacturer == "パナソニック":
+        parsed = urlparse(url)
+        match = re.search(r"(/app/answers/detail/a_id/\d+)", parsed.path)
+        if match:
+            return f"{parsed.scheme}://{parsed.netloc}{match.group(1)}"
+    return url
+
+
 def fetch_page(url):
     req = Request(
         url,
@@ -260,12 +270,12 @@ def main():
         appliance = source["appliance"]
         domains = source.get("allowed_domains", [])
         max_pages = int(source.get("max_pages", 6))
-        queue = deque(source.get("seed_urls", []))
+        queue = deque(canonicalize_url(url, manufacturer) for url in source.get("seed_urls", []))
         seen = set()
         pages = 0
 
         while queue and pages < max_pages:
-            url = urldefrag(queue.popleft())[0]
+            url = canonicalize_url(queue.popleft(), manufacturer)
             if not url or url in seen or not allowed(url, domains):
                 continue
             seen.add(url)
@@ -288,7 +298,10 @@ def main():
                 })
                 continue
 
-            absolute_links = [(urldefrag(urljoin(url, href))[0], anchor) for href, anchor in parser.links]
+            absolute_links = [
+                (canonicalize_url(urljoin(url, href), manufacturer), anchor)
+                for href, anchor in parser.links
+            ]
             candidates = extract_for(
                 manufacturer,
                 appliance,
@@ -302,6 +315,9 @@ def main():
                 candidates = generic_extract(parser.text, parser.title, url, manufacturer, appliance)
 
             for item in candidates:
+                if item.get("detail_url"):
+                    item["detail_url"] = canonicalize_url(item["detail_url"], manufacturer)
+                item["source"] = canonicalize_url(item["source"], manufacturer)
                 item["already_published"] = mark_published(item, published)
                 all_candidates.append(item)
 
