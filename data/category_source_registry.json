@@ -1,0 +1,535 @@
+[
+  {
+    "manufacturer": "コロナ",
+    "appliance": "エコキュート",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/eco/index.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "石油給湯機",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/oil/index.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "電気温水器",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/denon/index.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "暖房ボイラー",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/cat/post.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "ヒートポンプ式冷暖房システム",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/HPreidan.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "温水ルームヒーター",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/room_heater.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "石油ファンヒーター",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "寒冷地用大型ストーブ",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "コアヒート・スリムカーボン",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/cat142/electric_heater.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "ウォールヒート",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/cat143/wallheat.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "ノイルヒート",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/cat144/noilheat.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "ルームエアコン",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/aircon/index.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "ウインドエアコン",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/wind/post_1.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "除湿機",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/dehumidifier/post_3.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "冷風・衣類乾燥除湿機",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/post_2.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "加湿器",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/humidifier.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "据置型ナノフィール",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/nanofeel01.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "移動型ナノフィール",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/nanofeel02.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "ナノリフレ",
+    "collector": "official_table",
+    "source_url": "https://www.corona.co.jp/support/error/nanorefre.html",
+    "allowed_domains": ["www.corona.co.jp", "corona.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "空気清浄機",
+    "collector": "official_table",
+    "source_url": "https://www.daikincc.com/faq/customer/web/knowledge2772.html",
+    "allowed_domains": ["www.daikincc.com", "daikincc.com"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true
+  },
+  {
+    "manufacturer": "リンナイ",
+    "appliance": "*",
+    "collector": "rinnai_faq",
+    "source_url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc",
+    "allowed_domains": ["faq.rinnai.co.jp"],
+    "status": "collector_ready",
+    "consumer_facing": true,
+    "enabled": true,
+    "notes": "公式FAQのエラーコードカテゴリ全ページ。商品名をカテゴリとして保持する。"
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "ルームエアコン",
+    "collector": "panasonic_faq",
+    "source_url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/9669/",
+    "allowed_domains": ["jpn.faq.panasonic.com"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "冷蔵庫",
+    "collector": "panasonic_faq",
+    "source_url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/9895/related/1",
+    "allowed_domains": ["jpn.faq.panasonic.com"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "冷蔵庫",
+    "collector": "panasonic_model_nav",
+    "source_url": "https://jpn.faq.panasonic.com/app/answers/monshin/kata/NR-F53CV1",
+    "allowed_domains": ["jpn.faq.panasonic.com"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false,
+    "notes": "型番別診断ナビ。コード数が多い。"
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "炊飯器",
+    "collector": "panasonic_faq",
+    "source_url": "https://jpn.faq.panasonic.com/app/answers/detail/p/1717/a_id/15345",
+    "allowed_domains": ["jpn.faq.panasonic.com"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "卓上食器洗い乾燥機",
+    "collector": "panasonic_faq",
+    "source_url": "https://jpn.faq.panasonic.com/app/answers/detail/p/1776/a_id/11495",
+    "allowed_domains": ["jpn.faq.panasonic.com"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "ビルトイン食器洗い乾燥機",
+    "collector": "panasonic_faq",
+    "source_url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/104766",
+    "allowed_domains": ["jpn.faq.panasonic.com"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "ビルトインIHクッキングヒーター",
+    "collector": "panasonic_faq",
+    "source_url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/84330/",
+    "allowed_domains": ["jpn.faq.panasonic.com"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "パナソニック",
+    "appliance": "エコキュート",
+    "collector": "panasonic_faq",
+    "source_url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/99158/",
+    "allowed_domains": ["jpn.faq.panasonic.com"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "冷蔵庫",
+    "collector": "sharp_diagnosis",
+    "source_url": "https://cs.sharp.co.jp/trouble_check/div/refrigerator/navi/sj_diagnosis.html",
+    "allowed_domains": ["cs.sharp.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "空気清浄機",
+    "collector": "sharp_diagnosis",
+    "source_url": "https://cs.sharp.co.jp/trouble_check/div/air_purifier/navi_kij_l_np/ki_diag04.html",
+    "allowed_domains": ["cs.sharp.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "電子レンジ・オーブンレンジ",
+    "collector": "sharp_diagnosis",
+    "source_url": "https://cs.sharp.co.jp/trouble_check/div/oven/diag04.html",
+    "allowed_domains": ["cs.sharp.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ウォーターオーブン ヘルシオ",
+    "collector": "sharp_diagnosis",
+    "source_url": "https://cs.sharp.co.jp/trouble_check/div/healsio/diag04.html",
+    "allowed_domains": ["cs.sharp.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "除湿機",
+    "collector": "sharp_diagnosis",
+    "source_url": "https://cs.sharp.co.jp/trouble_check/div/dehumid_con/navi/navi_top.html",
+    "allowed_domains": ["cs.sharp.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "加湿器",
+    "collector": "sharp_diagnosis",
+    "source_url": "https://cs.sharp.co.jp/trouble_check/div/humid_con/navi/navi_top.html",
+    "allowed_domains": ["cs.sharp.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "扇風機",
+    "collector": "sharp_diagnosis",
+    "source_url": "https://cs.sharp.co.jp/trouble_check/div/e_fan/navi/navi_top.html",
+    "allowed_domains": ["cs.sharp.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "炊飯器",
+    "collector": "sharp_diagnosis",
+    "source_url": "https://cs.sharp.co.jp/trouble_check/div/ricecooker/diag03.html",
+    "allowed_domains": ["cs.sharp.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ホットクック",
+    "collector": "sharp_diagnosis",
+    "source_url": "https://cs.sharp.co.jp/trouble_check/div/hotcook/navi_top.html",
+    "allowed_domains": ["cs.sharp.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "冷蔵庫",
+    "collector": "hitachi_faq",
+    "source_url": "https://kadenfan.hitachi.co.jp/support/rei/q_a/a132.html",
+    "allowed_domains": ["kadenfan.hitachi.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "電子レンジ・オーブンレンジ",
+    "collector": "hitachi_faq",
+    "source_url": "https://kadenfan.hitachi.co.jp/support/range/q_a/a56.html",
+    "allowed_domains": ["kadenfan.hitachi.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "炊飯器",
+    "collector": "hitachi_faq",
+    "source_url": "https://kadenfan.hitachi.co.jp/support/kitchen/howto/003.html",
+    "allowed_domains": ["kadenfan.hitachi.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "日立",
+    "appliance": "IHクッキングヒーター",
+    "collector": "hitachi_faq",
+    "source_url": "https://kadenfan.hitachi.co.jp/support/ih/q_a/a38.html",
+    "allowed_domains": ["kadenfan.hitachi.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "エコキュート",
+    "collector": "daikin_search",
+    "source_url": "https://www.etrade.svc.daikin.co.jp/errorcode/index.php",
+    "allowed_domains": ["www.etrade.svc.daikin.co.jp", "etrade.svc.daikin.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "業務用・設備用エアコン",
+    "collector": "daikin_search",
+    "source_url": "https://www.etrade.svc.daikin.co.jp/errorcode/index.php",
+    "allowed_domains": ["www.etrade.svc.daikin.co.jp", "etrade.svc.daikin.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "スポットエアコン",
+    "collector": "daikin_search",
+    "source_url": "https://www.etrade.svc.daikin.co.jp/errorcode/index.php",
+    "allowed_domains": ["www.etrade.svc.daikin.co.jp", "etrade.svc.daikin.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "三菱電機",
+    "appliance": "エコキュート",
+    "collector": "mitsubishi_faq",
+    "source_url": "https://faq01.mitsubishielectric.co.jp/faq/show/6575",
+    "allowed_domains": ["faq01.mitsubishielectric.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "三菱電機",
+    "appliance": "電気温水器",
+    "collector": "mitsubishi_faq",
+    "source_url": "https://faq01.mitsubishielectric.co.jp/category/show/294?site_domain=default",
+    "allowed_domains": ["faq01.mitsubishielectric.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "アイリスオーヤマ",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "collector": "iris_faq",
+    "source_url": "https://www.irisohyama.co.jp/support/faq/categori.php?ID=44",
+    "allowed_domains": ["www.irisohyama.co.jp", "irisohyama.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "アイリスオーヤマ",
+    "appliance": "ルームエアコン",
+    "collector": "iris_faq",
+    "source_url": "https://www.irisohyama.co.jp/support/faq/categori.php?ID=34&detail=1&page=1",
+    "allowed_domains": ["www.irisohyama.co.jp", "irisohyama.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "アイリスオーヤマ",
+    "appliance": "炊飯器",
+    "collector": "iris_faq",
+    "source_url": "https://www.irisohyama.co.jp/support/faq/detail.php?ID=6954",
+    "allowed_domains": ["www.irisohyama.co.jp", "irisohyama.co.jp"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "東芝",
+    "appliance": "洗濯機・洗濯乾燥機",
+    "collector": "toshiba_support",
+    "source_url": "https://www.toshiba-lifestyle.com/jp/info/2017/04/11/370/",
+    "allowed_domains": ["www.toshiba-lifestyle.com", "toshiba-lifestyle.com"],
+    "status": "needs_adapter",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "ノーリツ",
+    "appliance": "給湯機器",
+    "collector": "noritz_faq",
+    "source_url": "https://faq.noritz.co.jp/",
+    "allowed_domains": ["faq.noritz.co.jp"],
+    "status": "needs_catalog_discovery",
+    "consumer_facing": true,
+    "enabled": false
+  },
+  {
+    "manufacturer": "パロマ",
+    "appliance": "ガス機器",
+    "collector": "restricted_business_login",
+    "source_url": "https://www.paloma.co.jp/business/hotnavi/index.html",
+    "allowed_domains": ["www.paloma.co.jp", "paloma.co.jp"],
+    "status": "restricted",
+    "consumer_facing": false,
+    "enabled": false,
+    "notes": "エラーコード一覧は業者向けログイン領域。自動収集対象外。"
+  }
+]
