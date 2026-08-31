@@ -1,0 +1,146 @@
+[
+  {
+    "manufacturer": "パナソニック",
+    "categories": [
+      "ルームエアコン",
+      "冷蔵庫",
+      "炊飯器",
+      "卓上食器洗い乾燥機",
+      "ビルトイン食器洗い乾燥機",
+      "ビルトインIHクッキングヒーター",
+      "エコキュート"
+    ],
+    "status": "adapter_required",
+    "source_type": "official_faq_and_model_diagnosis",
+    "reason": "FAQ本文・型番別診断・動的ナビが混在。コードごとの機種スコープを保持する専用Adapterが必要。",
+    "sources": [
+      "https://jpn.faq.panasonic.com/app/answers/detail/a_id/9669/",
+      "https://jpn.faq.panasonic.com/app/answers/detail/a_id/9895/related/1",
+      "https://jpn.faq.panasonic.com/app/answers/monshin/kata/NR-F53CV1",
+      "https://jpn.faq.panasonic.com/app/answers/detail/p/1717/a_id/15345",
+      "https://jpn.faq.panasonic.com/app/answers/detail/p/1776/a_id/11495",
+      "https://jpn.faq.panasonic.com/app/answers/detail/a_id/104766",
+      "https://jpn.faq.panasonic.com/app/answers/detail/a_id/84330/",
+      "https://jpn.faq.panasonic.com/app/answers/detail/a_id/99158/"
+    ]
+  },
+  {
+    "manufacturer": "LG Electronics Japan",
+    "categories": ["冷蔵庫", "タテ型洗濯機", "Styler", "乾燥機"],
+    "status": "adapter_required",
+    "source_type": "dynamic_official_help_library",
+    "reason": "公式Help Libraryにエラーコード一覧があるが動的コンテンツ。埋め込みJSON/HTML構造を読む専用Adapterが必要。",
+    "sources": [
+      "https://www.lg.com/jp/support/product-support/troubleshoot/help-library/cs-CT52000177-20155159424655/",
+      "https://www.lg.com/jp/support/product-support/troubleshoot/help-library/cs-CT52000177-20154403809000/",
+      "https://www.lg.com/jp/support/product-support/troubleshoot/help-library/cs-CT32004781-20151952474796/",
+      "https://www.lg.com/jp/support/product-support/troubleshoot/help-library/cs-CT30002200-20154710777937/"
+    ]
+  },
+  {
+    "manufacturer": "Dyson",
+    "categories": ["コードレス掃除機", "空気清浄機・ファンヒーター"],
+    "status": "adapter_required",
+    "source_type": "model_scoped_interactive_troubleshooting",
+    "reason": "同じEコードでも製品ごとの診断フローが異なるため、製品型番をscopeとして保持する専用Adapterが必要。",
+    "sources": [
+      "https://www.dyson.co.jp/support/journey/troubleshooting/492600-01/200-385030",
+      "https://www.dyson.co.jp/support/journey/troubleshooting/300113-01",
+      "https://www.dyson.co.jp/support/air-treatment/purifiers",
+      "https://www.dyson.co.jp/support/vacuum-cleaners"
+    ]
+  },
+  {
+    "manufacturer": "象印マホービン",
+    "categories": [
+      "圧力IH炊飯ジャー", "IH炊飯ジャー", "マイコン炊飯ジャー", "メカ式炊飯ジャー",
+      "電気ポット", "電気ケトル", "オーブンレンジ", "オーブントースター", "ホームベーカリー",
+      "ホットプレート", "コーヒーメーカー", "電気調理鍋", "加湿器", "空気清浄機", "ふとん乾燥機"
+    ],
+    "status": "pdf_manual_adapter_required",
+    "source_type": "official_manual_catalog",
+    "reason": "公式取扱説明書カタログは大規模だが、エラー表は主にPDF本文内。PDF表抽出と型番継承が必要。",
+    "sources": [
+      "https://www.zojirushi.co.jp/toiawase/manual/",
+      "https://www.zojirushi.co.jp/toiawase/manual/rice/"
+    ]
+  },
+  {
+    "manufacturer": "iRobot Japan",
+    "categories": ["ロボット掃除機ルンバ", "床拭きロボットブラーバ"],
+    "status": "pdf_manual_adapter_required",
+    "source_type": "official_manual_catalog",
+    "reason": "シリーズ別取扱説明書にエラーメッセージ表があり、シリーズごとにコードの意味を保持する必要がある。",
+    "sources": [
+      "https://store.irobot-jp.com/ext/manu-als.html",
+      "https://store.irobot-jp.com/client_info/FS/html/r624_manual.pdf"
+    ]
+  },
+  {
+    "manufacturer": "東芝ライフスタイル",
+    "categories": [
+      "冷蔵庫", "電子レンジ・オーブンレンジ", "ジャー炊飯器", "IH調理器", "電気圧力鍋",
+      "食器洗い乾燥機", "洗濯機・洗濯乾燥機", "衣類乾燥機", "エアコン", "加湿器"
+    ],
+    "status": "discovery_and_adapter_required",
+    "source_type": "official_faq_and_manuals",
+    "reason": "公式サポートカテゴリは確認済み。洗濯機の一部コードは既存ソースあり。他カテゴリはコード別FAQ/取説の探索とscope整理が必要。",
+    "sources": [
+      "https://www.toshiba-lifestyle.com/jp/support/",
+      "https://www.toshiba-lifestyle.com/jp/support/faq-products/",
+      "https://www.toshiba-lifestyle.com/jp/info/2017/04/11/370/"
+    ]
+  },
+  {
+    "manufacturer": "三菱電機",
+    "categories": ["エコキュート", "電気温水器", "ルームエアコン", "冷蔵庫", "IHクッキングヒーター"],
+    "status": "adapter_required",
+    "source_type": "official_faq_and_inspection_code_search",
+    "reason": "一般向けFAQと点検コード検索が混在。業者向け範囲を除外しつつ一般向け情報だけを抽出するAdapterが必要。",
+    "sources": [
+      "https://faq01.mitsubishielectric.co.jp/faq/show/6575",
+      "https://faq01.mitsubishielectric.co.jp/category/show/294?site_domain=default",
+      "https://www.mitsubishielectric.co.jp/ldg/wink/tc/tc_top.do"
+    ]
+  },
+  {
+    "manufacturer": "ダイキン",
+    "categories": ["エコキュート", "業務用・設備用エアコン", "スポットエアコン"],
+    "status": "adapter_required",
+    "source_type": "official_interactive_error_search",
+    "reason": "公式エラーコード検索が製品選択式。公開画面の内部リクエストまたはフォーム応答を製品scope付きで取得するAdapterが必要。",
+    "sources": ["https://www.etrade.svc.daikin.co.jp/errorcode/index.php"]
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "categories": ["ルームエアコン"],
+    "status": "adapter_required",
+    "source_type": "official_self_diagnosis",
+    "reason": "ランプ点滅/機種別診断が主体。アプリコードとは別に本体診断scopeが必要。",
+    "sources": ["https://www.fujitsu-general.com/jp/support/faq/as/0084/diagnosis.html"]
+  },
+  {
+    "manufacturer": "LIXIL",
+    "categories": ["シャワートイレ", "住宅設備"],
+    "status": "discovery_required",
+    "source_type": "official_faq",
+    "reason": "公式FAQは確認済みだが、数値/英数字のエラーコード一覧としてまとまるカテゴリを追加探索する必要がある。",
+    "sources": ["https://faq.lixil.co.jp/"]
+  },
+  {
+    "manufacturer": "タカギ",
+    "categories": ["浄水器・水栓"],
+    "status": "restricted_or_manual",
+    "source_type": "official_manuals_and_business_downloads",
+    "reason": "消費者FAQより取説/法人資料中心。消費者向けエラーコード表が確認できる製品のみPDF/manual Adapter対象にする。",
+    "sources": ["https://purifier.takagi.co.jp/user/faq/category/18"]
+  },
+  {
+    "manufacturer": "パロマ",
+    "categories": ["給湯器", "ガス機器"],
+    "status": "restricted",
+    "source_type": "business_login",
+    "reason": "エラーコード情報の主要導線が業者向けログイン領域のため自動収集対象外。",
+    "sources": ["https://www.paloma.co.jp/business/hotnavi/index.html"]
+  }
+]
