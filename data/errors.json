@@ -199,6 +199,442 @@
     "scope": "ドラム式"
   },
   {
+    "manufacturer": "シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "C2",
+    "summary": "洗濯槽の水位を測るセンサーで異常を検知した場合、エラー表示します。",
+    "actions": [
+      "本体の電源プラグをコンセントから抜きます。",
+      "電源プラグを抜いてから約1分後、再び電源プラグをコンセントに接続します。",
+      "本体の電源「入」ボタンを押して本体の電源を入れます。",
+      "電源「入」の後、「C2」エラー表示にならない事を確認します。"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_14.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "C5",
+    "summary": "脱水時に洗濯・脱水槽の回転を検知するセンサーで異常を検知すると運転が止まり、エラー表示します。",
+    "actions": [
+      "本体の電源プラグをコンセントから抜きます。",
+      "電源プラグを抜いてから約1分後、再び電源プラグをコンセントに接続します。",
+      "本体の電源「入」ボタンを押して本体の電源を入れます。"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_15.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "code": "E2",
+    "summary": "E2表示で止まる場合、以下の状況が考えられます。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_7.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "タテ型"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C01",
+    "summary": "運転中に電気回路の異常を検知すると「C01」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-1.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C02",
+    "summary": "運転中に水位センサーが異常を検知すると「C02」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-2.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C04",
+    "summary": "運転中に水量の異常を検知すると「C04」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-3.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C10",
+    "summary": "乾燥運転中に温度センサーの異常を検知すると「C10」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-4.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C11",
+    "summary": "乾燥運転中に温度センサーの異常を検知すると「C11」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-5.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C12",
+    "summary": "乾燥運転中に温度センサーの異常を検知すると「C12」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-6.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C13",
+    "summary": "運転中に電気回路基板の異常を検知すると「C13」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-7.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C14",
+    "summary": "運転中にドラム回転の異常を検知すると「C14」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-8.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C20",
+    "summary": "運転中に泡センサーの異常を検知すると「C20」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-9.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C24",
+    "summary": "運転中に加速度センサーの異常を検知すると「C24」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-10.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C29",
+    "summary": "運転中に湿度センサーの異常を検知すると「C29」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-12.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C32",
+    "summary": "運転中に電気回路の異常を検知すると「C32」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-13.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C33",
+    "summary": "ヒートポンプユニット内の排水異常を検知すると「C33」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-14.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C34",
+    "summary": "ヒートポンプユニット内のセンサーに異常を検知すると「C34」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-15.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C35",
+    "summary": "ヒートポンプユニット内のセンサーに異常を検知すると「C35」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-16.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C36",
+    "summary": "ヒートポンプユニット内のセンサーに異常を検知すると「C36」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-17.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C37",
+    "summary": "ヒートポンプユニット内のセンサーに異常を検知すると「C37」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-18.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C40",
+    "summary": "ヒートポンプユニットの異常を検知すると「C40」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-19.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C41",
+    "summary": "ヒートポンプユニットの異常を検知すると「C41」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-20.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C43",
+    "summary": "ヒートポンプユニットの異常を検知すると「C43」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-21.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "C44",
+    "summary": "ヒートポンプユニットの異常を検知すると「C44」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-22.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "E01",
+    "summary": "洗いやすすぎ運転の前に給水を行いますが、給水を開始して運転開始の時間までに設定された水量の水がたまらないと給水の異常としてエラー番号「E01」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17-1.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "E03",
+    "summary": "洗いやすすぎ運転が終わると洗浄水の排水を行いますが、脱水運転の開始時間までに排水が終わらないと排水の異常としてエラー番号「E03」を表示します。",
+    "actions": [
+      "糸くずフィルターお手入れ方法は、こちら 糸くずフィルターをお手入れ後、本体にしっかり取り付けてください。",
+      "※ 糸くずフィルターの取り付けがゆるいと、本体にすき間が生じて水漏れの原因になります。",
+      "※ 本体の電源を切ってしまった場合は、電源を入れて「脱水」運転だけの設定を行い、「スタート」を押して動作を確認してください。"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17-2.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "E17",
+    "summary": "運転中にモーターの異常を検知すると「E17」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_16.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "E19",
+    "summary": "洗剤を入れすぎた時や排水状況が悪い場合など、本体内部で発生した泡によりドラム(モーター)が正しく回転できないときに「E19」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17-8.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "E39",
+    "summary": "運転中にヒートポンプユニットの異常を検知すると「E39」を表示します。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-10-4.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "U05",
+    "summary": "洗濯~乾燥運転、または乾燥運転スタート後、洗濯物を計量する際に洗濯物の量(重さ)がコースの上限よりも多いと「U05」を表示することがあります。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17-12.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "U07",
+    "summary": "エラーやお知らせ表示が出る|ドラム式洗濯乾燥機|故障診断ナビ:シャープ U07エラーが表示される 電源「切」ボタンを押したあと、すぐに「入」ボタンを何度も押したり長めに押したままになったときに、表示されるエラーです。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10_04ro.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "U08",
+    "summary": "※ U08を表示した場合、予約待機状態にならずに、すぐに運転を開始し、そのまま進行しますが故障ではございません。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v510/v_diag10_21ro.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "code": "UF",
+    "summary": "エラーやお知らせ表示が出る|ドラム式洗濯乾燥機|故障診断ナビ:シャープ UFエラーが表示される 糸くずフィルターに糸くずなどがたまっているときに表示されるエラーです。",
+    "actions": [
+      "メーカー公式の故障診断ナビで対象機種の確認事項を確認する"
+    ],
+    "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10_02.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official",
+    "scope": "ドラム式"
+  },
+  {
     "manufacturer": "ダイキン",
     "appliance": "ルームエアコン",
     "code": "A0",
@@ -1063,6 +1499,2738 @@
     "verified": "2026-09-01",
     "verification_method": "automatic_strict_official",
     "scope": "ドラム式"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0030",
+    "summary": "システム設定の変更の許可が無効となっています。 ※ モバイル端末がAndroid10以降の場合に発生します。",
+    "actions": [
+      "Android (バージョン 13) ※ 上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0100",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0105",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0200",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0201",
+    "summary": "リモコン以外でエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0202",
+    "summary": "リモコンからエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0203",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0204",
+    "summary": "エアコンでエラーが発生しています。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0205",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0206",
+    "summary": "操作モードがECHONET Liteに設定されているため、ノクリアアプリからエアコンを操作できません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0207",
+    "summary": "操作モードがECHONET Liteに設定されているため、ノクリアアプリからエアコンを操作できません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0300",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0301",
+    "summary": "リモコン以外でエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0302",
+    "summary": "リモコンからエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0303",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0304",
+    "summary": "エアコンでエラーが発生しています。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0305",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0306",
+    "summary": "操作モードがECHONET Liteに設定されているため、ノクリアアプリからエアコンを操作できません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0400",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0401",
+    "summary": "温度設定の読み込みに失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0402",
+    "summary": "リモコンからエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0403",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0404",
+    "summary": "エアコンでエラーが発生しています。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0405",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0406",
+    "summary": "リモコン以外でエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0407",
+    "summary": "操作モードがECHONET Liteに設定されているため、ノクリアアプリからエアコンを操作できません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0500",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0501",
+    "summary": "リモコン以外でエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0502",
+    "summary": "リモコンからエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0503",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0504",
+    "summary": "エアコンでエラーが発生しています。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "0505",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "1500",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "1520",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2711",
+    "summary": "有効なメールアドレスではありません。",
+    "actions": [
+      "メールアドレスの形式が正しいか確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2712",
+    "summary": "有効なパスワードではありません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2713",
+    "summary": "既に登録されているメールアドレスです。",
+    "actions": [
+      "富士通ゼネラル公式のエラーコード表で確認内容を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2714",
+    "summary": "侵害されたパスワードです。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2715",
+    "summary": "パスワードの中にメールアドレスの内容が含まれています。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2900",
+    "summary": "ご利用のモバイル端末とエアコンとの通信に失敗しました。 ※ モバイル端末がAndroid10以降の場合に発生します。",
+    "actions": [
+      "モバイル端末の機内モード設定がONになっていることを確認してください。",
+      "Android (バージョン 13) モバイル端末のWi-Fi設定がONになっていることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2901",
+    "summary": "モバイル端末とエアコンとの通信に失敗しました。",
+    "actions": [
+      "モバイル端末のWi-Fi設定がONになっていることを確認してください。",
+      "iOS (バージョン 16.2) Android (バージョン 13) ※ 上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2902",
+    "summary": "モバイル端末とエアコンとの通信に失敗しました。",
+    "actions": [
+      "室内機の無線LANランプが点滅していることを確認し、モバイル端末をエアコンの前まで近づけて、”やり直す”をタップしてください。",
+      "点滅していない場合は、以下の内容を確認して再度操作してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2903",
+    "summary": "モバイル端末が、ご利用のエアコンに接続できませんでした。",
+    "actions": [
+      "室内機の無線LANランプが点滅している場合 入力したエアコンのSSID、PINが正しいか確認し、”やり直す”をタップしてください。",
+      "無線LANアダプタ―内蔵型 オプション型 室内機の無線LANランプが消灯している場合、以下を確認し、”やり直す”をタップしてください。",
+      "エアコン本体の電源プラグが差し込まれていることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2904",
+    "summary": "モバイル端末とエアコンとの通信に失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2905",
+    "summary": "モバイル端末とエアコンとの通信に失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2906",
+    "summary": "モバイル端末とエアコンとの通信に失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2907",
+    "summary": "ファームウェアの更新に失敗しました。",
+    "actions": [
+      "ファームウェア更新中はアプリ画面を閉じないでください。",
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2908",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "iOS (バージョン 16.2) Android (バージョン 13) ※ 上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2909",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2910",
+    "summary": "インターネットに接続できなかったため、登録に失敗しました。",
+    "actions": [
+      "下記の内容を確認し、”やり直す”をタップしてください。",
+      "モバイル端末とインターネットの接続確認 モバイル端末でブラウザを開いて接続していることを確認してください。",
+      "無線LANルーターとインターネットの接続確認 モバイル端末を無線LANルーターに接続した上で、ブラウザを開いてインターネットへの接続を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2911",
+    "summary": "インターネットに接続できなかったため、登録に失敗しました。",
+    "actions": [
+      "下記の内容を確認し、”やり直す”をタップしてください。",
+      "モバイル端末とインターネットの接続確認 モバイル端末でブラウザを開いて接続していることを確認してください。",
+      "無線LANルーターとインターネットの接続確認 モバイル端末を無線LANルーターに接続した上で、ブラウザを開いてインターネットへの接続を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2920",
+    "summary": "インターネットに接続できなかったため、登録に失敗しました。",
+    "actions": [
+      "下記の内容を確認し、”やり直す”をタップしてください。",
+      "モバイル端末とインターネットの接続確認 モバイル端末でブラウザを開いて接続していることを確認してください。",
+      "無線LANルーターとインターネットの接続確認 モバイル端末を無線LANルーターに接続した上で、ブラウザを開いてインターネットへの接続を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2921",
+    "summary": "登録時間が一定期間を超過してしまったため、エアコンの登録に失敗しました。",
+    "actions": [
+      "無線LANアダプターのタイプにより以下の内容を確認して再度操作してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2922",
+    "summary": "インターネットに接続できなかったため、登録に失敗しました。",
+    "actions": [
+      "下記の内容を確認し、”やり直す”をタップしてください。",
+      "モバイル端末とインターネットの接続確認 モバイル端末でブラウザを開いて接続していることを確認してください。",
+      "無線LANルーターとインターネットの接続確認 モバイル端末を無線LANルーターに接続した上で、ブラウザを開いてインターネットへの接続を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2923",
+    "summary": "エアコンとサーバー(クラウド)との通信が失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末を無線LANルーターに接続し、インターネットに接続できることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2924",
+    "summary": "登録しようとしているエアコンは既に別アカウントで登録されています。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2925",
+    "summary": "エアコンとサーバー(クラウド)との通信が失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末を無線LANルーターに接続し、インターネットに接続できることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2926",
+    "summary": "登録時間が一定期間を超過してしまったため、エアコンの登録に失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2945",
+    "summary": "モバイル端末とエアコンとの通信に失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2946",
+    "summary": "ご利用のエアコンは、スマホリモコンモードのご利用はできません。",
+    "actions": [
+      "スマホリモコンモードの対応機種については 当社HP を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2947",
+    "summary": "ノクリアアプリに登録可能なエアコン数が上限に達しています。",
+    "actions": [
+      "ノクリアアプリに登録されているエアコン数を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2953",
+    "summary": "指定したエアコンは既に登録されています。",
+    "actions": [
+      "エアコン一覧画面より該当のエアコンを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2955",
+    "summary": "QRコードの読み取りに失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2956",
+    "summary": "ノクリアアプリのバージョンが最新ではないです。",
+    "actions": [
+      "富士通ゼネラル公式のエラーコード表で確認内容を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2957",
+    "summary": "モバイル端末のOS設定でカメラ利用が無効になっています。",
+    "actions": [
+      "iOS (バージョン 16.2) Android (バージョン 13) ※ 上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2958",
+    "summary": "ネットワークの切り替えに失敗しました。",
+    "actions": [
+      "Android (バージョン 9) ※ 上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2959",
+    "summary": "ネットワークの切り替えに失敗しました。",
+    "actions": [
+      "Android (バージョン 9) ※ 上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2960",
+    "summary": "エアコン情報の取得に失敗しました。",
+    "actions": [
+      "富士通ゼネラル公式のエラーコード表で確認内容を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2961",
+    "summary": "エアコン情報の取得に失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2962",
+    "summary": "モバイル端末とエアコンとの通信に失敗しました。",
+    "actions": [
+      "室内機の無線LANランプが点滅していることを確認し、モバイル端末をエアコンの前まで近づけて、”やり直す”をタップしてください。",
+      "点滅していない場合は、以下の内容を確認して再度操作してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2963",
+    "summary": "内蔵タイプの無線LANアダプターを選択されましたが、読み取ったQRが外付けタイプのものでした。",
+    "actions": [
+      "外付けタイプのQRコードを読み取る場合は外付けタイプを選択し、操作をやり直してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2964",
+    "summary": "外付けタイプの無線LANアダプターを選択されましたが、読み取ったQRが内蔵タイプのものでした。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2965",
+    "summary": "ご利用の無線LANアダプターはスマホリモコンモードに対応しておりません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2966",
+    "summary": "サーバー(クラウド)との通信に失敗しました。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2967",
+    "summary": "入力した郵便番号が正しくありません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2980",
+    "summary": "モバイル端末とエアコンとの通信に失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "2981",
+    "summary": "モバイル端末とエアコンとの通信に失敗しました。",
+    "actions": [
+      "室内機の無線LANランプが点滅していることを確認し、モバイル端末をエアコンの前まで近づけて、”やり直す”をタップしてください。",
+      "点滅していない場合は、以下の内容を確認して再度操作してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "4111",
+    "summary": "エアコン情報取得に失敗しました。",
+    "actions": [
+      "モバイル端末でブラウザを開き、インターネットに接続されていることを確認して再度操作してください。",
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "4114",
+    "summary": "現在、サインインしているアカウントのパスワードが変更、またはアカウントが削除されました。",
+    "actions": [
+      "富士通ゼネラル公式のエラーコード表で確認内容を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "4115",
+    "summary": "パスワードを連続して間違えたため、アカウントはロックされました。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "4116",
+    "summary": "サーバー(クラウド)との通信に失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "4117",
+    "summary": "アカウント登録が完了しておらず、サインインに失敗しました。",
+    "actions": [
+      "アカウント作成の確認メールのリンクをタップして、登録プロセスが完了できていることを確認してください。",
+      "メール内のリンク先でエラーが表示された、または確認メールが見つからない場合は、トップ画面の\"確認メールが届かない方はこちら\"より再送の操作をしてください。",
+      "確認メールが届かない場合、以下の点を確認してください。",
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "4118",
+    "summary": "セッションが有効期限切れとなりました。(有効期間:30日)",
+    "actions": [
+      "富士通ゼネラル公式のエラーコード表で確認内容を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "4120",
+    "summary": "サーバー(クラウド)との通信に失敗しました。",
+    "actions": [
+      "モバイル端末がインターネットに接続されているか確認し、再度操作してください。",
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "4121",
+    "summary": "サーバー(クラウド)との通信に失敗しました。",
+    "actions": [
+      "モバイル端末がインターネットに接続されているか確認し、再度操作してください。",
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "4122",
+    "summary": "サーバー(クラウド)との通信に失敗しました。",
+    "actions": [
+      "モバイル端末がインターネットに接続されているか確認し、”はい”をタップしてください。",
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "4123",
+    "summary": "サーバー(クラウド)との通信に失敗しました。",
+    "actions": [
+      "モバイル端末がインターネットに接続されているか確認し、”はい”をタップしてください。",
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "4130",
+    "summary": "クラウドサービス停止中によりサインアウトされます。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "4511",
+    "summary": "有効なパスワードではありません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "4512",
+    "summary": "侵害されたパスワードです。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "4513",
+    "summary": "パスワードの中にメールアドレスの内容が含まれています。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "4530",
+    "summary": "入力したパスワードが正しくないため、パスワード更新に失敗しました。",
+    "actions": [
+      "入力した”現在のパスワード”が正しいことを確認し、再度操作してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5500",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5512",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5531",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5532",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5533",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5540",
+    "summary": "ファームウェアの更新に失敗しました。",
+    "actions": [
+      "ファームウェア更新中はアプリ画面を閉じないでください。",
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5601",
+    "summary": "エアコン情報取得に失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5602",
+    "summary": "エアコンの追加に失敗しました。",
+    "actions": [
+      "QRコードラベルを使用していない場合は、入力したSSID、PINが正しいことを確認してください。",
+      "無線LANアダプタ―内蔵型 オプション型 ※ 上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5603",
+    "summary": "ご利用のモバイル端末とエアコンとの通信に失敗しました。 ※ モバイル端末がAndroid10以降の場合に発生します。",
+    "actions": [
+      "モバイル端末の機内モード設定がONになっていることを確認してください。",
+      "Android (バージョン 13) モバイル端末のWi-Fi設定がONになっていることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5604",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "モバイル端末のWi-Fi設定がONになっていることを確認し、再度操作してください。",
+      "iOS (バージョン 16.2) Android (バージョン 13) ※ 上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5606",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "iOS (バージョン 16.2) Android (バージョン 13) ※ 上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5609",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5631",
+    "summary": "ネットワークの切り替えに失敗しました。",
+    "actions": [
+      "Android (バージョン 9) ※ 上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5831",
+    "summary": "入力した郵便番号が正しくありません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5900",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5901",
+    "summary": "リモコン以外でエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5902",
+    "summary": "リモコンからエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5903",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5904",
+    "summary": "エアコンでエラーが発生しています。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5905",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "5906",
+    "summary": "操作モードがECHONET Liteに設定されているため、ノクリアアプリからエアコンを操作できません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6320",
+    "summary": "登録可能な操作ユーザー数が上限に達しています。",
+    "actions": [
+      "登録されている操作ユーザー数を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6400",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6401",
+    "summary": "リモコン以外でエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6402",
+    "summary": "リモコンからエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6403",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6404",
+    "summary": "エアコンでエラーが発生しています。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6405",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6500",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6501",
+    "summary": "リモコン以外でエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6502",
+    "summary": "リモコンからエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6503",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6504",
+    "summary": "エアコンでエラーが発生しています。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6505",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6506",
+    "summary": "操作モードがECHONET Liteに設定されているため、ノクリアアプリからエアコンを操作できません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6800",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6801",
+    "summary": "リモコン以外でエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6802",
+    "summary": "リモコンからエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6803",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6804",
+    "summary": "エアコンでエラーが発生しています。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6805",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "6806",
+    "summary": "操作モードがECHONET Liteに設定されているため、ノクリアアプリからエアコンを操作できません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7000",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7001",
+    "summary": "リモコン以外でエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7002",
+    "summary": "リモコンからエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7003",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7004",
+    "summary": "エアコンでエラーが発生しています。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7005",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7006",
+    "summary": "操作モードがECHONET Liteに設定されているため、ノクリアアプリからエアコンを操作できません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7300",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7305",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7500",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7501",
+    "summary": "リモコン以外でエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7502",
+    "summary": "リモコンからエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7503",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7504",
+    "summary": "エアコンでエラーが発生しています。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7505",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7600",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7601",
+    "summary": "リモコン以外でエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7602",
+    "summary": "リモコンからエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7603",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7604",
+    "summary": "エアコンでエラーが発生しています。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7605",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7606",
+    "summary": "操作モードがECHONET Liteに設定されているため、ノクリアアプリからエアコンを操作できません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7630",
+    "summary": "同じ時刻で登録済みのマルチタイマー予約があります。",
+    "actions": [
+      "登録済みのマルチタイマー予約を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7700",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7701",
+    "summary": "リモコン以外でエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7702",
+    "summary": "リモコンからエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7703",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7704",
+    "summary": "エアコンでエラーが発生しています。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7705",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7706",
+    "summary": "操作モードがECHONET Liteに設定されているため、ノクリアアプリからエアコンを操作できません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7920",
+    "summary": "入力されたどこでもエアコンのアカウントのメールアドレスまたはパスワードが誤っています。",
+    "actions": [
+      "入力したメールアドレスとパスワードが正しいかを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7921",
+    "summary": "入力されたどこでもエアコンのアカウントは既に別のノクリアアプリのアカウントによって切り替えが完了しています。",
+    "actions": [
+      "富士通ゼネラル公式のエラーコード表で確認内容を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7922",
+    "summary": "現在ログインしているノクリアアプリアカウントではすでに切り替えが完了しています。",
+    "actions": [
+      "ノクリアアプリのエアコン一覧画面に対象のエアコンが存在するか確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7923",
+    "summary": "切り替え後のデバイス数が10台を超えるため切り替えに失敗しました。(エアコン登録可能台数:1アカウント最大10台まで)",
+    "actions": [
+      "富士通ゼネラル公式のエラーコード表で確認内容を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7924",
+    "summary": "どこでもエアコンのアカウントのパスワードを5回連続して間違えたため、あなたのアカウントはロックされました。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "7930",
+    "summary": "入力した郵便番号が正しくありません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8000",
+    "summary": "ご利用のモバイル端末とエアコンとの通信に失敗しました。 ※ モバイル端末がAndroid10以降の場合に発生します。",
+    "actions": [
+      "モバイル端末の機内モード設定がONになっていることを確認してください。",
+      "Android (バージョン 13) モバイル端末のWi-Fi設定がONになっていることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8001",
+    "summary": "モバイル端末とエアコンとの通信に失敗しました。",
+    "actions": [
+      "モバイル端末のWi-Fi設定がONになっていることを確認してください。",
+      "iOS (バージョン 16.2) Android (バージョン 13) ※ 上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8002",
+    "summary": "モバイル端末とエアコンとの通信に失敗しました。",
+    "actions": [
+      "室内機の無線LANランプが点滅していることを確認し、モバイル端末をエアコンの前まで近づけて、”やり直す”をタップしてください。",
+      "点滅していない場合は、以下の内容を確認して再度操作してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8003",
+    "summary": "モバイル端末が、ご利用のエアコンに接続できませんでした。",
+    "actions": [
+      "室内機の無線LANランプが点滅している場合 入力したエアコンのSSID、PINが正しいか確認し、”やり直す”をタップしてください。",
+      "無線LANアダプタ―内蔵型 オプション型 室内機の無線LANランプが消灯している場合、以下を確認し、”やり直す”をタップしてください。",
+      "エアコン本体の電源プラグが差し込まれていることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8004",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8005",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8006",
+    "summary": "エアコンと無線LANルーターの通信が失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8007",
+    "summary": "エアコンと無線LANルーターの通信が失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8008",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "iOS (バージョン 16.2) Android (バージョン 13) ※ 上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8009",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8030",
+    "summary": "QRコードの読み取りに失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8031",
+    "summary": "読み取ったQRコードが違います。",
+    "actions": [
+      "以下の内容をご確認の上、再操作してください。",
+      "無線LANアダプタ―内蔵型 オプション型 ※ 上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8032",
+    "summary": "ネットワークの切り替えに失敗しました。",
+    "actions": [
+      "Android (バージョン 9) ※ 上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8033",
+    "summary": "モバイル端末のOS設定でカメラ利用が無効になっています。",
+    "actions": [
+      "iOS (バージョン 16.2) Android (バージョン 13) ※ 上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8035",
+    "summary": "モバイル端末とエアコンとの通信に失敗しました。",
+    "actions": [
+      "室内機の無線LANランプが点滅していることを確認し、モバイル端末をエアコンの前まで近づけて、”やり直す”をタップしてください。",
+      "点滅していない場合は、以下の内容を確認して再度操作してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8050",
+    "summary": "リモコンから無線LAN設定が初期化されました。",
+    "actions": [
+      "富士通ゼネラル公式のエラーコード表で確認内容を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8080",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8081",
+    "summary": "モバイル端末とエアコンとの通信に失敗しました。",
+    "actions": [
+      "室内機の無線LANランプが点滅していることを確認し、モバイル端末をエアコンの前まで近づけて、”やり直す”をタップしてください。",
+      "点滅していない場合は、以下の内容を確認して再度操作してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8110",
+    "summary": "インターネットに接続できなかったため、登録に失敗しました。",
+    "actions": [
+      "下記の内容を確認し、”やり直す”をタップしてください。",
+      "モバイル端末とインターネットの接続確認 モバイル端末でブラウザを開いて接続していることを確認してください。",
+      "無線LANルーターとインターネットの接続確認 モバイル端末を無線LANルーターに接続した上で、ブラウザを開いてインターネットへの接続を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8120",
+    "summary": "インターネットに接続できなかったため、登録に失敗しました。",
+    "actions": [
+      "下記の内容を確認し、”やり直す”をタップしてください。",
+      "モバイル端末とインターネットの接続確認 モバイル端末でブラウザを開いて接続していることを確認してください。",
+      "無線LANルーターとインターネットの接続確認 モバイル端末を無線LANルーターに接続した上で、ブラウザを開いてインターネットへの接続を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8121",
+    "summary": "登録時間が一定期間を超過してしまったため、エアコンの登録に失敗しました。",
+    "actions": [
+      "無線LANアダプターのタイプにより以下の内容を確認して再度操作してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8122",
+    "summary": "エアコンとサーバー(クラウド)との通信が失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末を無線LANルーターに接続し、インターネットに接続できることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8123",
+    "summary": "登録しようとしているエアコンは既にあるアカウントでクラウドモードにて登録されています。",
+    "actions": [
+      "当該アカウントでクラウドモードに切り替えて、エアコン一覧に表示されることを確認してください。",
+      "でエアコン一覧に表示されない場合、別アカウントで既にエアコン登録されているかを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8130",
+    "summary": "ネットワークの切り替えに失敗しました。",
+    "actions": [
+      "Android (バージョン 9) ※ 上記確認後、解決しない場合は当社のコールセンターへお問い合わせください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8131",
+    "summary": "サーバー(クラウド)との通信に失敗しました。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8132",
+    "summary": "入力した郵便番号が正しくありません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8200",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8205",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8300",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8301",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8302",
+    "summary": "リモコン以外でエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8303",
+    "summary": "リモコンからエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8304",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8305",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8306",
+    "summary": "操作モードがECHONET Liteに設定されているため、ノクリアアプリからエアコンを操作できません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8307",
+    "summary": "操作モードがECHONET Liteに設定されているため、ノクリアアプリからエアコンを操作できません。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8308",
+    "summary": "セッションが有効期限切れとなりました。(有効期間:30日)",
+    "actions": [
+      "富士通ゼネラル公式のエラーコード表で確認内容を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8400",
+    "summary": "エアコンとの通信に失敗しました。",
+    "actions": [
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は2-1、外付けタイプの場合は2-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。",
+      "無線LANランプ 点灯している場合 モバイル端末がインターネットに接続していることを確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8401",
+    "summary": "リモコン以外でエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8402",
+    "summary": "リモコンからエアコンを操作中です。",
+    "actions": [
+      "メーカー公式の案内で対象機種と対処方法を確認する"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8403",
+    "summary": "エアコンのファームウェア更新中です。",
+    "actions": [
+      "ファームウェア更新中かはアプリをクラウドモードにし、エアコン一覧画面で確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8404",
+    "summary": "エアコンでエラーが発生しています。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "code": "8405",
+    "summary": "エアコンがエラー、オフライン、ファームウェア更新中、または室内機の通信異常のため、通信に失敗しました。",
+    "actions": [
+      "エアコンの取扱説明書をご参照の上、室内機のランプ状態より対処法を確認してください。",
+      "無線LANアダプターが内蔵タイプまたはオプションタイプの場合は3-1、外付けタイプの場合は3-2を確認してください。",
+      "室内機の無線LANランプの状態により以下の内容を確認して再度操作してください。",
+      "詳細は取扱説明書を確認してください。"
+    ],
+    "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "verified": "2026-09-01",
+    "verification_method": "automatic_strict_official"
   },
   {
     "manufacturer": "日立",

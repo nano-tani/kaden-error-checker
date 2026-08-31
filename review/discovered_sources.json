@@ -360,6 +360,969 @@
     "collector": "dedicated"
   },
   {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 14,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10_02.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10_04ro.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10_05ro.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10_06.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10_07.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10_08.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10_09.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10_10.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10_11.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10_12.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10_13.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10_14.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10_15ro.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi/hg_diag10_16.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_14.html",
+    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_15.html",
+    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_6.html",
+    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_7.html",
+    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_8.html",
+    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_9.html",
+    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_07.html",
+    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 6,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17-1.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17-10.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17-11.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17-12.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17-13ro.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17-14.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17-2.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17-3.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17-4.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17-5.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17-8.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17-9.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_s/diag17.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 12,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v510/v_diag10.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 14,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v510/v_diag10_02.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v510/v_diag10_03.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v510/v_diag10_04ro.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v510/v_diag10_05.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v510/v_diag10_06.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v510/v_diag10_07.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v510/v_diag10_08.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v510/v_diag10_09.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v510/v_diag10_11.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v510/v_diag10_12.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v510/v_diag10_13.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v510/v_diag10_14.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v510/v_diag10_15.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v510/v_diag10_21ro.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/diag_error.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 16,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_07.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_08.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_09ro.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_10ro.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_11.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_12.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_13.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_14.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_15.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_16.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_17.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_18.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_19.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_20.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_21.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_v520/v_diag10_25.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_w/diag17.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 33,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-1.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-10-1.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-10-4.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-10-5.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-10-6ro.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-1.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-10.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-11.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-12.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-13.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-14.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-15.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-16.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-17.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-18.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-19.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-2.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-20.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-21.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-22.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-3.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-4.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-5.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-6.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-7.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-8.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-11-9.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-12ro.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-13ro.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-14.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-2.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-3.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-4.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-5.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-6.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-7.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-8.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17-9.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated-extra"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ドラム式洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_z100/diag17.html",
+    "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 38,
+    "collector": "dedicated-extra"
+  },
+  {
     "manufacturer": "ダイキン",
     "appliance": "ルームエアコン",
     "url": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
@@ -601,6 +1564,16 @@
     "status": "ok",
     "candidate_count": 73,
     "collector": "generic"
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "url": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "title": "ノクリアアプリ エラーコード表 サポート & ダウンロード - ゼネラル JP",
+    "status": "ok",
+    "candidate_count": 245,
+    "collector": "dedicated-extra",
+    "structured_groups": 72
   },
   {
     "manufacturer": "日立",
