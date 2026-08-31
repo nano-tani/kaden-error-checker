@@ -31,9 +31,10 @@ def first_sentence(value, limit=220):
 
 def detail_for(code, links, base_url):
     target = normalize_code(code)
+    token_re = re.compile(rf"(?<![A-Z0-9]){re.escape(target)}(?![A-Z0-9])", re.IGNORECASE)
     for href, anchor in links or []:
-        anchor_n = normalize_code(anchor)
-        if not (target and target in anchor_n):
+        anchor_n = normalize(anchor).upper()
+        if not (target and token_re.search(anchor_n)):
             continue
         href = str(href or "").strip()
         if href.lower().startswith("javascript:"):
@@ -117,18 +118,25 @@ def extract_daikin(manufacturer, appliance, text, title, source_url, parts, link
     return result
 
 
+def hitachi_codes(raw):
+    codes = []
+    for token in re.split(r"[/・,\s]+", normalize(raw)):
+        code = normalize_code(token)
+        if re.fullmatch(r"[CD][A-Z0-9]{0,3}", code):
+            codes.append(code)
+    return list(dict.fromkeys(codes))
+
+
 def extract_hitachi(manufacturer, appliance, text, title, source_url, parts, links):
     text = clean(text)
-    entry_re = re.compile(r"「([^」]{1,30})」\s*（([^）]{1,100})）")
+    title_n = clean(title)
+    # NFKC normalization turns Japanese full-width parentheses into ASCII ().
+    entry_re = re.compile(r"「([^」]{1,30})」\s*\(([^)]{1,100})\)")
     result = []
     seen = set()
+
     for match in entry_re.finditer(text):
-        raw_codes = re.split(r"[／/・,\s]+", normalize(match.group(1)))
-        codes = []
-        for raw in raw_codes:
-            code = normalize_code(raw)
-            if re.fullmatch(r"[CD][A-Z0-9]{1,3}", code):
-                codes.append(code)
+        codes = hitachi_codes(match.group(1))
         if not codes:
             continue
         primary = codes[0]
@@ -136,7 +144,7 @@ def extract_hitachi(manufacturer, appliance, text, title, source_url, parts, lin
             continue
         seen.add(primary)
         label = clean(match.group(2))
-        tail = clean(text[match.end(): match.end() + 220])
+        tail = clean(text[match.end(): match.end() + 260])
         evidence = clean(f"{match.group(0)} {tail}")
         detail_url = detail_for(primary, links, source_url)
         if not detail_url:
@@ -159,6 +167,34 @@ def extract_hitachi(manufacturer, appliance, text, title, source_url, parts, lin
                 summary_hint=label if label else first_sentence(tail),
             )
         )
+
+    # Individual FAQ pages often put the error code in the title instead of the
+    # same list-style label used by the index page.
+    if not result:
+        quoted = re.findall(r"「([^」]{1,30})」", title_n)
+        title_codes = []
+        for raw in quoted:
+            title_codes.extend(hitachi_codes(raw))
+        title_codes = list(dict.fromkeys(title_codes))
+        if title_codes:
+            primary = title_codes[0]
+            evidence = clean(text[:700])
+            result.append(
+                make_item(
+                    manufacturer,
+                    appliance,
+                    primary,
+                    source_url,
+                    title,
+                    evidence,
+                    "dedicated:hitachi",
+                    confidence="high",
+                    aliases=title_codes[1:],
+                    detail_url=source_url,
+                    summary_hint=first_sentence(title_n),
+                )
+            )
+
     return result
 
 
