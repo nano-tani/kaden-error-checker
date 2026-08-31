@@ -22,6 +22,7 @@ core.DEDICATED.update({
     "dedicated:chofu",
     "dedicated:misc-official",
     "dedicated:iris-siroca",
+    "dedicated:eufy-delonghi",
 })
 
 
@@ -47,6 +48,8 @@ def combined_rules() -> dict[tuple[str, str], list[str]]:
     rules[("タイガー魔法瓶", "*")] = ["support.tiger-corporation.com"]
     rules[("アイリスオーヤマ", "*")] = ["www.irisohyama.co.jp", "irisohyama.co.jp"]
     rules[("シロカ", "*")] = ["www.siroca.co.jp", "siroca.co.jp"]
+    rules[("Anker/Eufy", "*")] = ["www.ankerjapan.com", "ankerjapan.com"]
+    rules[("デロンギ", "*")] = ["www.delonghi.com", "delonghi.com"]
     return rules
 
 
