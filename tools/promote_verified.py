@@ -18,6 +18,9 @@ REPORT = ROOT / "review" / "promotion-report.json"
 
 JST = timezone(timedelta(hours=9))
 AUTO_PROMOTE_LIMIT = int(os.environ.get("AUTO_PROMOTE_LIMIT", "10000"))
+MIN_CANDIDATES_FOR_REBUILD = int(os.environ.get("MIN_CANDIDATES_FOR_REBUILD", "300"))
+MIN_DEDICATED_FOR_REBUILD = int(os.environ.get("MIN_DEDICATED_FOR_REBUILD", "180"))
+AUTO_METHOD = "automatic_strict_official"
 DEDICATED = {
     "dedicated:daikin",
     "dedicated:hitachi",
@@ -67,8 +70,22 @@ def sentence_chunks(value: str) -> list[str]:
     text = clean(value)
     if not text:
         return []
-    chunks = re.split(r"(?<=[。！？!?])\s*|[●■◆]\s*", text)
-    return [clean(x).strip("・") for x in chunks if clean(x).strip("・")]
+    raw = [clean(x).strip("・") for x in re.split(r"(?<=[。！？!?])\s*|[●■◆]\s*", text)]
+    raw = [x for x in raw if x]
+    merged: list[str] = []
+    buffer = ""
+    for chunk in raw:
+        if buffer:
+            buffer = clean(f"{buffer} {chunk}")
+        else:
+            buffer = chunk
+        if buffer.count("(") > buffer.count(")"):
+            continue
+        merged.append(buffer)
+        buffer = ""
+    if buffer:
+        merged.append(buffer)
+    return merged
 
 
 def daikin_summary(item: dict) -> str:
@@ -79,8 +96,6 @@ def daikin_summary(item: dict) -> str:
     text = clean(match.group(1))
     if "エラーが確定していない" in text or "正しく診断できません" in text:
         return ""
-    # The first sentence is often only "室内機のエラーです。"; preserve the
-    # following concrete cause instead of publishing a thin generic sentence.
     text = re.sub(r"^(?:室内機|室外機)のエラーです[。.]\s*", "", text)
     chunks = sentence_chunks(text)
     summary = " ".join(chunks[:2]) if chunks else text
@@ -129,10 +144,18 @@ def choose_summary(group: list[dict]) -> str:
         return daikin_summary(group[0])
     if method == "dedicated:hitachi":
         return hitachi_summary(group)
-
     candidates = [generic_dedicated_summary(x) for x in group]
     candidates = [x for x in candidates if x]
     return min(candidates, key=len) if candidates else ""
+
+
+def item_summary(item: dict) -> str:
+    method = clean(item.get("extraction_method"))
+    if method == "dedicated:daikin":
+        return daikin_summary(item)
+    if method == "dedicated:hitachi":
+        return hitachi_summary([item])
+    return generic_dedicated_summary(item)
 
 
 def summary_is_specific(summary: str, code: str) -> bool:
@@ -153,6 +176,25 @@ def summary_is_specific(summary: str, code: str) -> bool:
     return text not in generic_only
 
 
+def summaries_conflict(group: list[dict]) -> bool:
+    values = []
+    for item in group:
+        value = clean(item_summary(item)).rstrip("。.")
+        if not value:
+            continue
+        canonical = re.sub(r"[\s・、。,:：()（）\-]", "", value)
+        if canonical and canonical not in values:
+            values.append(canonical)
+    if len(values) <= 1:
+        return False
+    for i, left in enumerate(values):
+        for right in values[i + 1:]:
+            if left in right or right in left:
+                continue
+            return True
+    return False
+
+
 def extract_actions_from_text(value: str) -> list[str]:
     text = clean(value)
     if not text:
@@ -167,7 +209,9 @@ def extract_actions_from_text(value: str) -> list[str]:
     result = []
     for chunk in chunks:
         chunk = clean(chunk).strip("・")
-        if not 5 <= len(chunk) <= 180:
+        if chunk.startswith(("を", "について", "対処方法")):
+            continue
+        if not 5 <= len(chunk) <= 140:
             continue
         if not any(word in chunk for word in useful_words):
             continue
@@ -184,7 +228,6 @@ def choose_actions(group: list[dict]) -> list[str]:
         if actions:
             return actions
 
-    # Prefer evidence from an individual detail page when available.
     ordered = sorted(
         group,
         key=lambda x: (
@@ -198,7 +241,6 @@ def choose_actions(group: list[dict]) -> list[str]:
             actions = extract_actions_from_text(evidence.split("対処方法", 1)[1])
             if actions:
                 return actions
-
     return ["メーカー公式の案内で対象機種と対処方法を確認する"]
 
 
@@ -221,8 +263,6 @@ def candidate_valid(item: dict, domains: list[str]) -> tuple[bool, str]:
         return False, "not_high_confidence"
     if clean(item.get("status")) != "needs_review":
         return False, "unexpected_status"
-    if item.get("already_published"):
-        return False, "already_published"
     source = str(item.get("source") or "")
     detail = str(item.get("detail_url") or "")
     if not host_allowed(source, domains) and not host_allowed(detail, domains):
@@ -236,14 +276,42 @@ def candidate_valid(item: dict, domains: list[str]) -> tuple[bool, str]:
     return True, "ok"
 
 
+def infer_scope(item: dict) -> str:
+    manufacturer = clean(item.get("manufacturer"))
+    text = clean(f"{item.get('page_title', '')} {item.get('evidence', '')}")
+    if manufacturer == "日立":
+        if "ドラム式" in text:
+            return "ドラム式"
+        if "タテ型" in text or "縦型" in text:
+            return "タテ型"
+    return ""
+
+
+def scoped_appliance(manufacturer: str, appliance: str, scope: str) -> str:
+    if manufacturer == "日立" and scope == "ドラム式":
+        return "ドラム式洗濯機・洗濯乾燥機"
+    if manufacturer == "日立" and scope == "タテ型":
+        return "タテ型洗濯機・洗濯乾燥機"
+    return appliance
+
+
 def main() -> None:
     candidates = json.loads(CANDIDATES.read_text(encoding="utf-8"))
-    records = json.loads(PUBLISHED.read_text(encoding="utf-8"))
-    rules = registry_rules()
-    existing = published_keys(records)
-    rejected = Counter()
-    eligible: dict[tuple[str, str, str], list[dict]] = defaultdict(list)
+    previous_records = json.loads(PUBLISHED.read_text(encoding="utf-8"))
+    dedicated_count = sum(clean(x.get("extraction_method")) in DEDICATED for x in candidates)
+    if len(candidates) < MIN_CANDIDATES_FOR_REBUILD or dedicated_count < MIN_DEDICATED_FOR_REBUILD:
+        raise RuntimeError(
+            f"candidate safety threshold failed: total={len(candidates)} dedicated={dedicated_count}; refusing to rebuild production DB"
+        )
 
+    manual_records = [x for x in previous_records if clean(x.get("verification_method")) != AUTO_METHOD]
+    previous_auto = [x for x in previous_records if clean(x.get("verification_method")) == AUTO_METHOD]
+    records = list(manual_records)
+    rules = registry_rules()
+    existing = published_keys(manual_records)
+    rejected = Counter()
+
+    by_base_code: dict[tuple[str, str, str], list[dict]] = defaultdict(list)
     for item in candidates:
         base = (clean(item.get("manufacturer")), clean(item.get("appliance")))
         domains = rules.get(base, [])
@@ -255,24 +323,35 @@ def main() -> None:
             rejected[reason] += 1
             continue
         key = (*base, norm_code(item.get("code")))
-        if key in existing:
-            rejected["published_key_collision"] += 1
-            continue
-        eligible[key].append(item)
+        by_base_code[key].append(item)
+
+    eligible: dict[tuple[str, str, str, str], list[dict]] = defaultdict(list)
+    for (manufacturer, appliance, code), items in by_base_code.items():
+        scopes = {infer_scope(item) for item in items if infer_scope(item)}
+        for item in items:
+            scope = infer_scope(item)
+            if scopes and not scope:
+                rejected["unscoped_shadowed_by_specific_scope"] += 1
+                continue
+            eligible[(manufacturer, appliance, code, scope)].append(item)
 
     promoted = []
     today = datetime.now(JST).date().isoformat()
+    manufacturer_counts = Counter()
 
     for key in sorted(eligible):
         if len(promoted) >= AUTO_PROMOTE_LIMIT:
             rejected["run_limit"] += 1
             continue
-        manufacturer, appliance, code = key
+        manufacturer, base_appliance, code, scope = key
         group = eligible[key]
-        domains = rules[(manufacturer, appliance)]
+        domains = rules[(manufacturer, base_appliance)]
         methods = {clean(x.get("extraction_method")) for x in group}
         if len(methods) != 1:
             rejected["mixed_methods"] += 1
+            continue
+        if summaries_conflict(group):
+            rejected["conflicting_summaries"] += 1
             continue
 
         summary = choose_summary(group)
@@ -283,6 +362,12 @@ def main() -> None:
         source = choose_source(group, domains)
         if not source:
             rejected["no_official_source"] += 1
+            continue
+
+        appliance = scoped_appliance(manufacturer, base_appliance, scope)
+        output_key = (manufacturer, appliance, code)
+        if output_key in existing:
+            rejected["manual_published_key_collision"] += 1
             continue
 
         aliases = sorted({norm_code(alias) for item in group for alias in (item.get("aliases") or []) if norm_code(alias)})
@@ -301,16 +386,20 @@ def main() -> None:
             "actions": actions,
             "source": source,
             "verified": today,
-            "verification_method": "automatic_strict_official",
+            "verification_method": AUTO_METHOD,
         })
+        if scope:
+            record["scope"] = scope
         records.append(record)
-        existing.add(key)
+        existing.add(output_key)
         for alias in aliases:
             existing.add((manufacturer, appliance, alias))
+        manufacturer_counts[manufacturer] += 1
         promoted.append({
             "manufacturer": manufacturer,
             "appliance": appliance,
             "code": code,
+            "scope": scope or None,
             "source": source,
             "method": next(iter(methods)),
         })
@@ -320,21 +409,28 @@ def main() -> None:
 
     report = {
         "verified_date": today,
-        "policy": "strict dedicated official sources only; generic candidates are never auto-promoted",
+        "policy": "strict dedicated official sources only; generic candidates are never auto-promoted; scoped conflicts are separated or rejected",
         "candidate_count": len(candidates),
-        "published_before": len(records) - len(promoted),
-        "promoted_count": len(promoted),
+        "dedicated_candidate_count": dedicated_count,
+        "previous_published_count": len(previous_records),
+        "manual_retained_count": len(manual_records),
+        "previous_auto_count": len(previous_auto),
+        "auto_rebuilt_count": len(promoted),
         "published_after": len(records),
         "auto_promote_limit": AUTO_PROMOTE_LIMIT,
+        "promoted_by_manufacturer": dict(sorted(manufacturer_counts.items())),
         "rejected": dict(sorted(rejected.items())),
         "promoted": promoted,
     }
     REPORT.parent.mkdir(parents=True, exist_ok=True)
     REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    print(f"published before: {report['published_before']}")
-    print(f"strict auto-promoted: {report['promoted_count']}")
+    print(f"previous published: {report['previous_published_count']}")
+    print(f"manual retained: {report['manual_retained_count']}")
+    print(f"previous auto: {report['previous_auto_count']}")
+    print(f"strict auto rebuilt: {report['auto_rebuilt_count']}")
     print(f"published after: {report['published_after']}")
+    print("promoted by manufacturer:", json.dumps(report["promoted_by_manufacturer"], ensure_ascii=False, sort_keys=True))
     print("rejected:", json.dumps(report["rejected"], ensure_ascii=False, sort_keys=True))
 
 
