@@ -1,0 +1,46 @@
+[
+  {
+    "manufacturer": "Bosch",
+    "categories": ["食器洗い機"],
+    "status": "pdf_manual_adapter_required",
+    "source_type": "official_manual_pdf",
+    "reason": "日本語公式取扱説明書PDFにエラー/原因/対処の表がある。E:20-60、E:21-30、E:30-00、E:31-00等を確認。機種ごとのPDF型番scopeを保持して抽出する必要がある。",
+    "sources": [
+      "https://media3.bosch-home.com/Documents/9001575893_C.pdf",
+      "https://media3.bosch-home.com/Documents/9001575898_C.pdf"
+    ]
+  },
+  {
+    "manufacturer": "ECOVACS",
+    "categories": ["ECOVACS HOMEアプリ / DEEBOT"],
+    "status": "adapter_required",
+    "source_type": "official_help_dynamic",
+    "reason": "公式Wi-Fiトラブルシューティングに406、10017等のアプリ接続エラーコードがある。『その他のエラーコード』の動的展開を含むため専用Adapterで取得する。",
+    "sources": [
+      "https://help.ecovacs.com/jp/support/app-wifi-connection/troubleshooting-for-home-wi-fi-connection-failure"
+    ]
+  },
+  {
+    "manufacturer": "TOTO",
+    "categories": ["三乾王", "IHクッキングヒーター", "住宅設備"],
+    "status": "adapter_required",
+    "source_type": "official_faq_and_diagnosis",
+    "reason": "公式Q&A/故障診断にエラーコード導線があり、三乾王やIHの機種別・系列別判定が必要。個別コード032等も公式FAQに存在する。",
+    "sources": [
+      "https://qa.toto.jp/faq_detail.htm?category=32&id=190725&page=1",
+      "https://qa.toto.jp/faq_detail.htm?category=&id=314188&page=1",
+      "https://qa.toto.jp/shindan/faq_detail.htm?category=5157&id=700580&page=3"
+    ]
+  },
+  {
+    "manufacturer": "SwitchBot",
+    "categories": ["ロボット掃除機", "スマート家電"],
+    "status": "no_stable_code_catalog_found",
+    "source_type": "official_troubleshooting_articles",
+    "reason": "公式サポートにはレーザーセンサー等のエラー症状記事は多数あるが、今回の探索では検索DBに適した安定した番号/英数字コード一覧は確認できなかった。コード一覧が確認できるまで本番登録しない。",
+    "sources": [
+      "https://support.switch-bot.com/hc/ja/categories/12968105432855-%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E6%8E%83%E9%99%A4%E6%A9%9F-K%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+      "https://support.switch-bot.com/hc/ja/articles/8259503733527-SwitchBot%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E6%8E%83%E9%99%A4%E6%A9%9F%E3%81%AF%E3%83%AC%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E3%82%A8%E3%83%A9%E3%83%BC%E3%81%8C%E5%87%BA%E3%81%BE%E3%81%97%E3%81%9F-%E3%81%A9%E3%81%86%E3%81%99%E3%82%8C%E3%81%B0%E3%81%84%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B"
+    ]
+  }
+]
