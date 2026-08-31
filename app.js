@@ -40,7 +40,14 @@ function render(matches, query) {
     return;
   }
 
-  status.textContent = `${matches.length}件見つかりました。メーカー・製品種別を確認してください。`;
+  const crossPage = matches
+    .map(item => item.code_pages?.[query])
+    .find(Boolean);
+
+  status.innerHTML = `
+    ${matches.length}件見つかりました。メーカー・製品種別を確認してください。
+    ${crossPage ? `<a class="detail-link" href="${escapeHtml(crossPage)}">「${escapeHtml(query)}」のメーカー横断ページ →</a>` : ''}
+  `;
 
   for (const item of matches) {
     const card = document.createElement('article');
