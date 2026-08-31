@@ -16,6 +16,7 @@ on:
       - "tools/collect_category_tables.py"
       - "tools/collect_rinnai_faq.py"
       - "tools/collect_noritz_faq.py"
+      - "tools/collect_haier_categories.py"
       - "tools/promote_verified.py"
       - "tools/promote_verified_extended.py"
       - "tools/promote_all_verified.py"
@@ -49,6 +50,9 @@ jobs:
 
       - name: Collect configured official category tables
         run: python3 tools/collect_category_tables.py
+
+      - name: Collect Haier additional product categories
+        run: python3 tools/collect_haier_categories.py
 
       - name: Collect Rinnai official FAQ error catalog
         run: python3 tools/collect_rinnai_faq.py
