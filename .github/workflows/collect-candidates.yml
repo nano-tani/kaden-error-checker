@@ -1,0 +1,43 @@
+name: Collect official error-code candidates
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 19 * * 0"
+  push:
+    branches: [main]
+    paths:
+      - "data/source_registry.json"
+      - "tools/collect_candidates.py"
+      - ".github/workflows/collect-candidates.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-official-error-candidates
+  cancel-in-progress: true
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Collect candidates from official pages
+        run: python3 tools/collect_candidates.py
+
+      - name: Commit review files if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add review/candidates.json review/discovered_sources.json
+          if git diff --cached --quiet; then
+            echo "No candidate changes."
+            exit 0
+          fi
+          git commit -m "Update official error-code candidates [skip ci]"
+          git push
