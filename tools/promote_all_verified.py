@@ -17,6 +17,7 @@ core.DEDICATED.update({
     "dedicated:official-table",
     "dedicated:rinnai-faq",
     "dedicated:noritz-faq",
+    "dedicated:haier-extra",
 })
 
 
@@ -32,8 +33,9 @@ def combined_rules() -> dict[tuple[str, str], list[str]]:
             domains = list(row.get("allowed_domains") or [])
             if manufacturer and appliance and domains:
                 rules[(manufacturer, appliance)] = domains
-    # Consumer-facing Noritz FAQ uses one official domain across multiple product scopes.
+    # Consumer-facing FAQ/category sources use one official domain across multiple product scopes.
     rules[("ノーリツ", "*")] = ["faq.noritz.co.jp"]
+    rules[("ハイアール", "*")] = ["www.haier.com", "haier.com"]
     return rules
 
 
