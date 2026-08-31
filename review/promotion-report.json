@@ -1,21 +1,49 @@
 {
   "verified_date": "2026-09-01",
-  "policy": "strict dedicated official sources only; generic candidates are never auto-promoted; scoped conflicts are separated or rejected",
-  "candidate_count": 735,
-  "dedicated_candidate_count": 646,
+  "policy": "strict dedicated official sources only; generic candidates are never auto-promoted; scoped conflicts are separated or rejected; no promotion count ceiling",
+  "promotion_mode": "unlimited",
+  "candidate_count": 1177,
+  "dedicated_candidate_count": 1088,
   "previous_published_count": 380,
   "manual_retained_count": 6,
   "previous_auto_count": 374,
-  "auto_rebuilt_count": 374,
-  "published_after": 380,
-  "auto_promote_limit": 10000,
+  "auto_rebuilt_count": 816,
+  "published_after": 822,
   "promoted_by_manufacturer": {
     "AQUA": 15,
+    "コロナ": 436,
     "シャープ": 32,
-    "ダイキン": 47,
+    "ダイキン": 53,
     "ハイアール": 15,
     "富士通ゼネラル": 245,
     "日立": 20
+  },
+  "promoted_by_category": {
+    "AQUA / タテ型洗濯機・洗濯乾燥機": 9,
+    "AQUA / ドラム式洗濯機・洗濯乾燥機": 6,
+    "コロナ / エコキュート": 126,
+    "コロナ / ノイルヒート": 4,
+    "コロナ / ヒートポンプ式冷暖房システム": 84,
+    "コロナ / 加湿器": 5,
+    "コロナ / 寒冷地用大型ストーブ": 40,
+    "コロナ / 据置型ナノフィール": 4,
+    "コロナ / 暖房ボイラー": 20,
+    "コロナ / 温水ルームヒーター": 21,
+    "コロナ / 石油ファンヒーター": 17,
+    "コロナ / 石油給湯機": 76,
+    "コロナ / 移動型ナノフィール": 3,
+    "コロナ / 除湿機": 7,
+    "コロナ / 電気温水器": 29,
+    "シャープ / タテ型洗濯機・洗濯乾燥機": 2,
+    "シャープ / ドラム式洗濯機・洗濯乾燥機": 30,
+    "ダイキン / ルームエアコン": 47,
+    "ダイキン / 空気清浄機": 6,
+    "ハイアール / タテ型洗濯機・洗濯乾燥機": 9,
+    "ハイアール / ドラム式洗濯機・洗濯乾燥機": 6,
+    "富士通ゼネラル / ノクリアアプリ": 245,
+    "日立 / タテ型洗濯機・洗濯乾燥機": 4,
+    "日立 / ドラム式洗濯機・洗濯乾燥機": 4,
+    "日立 / 洗濯機・洗濯乾燥機": 12
   },
   "rejected": {
     "aqua_table_noise": 7,
@@ -150,6 +178,3494 @@
       "scope": "ドラム式",
       "source": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
       "method": "dedicated:aqua"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "C01",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "C02",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "C03",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "C05",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "C06",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "C07",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E01",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E02",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E03",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E04",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E05",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E06",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E07",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E08",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E09",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E10",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E11",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E12",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E13",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E14",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E15",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E16",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E17",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E18",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E20",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E21",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E22",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E23",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E24",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E25",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E26",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E27",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E28",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E29",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E30",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E31",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E32",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E33",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E34",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E35",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E36",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E38",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E39",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E40",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E41",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E43",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E44",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E45",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E46",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E47",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E48",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E50",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E51",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E52",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E53",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E54",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E55",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E56",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E60",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E61",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E62",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E63",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E64",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E65",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E66",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E67",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "E68",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H01",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H02",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H03",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H04",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H05",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H06",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H07",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H08",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H09",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H10",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H11",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H12",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H14",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H15",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H16",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H17",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H19",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H20",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H21",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H22",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H23",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H24",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H25",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H26",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H27",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H28",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H29",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H30",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H31",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H32",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H40",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H41",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H44",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "H50",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U01",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U02",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U03",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U04",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U05",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U06",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U07",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U08",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U09",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U10",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U11",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U12",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U13",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U14",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U16",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U19",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U20",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U21",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U22",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U23",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U24",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U51",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U52",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U53",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "エコキュート",
+      "code": "U54",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/eco/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ノイルヒート",
+      "code": "E9",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat144/noilheat.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ノイルヒート",
+      "code": "EA",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat144/noilheat.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ノイルヒート",
+      "code": "EJ",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat144/noilheat.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ノイルヒート",
+      "code": "EP",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat144/noilheat.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E0",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E01",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E02",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E05",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E07",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E10",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E11",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E12",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E13",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E14",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E15",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E2",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E21",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E22",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E23",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E24",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E25",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E26",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E27",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E28",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E29",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E3",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E30",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E31",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E32",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E33",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E34",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E35",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E36",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E4",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E41",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E42",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E43",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E44",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E45",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E46",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E47",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E48",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E49",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E5",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E50",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E51",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E52",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E53",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E6",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E61",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E62",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E63",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E64",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E65",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E66",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E67",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E68",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E69",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E7",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E70",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E71",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E72",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E73",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E74",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E75",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E76",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E77",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E8",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "E9",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "EA",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "EB",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "EC",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "ED",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "EE",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "EF",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "EL",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "EN",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "EP",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "H1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "H2",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "H3",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "H4",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "H5",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "H6",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "H7",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "H8",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "ヒートポンプ式冷暖房システム",
+      "code": "IPM",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "加湿器",
+      "code": "E1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/humidifier.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "加湿器",
+      "code": "E2",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/humidifier.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "加湿器",
+      "code": "E3",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/humidifier.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "加湿器",
+      "code": "E4",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/humidifier.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "加湿器",
+      "code": "E5",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/humidifier.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "88",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "B1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "B2",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "B3",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "B4",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "E0",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "E1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "E10",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "E3",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "E5",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "E6",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "E7",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "E8",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "E9",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "EA",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "EC",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "ED",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "EF",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "EH",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "EJ",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "EL",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "EP",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "EU",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "F0",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "F1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "F2",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "F3",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "F5",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "F6",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "F7",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "F8",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "FA",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "FC",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "FE",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "HE",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "HH",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "P1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "P2",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "P3",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "寒冷地用大型ストーブ",
+      "code": "P4",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "据置型ナノフィール",
+      "code": "CNF",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/nanofeel01.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "据置型ナノフィール",
+      "code": "S3000C",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/nanofeel01.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "据置型ナノフィール",
+      "code": "S3000D",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/nanofeel01.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "据置型ナノフィール",
+      "code": "S6500A",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/nanofeel01.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "14",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "15",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "16",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "17",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "18",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "19",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "20",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "21",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "22",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "23",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "24",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "29",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "30",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "31",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "32",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "88",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "E1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "H3",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "H4",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "暖房ボイラー",
+      "code": "U9",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat/post.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "88",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "E1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "E11",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "E12",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "E13",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "E14",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "E2",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "E24",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "E25",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "E26",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "E4",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "E5",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "E6",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "E7",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "E8",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "E9",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "EC",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "EE",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "EF",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "EH",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "温水ルームヒーター",
+      "code": "EL",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/room_heater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "C0",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "C1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "E0",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "E1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "E2",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "E4",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "E5",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "E6",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "E7",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "E8",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "E9",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "EA",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "EF",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "EH",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "EL",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "EP",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油ファンヒーター",
+      "code": "HH",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "10",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "11",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "12",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "13",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "14",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "15",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "16",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "17",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "18",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "19",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "20",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "21",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "22",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "23",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "24",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "25",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "26",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "27",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "28",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "29",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "30",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "31",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "32",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "33",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "34",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "35",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "36",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "37",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "38",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "39",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "40",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "41",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "42",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "43",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "44",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "45",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "46",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "47",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "48",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "49",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "50",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "51",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "52",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "53",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "54",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "55",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "59",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "A1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "A2",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "A3",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "A4",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "A6",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "A7",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "A8",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "A9",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "E1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "E2",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "F1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "F2",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "H3",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "H4",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "H5",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "H7",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "H8",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "H9",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "L1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "L2",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "L3",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "U1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "U2",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "U3",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "U4",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "U5",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "U6",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "U7",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "石油給湯機",
+      "code": "U9",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/oil/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "移動型ナノフィール",
+      "code": "CNF",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/nanofeel02.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "移動型ナノフィール",
+      "code": "M1800C",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/nanofeel02.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "移動型ナノフィール",
+      "code": "M1800D",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/nanofeel02.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "除湿機",
+      "code": "E1",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/dehumidifier/post_3.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "除湿機",
+      "code": "E2",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/dehumidifier/post_3.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "除湿機",
+      "code": "E3",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/dehumidifier/post_3.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "除湿機",
+      "code": "E4",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/dehumidifier/post_3.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "除湿機",
+      "code": "E5",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/dehumidifier/post_3.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "除湿機",
+      "code": "E6",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/dehumidifier/post_3.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "除湿機",
+      "code": "E8",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/dehumidifier/post_3.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "C01",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "C03",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "C05",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "C09",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E02",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E03",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E04",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E05",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E06",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E08",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E09",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E10",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E11",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E12",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E14",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E15",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E16",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E20",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E22",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E23",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E24",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E25",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E26",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E29",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E30",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E34",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E37",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E39",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "コロナ",
+      "appliance": "電気温水器",
+      "code": "E42",
+      "scope": null,
+      "source": "https://www.corona.co.jp/support/error/denon/index.html",
+      "method": "dedicated:official-table"
     },
     {
       "manufacturer": "シャープ",
@@ -782,6 +4298,54 @@
       "scope": null,
       "source": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
       "method": "dedicated:daikin"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "空気清浄機",
+      "code": "A0",
+      "scope": null,
+      "source": "https://www.daikincc.com/faq/customer/web/knowledge2772.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "空気清浄機",
+      "code": "A1",
+      "scope": null,
+      "source": "https://www.daikincc.com/faq/customer/web/knowledge2772.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "空気清浄機",
+      "code": "A6",
+      "scope": null,
+      "source": "https://www.daikincc.com/faq/customer/web/knowledge2772.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "空気清浄機",
+      "code": "AH",
+      "scope": null,
+      "source": "https://www.daikincc.com/faq/customer/web/knowledge2772.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "空気清浄機",
+      "code": "C9",
+      "scope": null,
+      "source": "https://www.daikincc.com/faq/customer/web/knowledge2772.html",
+      "method": "dedicated:official-table"
+    },
+    {
+      "manufacturer": "ダイキン",
+      "appliance": "空気清浄機",
+      "code": "CC",
+      "scope": null,
+      "source": "https://www.daikincc.com/faq/customer/web/knowledge2772.html",
+      "method": "dedicated:official-table"
     },
     {
       "manufacturer": "ハイアール",

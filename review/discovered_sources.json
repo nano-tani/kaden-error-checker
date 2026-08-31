@@ -19,6 +19,76 @@
   },
   {
     "manufacturer": "コロナ",
+    "appliance": "ウインドエアコン",
+    "url": "https://www.corona.co.jp/support/error/wind/post_1.html",
+    "title": "ウインドエアコン|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:official-table",
+    "table_count": 0
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "ウォールヒート",
+    "url": "https://www.corona.co.jp/support/error/cat143/wallheat.html",
+    "title": "ウォールヒート|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:official-table",
+    "table_count": 1
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "エコキュート",
+    "url": "https://www.corona.co.jp/support/error/eco/index.html",
+    "title": "エコキュート|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 126,
+    "collector": "dedicated:official-table",
+    "table_count": 4
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "コアヒート・スリムカーボン",
+    "url": "https://www.corona.co.jp/support/error/cat142/electric_heater.html",
+    "title": "コアヒート・スリムカーボン|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:official-table",
+    "table_count": 2
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "ナノリフレ",
+    "url": "https://www.corona.co.jp/support/error/nanorefre.html",
+    "title": "ナノリフレ|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:official-table",
+    "table_count": 2
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "ノイルヒート",
+    "url": "https://www.corona.co.jp/support/error/cat144/noilheat.html",
+    "title": "ノイルヒート|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 4,
+    "collector": "dedicated:official-table",
+    "table_count": 1
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "ヒートポンプ式冷暖房システム",
+    "url": "https://www.corona.co.jp/support/error/HPreidan.html",
+    "title": "ヒートポンプ式 冷・暖房システム|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 84,
+    "collector": "dedicated:official-table",
+    "table_count": 4
+  },
+  {
+    "manufacturer": "コロナ",
     "appliance": "ルームエアコン",
     "url": "https://www.corona.co.jp/heating/faq/faq_maintenance01.html",
     "title": "長期使用製品安全点検制度｜サポート・お問い合わせ｜株式会社コロナ",
@@ -74,6 +144,16 @@
   {
     "manufacturer": "コロナ",
     "appliance": "ルームエアコン",
+    "url": "https://www.corona.co.jp/support/error/aircon/index.html",
+    "title": "エアコン|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:official-table",
+    "table_count": 0
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "ルームエアコン",
     "url": "https://www.corona.co.jp/support/error/aqua-air.html",
     "title": "美容・健康機器｜エラーサイン一覧｜サポート・お問い合わせ｜株式会社コロナ",
     "status": "ok",
@@ -90,274 +170,177 @@
     "collector": "generic"
   },
   {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18.html",
-    "title": "エラー表示が出る｜エアコン｜故障診断ナビ：シャープ",
+    "manufacturer": "コロナ",
+    "appliance": "冷風・衣類乾燥除湿機",
+    "url": "https://www.corona.co.jp/support/error/post_2.html",
+    "title": "冷風・衣類乾燥除湿機|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
     "status": "ok",
-    "candidate_count": 100,
-    "collector": "dedicated"
+    "candidate_count": 0,
+    "collector": "dedicated:official-table",
+    "table_count": 1
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "加湿器",
+    "url": "https://www.corona.co.jp/support/error/humidifier.html",
+    "title": "加湿器|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 5,
+    "collector": "dedicated:official-table",
+    "table_count": 3
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "寒冷地用大型ストーブ",
+    "url": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
+    "title": "寒冷地用大型ストーブ|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 40,
+    "collector": "dedicated:official-table",
+    "table_count": 1
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "据置型ナノフィール",
+    "url": "https://www.corona.co.jp/support/error/nanofeel01.html",
+    "title": "据置型ナノフィール|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 4,
+    "collector": "dedicated:official-table",
+    "table_count": 2
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "暖房ボイラー",
+    "url": "https://www.corona.co.jp/support/error/cat/post.html",
+    "title": "暖房ボイラー|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 20,
+    "collector": "dedicated:official-table",
+    "table_count": 1
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "温水ルームヒーター",
+    "url": "https://www.corona.co.jp/support/error/room_heater.html",
+    "title": "温水ルームヒーター|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 21,
+    "collector": "dedicated:official-table",
+    "table_count": 1
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "石油ファンヒーター",
+    "url": "https://www.corona.co.jp/support/error/cat141/fanheater.html",
+    "title": "石油ファンヒーター|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 17,
+    "collector": "dedicated:official-table",
+    "table_count": 1
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "石油給湯機",
+    "url": "https://www.corona.co.jp/support/error/oil/index.html",
+    "title": "石油給湯機|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 81,
+    "collector": "dedicated:official-table",
+    "table_count": 2
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "移動型ナノフィール",
+    "url": "https://www.corona.co.jp/support/error/nanofeel02.html",
+    "title": "移動型ナノフィール|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 3,
+    "collector": "dedicated:official-table",
+    "table_count": 2
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "除湿機",
+    "url": "https://www.corona.co.jp/support/error/dehumidifier/post_3.html",
+    "title": "除湿機|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 11,
+    "collector": "dedicated:official-table",
+    "table_count": 6
+  },
+  {
+    "manufacturer": "コロナ",
+    "appliance": "電気温水器",
+    "url": "https://www.corona.co.jp/support/error/denon/index.html",
+    "title": "電気温水器|エラーサイン一覧|サポート・お問い合わせ|株式会社コロナ",
+    "status": "ok",
+    "candidate_count": 29,
+    "collector": "dedicated:official-table",
+    "table_count": 1
   },
   {
     "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-0_1.html",
-    "title": "「2-0」を表示する／「2」と「-0」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_14.html",
+    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
     "status": "ok",
     "candidate_count": 1,
-    "collector": "dedicated"
+    "collector": "dedicated-extra"
   },
   {
     "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-1_1.html",
-    "title": "「2-1」を表示する／「2」と「-1」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_15.html",
+    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
     "status": "ok",
     "candidate_count": 1,
-    "collector": "dedicated"
+    "collector": "dedicated-extra"
   },
   {
     "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-2_1.html",
-    "title": "「2-2」を表示する／「2」と「-2」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_6.html",
+    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
     "status": "ok",
     "candidate_count": 1,
-    "collector": "dedicated"
+    "collector": "dedicated-extra"
   },
   {
     "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-3_1.html",
-    "title": "「2-3」を表示する／「2」と「-3」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_7.html",
+    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
     "status": "ok",
     "candidate_count": 1,
-    "collector": "dedicated"
+    "collector": "dedicated-extra"
   },
   {
     "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-4_1.html",
-    "title": "「2-4」を表示する／「2」と「-4」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_8.html",
+    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
     "status": "ok",
     "candidate_count": 1,
-    "collector": "dedicated"
+    "collector": "dedicated-extra"
   },
   {
     "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-5_1.html",
-    "title": "「2-5」を表示する／「2」と「-5」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_9.html",
+    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
     "status": "ok",
     "candidate_count": 1,
-    "collector": "dedicated"
+    "collector": "dedicated-extra"
   },
   {
     "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_21-0_1.html",
-    "title": "「21-0」を表示する／「21」と「-0」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "appliance": "タテ型洗濯機・洗濯乾燥機",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_07.html",
+    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
     "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_22-2ro.html",
-    "title": "「22-2」を表示する／「22」と「-2」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_23-0ro.html",
-    "title": "「23-0」を表示する／「23」と「-0」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_24-0_1.html",
-    "title": "「24-0」を表示する／「24」と「-0」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_24-1_1.html",
-    "title": "「24-1」を表示する／「24」と「-1」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_24-2_1.html",
-    "title": "「24-2」を表示する／「24」と「-2」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_24-3_1.html",
-    "title": "「24-3」を表示する／「24」と「-3」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_28-0_1.html",
-    "title": "「28-0」を表示する／「28」と「-0」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_28-1_1.html",
-    "title": "「28-1」を表示する／「28」と「-1」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_28-2_1.html",
-    "title": "「28-2」を表示する／「28」と「-2」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_28-3_1.html",
-    "title": "「28-3」を表示する／「28」と「-3」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22.html",
-    "title": "英数字エラーを表示する｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 32,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_1.html",
-    "title": "EUを表示する｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_12.html",
-    "title": "E6を表示する｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_13.html",
-    "title": "F0を表示する｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_16.html",
-    "title": "E2を表示する｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_17.html",
-    "title": "E4を表示する｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_18ro.html",
-    "title": "E9を表示する｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_2.html",
-    "title": "E8を表示する｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_20ro.html",
-    "title": "Foを表示する｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_4.html",
-    "title": "F6を表示する｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_6.html",
-    "title": "F9を表示する｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "ルームエアコン",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_9.html",
-    "title": "H5を表示する｜エアコン｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated"
+    "candidate_count": 6,
+    "collector": "dedicated-extra"
   },
   {
     "manufacturer": "シャープ",
@@ -492,69 +475,6 @@
     "title": "エラーやお知らせ表示が出る｜ドラム式洗濯乾燥機｜故障診断ナビ：シャープ",
     "status": "ok",
     "candidate_count": 1,
-    "collector": "dedicated-extra"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "タテ型洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_14.html",
-    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated-extra"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "タテ型洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_15.html",
-    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated-extra"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "タテ型洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_6.html",
-    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated-extra"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "タテ型洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_7.html",
-    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated-extra"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "タテ型洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_8.html",
-    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated-extra"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "タテ型洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_9.html",
-    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated-extra"
-  },
-  {
-    "manufacturer": "シャープ",
-    "appliance": "タテ型洗濯機・洗濯乾燥機",
-    "url": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_07.html",
-    "title": "エラーやお知らせ表示が出る｜全自動洗濯機｜故障診断ナビ：シャープ",
-    "status": "ok",
-    "candidate_count": 6,
     "collector": "dedicated-extra"
   },
   {
@@ -1323,6 +1243,276 @@
     "collector": "dedicated-extra"
   },
   {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18.html",
+    "title": "エラー表示が出る｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 100,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-0_1.html",
+    "title": "「2-0」を表示する／「2」と「-0」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-1_1.html",
+    "title": "「2-1」を表示する／「2」と「-1」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-2_1.html",
+    "title": "「2-2」を表示する／「2」と「-2」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-3_1.html",
+    "title": "「2-3」を表示する／「2」と「-3」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-4_1.html",
+    "title": "「2-4」を表示する／「2」と「-4」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_2-5_1.html",
+    "title": "「2-5」を表示する／「2」と「-5」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_21-0_1.html",
+    "title": "「21-0」を表示する／「21」と「-0」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_22-2ro.html",
+    "title": "「22-2」を表示する／「22」と「-2」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_23-0ro.html",
+    "title": "「23-0」を表示する／「23」と「-0」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_24-0_1.html",
+    "title": "「24-0」を表示する／「24」と「-0」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_24-1_1.html",
+    "title": "「24-1」を表示する／「24」と「-1」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_24-2_1.html",
+    "title": "「24-2」を表示する／「24」と「-2」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_24-3_1.html",
+    "title": "「24-3」を表示する／「24」と「-3」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_28-0_1.html",
+    "title": "「28-0」を表示する／「28」と「-0」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_28-1_1.html",
+    "title": "「28-1」を表示する／「28」と「-1」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_28-2_1.html",
+    "title": "「28-2」を表示する／「28」と「-2」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag18_28-3_1.html",
+    "title": "「28-3」を表示する／「28」と「-3」が交互に表示される｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22.html",
+    "title": "英数字エラーを表示する｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 32,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_1.html",
+    "title": "EUを表示する｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_12.html",
+    "title": "E6を表示する｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_13.html",
+    "title": "F0を表示する｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_16.html",
+    "title": "E2を表示する｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_17.html",
+    "title": "E4を表示する｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_18ro.html",
+    "title": "E9を表示する｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_2.html",
+    "title": "E8を表示する｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_20ro.html",
+    "title": "Foを表示する｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_4.html",
+    "title": "F6を表示する｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_6.html",
+    "title": "F9を表示する｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
+    "manufacturer": "シャープ",
+    "appliance": "ルームエアコン",
+    "url": "https://cs.sharp.co.jp/trouble_check/div/air_con/navi/ay_diag22_9.html",
+    "title": "H5を表示する｜エアコン｜故障診断ナビ：シャープ",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated"
+  },
+  {
     "manufacturer": "ダイキン",
     "appliance": "ルームエアコン",
     "url": "https://nacpt.daikincc.com/faq/customer/web/knowledge3006.html",
@@ -1330,6 +1520,16 @@
     "status": "ok",
     "candidate_count": 50,
     "collector": "dedicated"
+  },
+  {
+    "manufacturer": "ダイキン",
+    "appliance": "空気清浄機",
+    "url": "https://www.daikincc.com/faq/customer/web/knowledge2772.html",
+    "title": "エラーコードが表示される(修理金額) - よくあるご質問",
+    "status": "ok",
+    "candidate_count": 6,
+    "collector": "dedicated:official-table",
+    "table_count": 1
   },
   {
     "manufacturer": "ハイアール",
@@ -1422,6 +1622,24 @@
     "collector": "dedicated"
   },
   {
+    "manufacturer": "リンナイ",
+    "appliance": "FAQエラーコードカテゴリ",
+    "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=1",
+    "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:rinnai-faq"
+  },
+  {
+    "manufacturer": "リンナイ",
+    "appliance": "FAQエラーコードカテゴリ",
+    "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=2",
+    "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:rinnai-faq"
+  },
+  {
     "manufacturer": "三菱電機",
     "appliance": "エアコン・空調機器",
     "url": "https://faq01.mitsubishielectric.co.jp/category/show/304?site_domain=default",
@@ -1495,6 +1713,16 @@
   },
   {
     "manufacturer": "富士通ゼネラル",
+    "appliance": "ノクリアアプリ",
+    "url": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+    "title": "ノクリアアプリ エラーコード表 サポート & ダウンロード - ゼネラル JP",
+    "status": "ok",
+    "candidate_count": 245,
+    "collector": "dedicated-extra",
+    "structured_groups": 72
+  },
+  {
+    "manufacturer": "富士通ゼネラル",
     "appliance": "ルームエアコン",
     "url": "https://www.fujitsu-general.com/jp/resources/pdf/support/faq/aircon/0084/chart-diagnosis-2007-03.pdf",
     "status": "fetch_error",
@@ -1564,16 +1792,6 @@
     "status": "ok",
     "candidate_count": 73,
     "collector": "generic"
-  },
-  {
-    "manufacturer": "富士通ゼネラル",
-    "appliance": "ノクリアアプリ",
-    "url": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
-    "title": "ノクリアアプリ エラーコード表 サポート & ダウンロード - ゼネラル JP",
-    "status": "ok",
-    "candidate_count": 245,
-    "collector": "dedicated-extra",
-    "structured_groups": 72
   },
   {
     "manufacturer": "日立",
