@@ -18,6 +18,7 @@ core.DEDICATED.update({
     "dedicated:rinnai-faq",
     "dedicated:noritz-faq",
     "dedicated:haier-extra",
+    "dedicated:sharp-category",
 })
 
 
@@ -36,6 +37,7 @@ def combined_rules() -> dict[tuple[str, str], list[str]]:
     # Consumer-facing FAQ/category sources use one official domain across multiple product scopes.
     rules[("ノーリツ", "*")] = ["faq.noritz.co.jp"]
     rules[("ハイアール", "*")] = ["www.haier.com", "haier.com"]
+    rules[("シャープ", "*")] = ["cs.sharp.co.jp"]
     return rules
 
 
