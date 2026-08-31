@@ -16,6 +16,7 @@ on:
       - "tools/collect_category_tables.py"
       - "tools/collect_haier_categories.py"
       - "tools/collect_sharp_categories.py"
+      - "tools/collect_chofu.py"
       - "tools/collect_rinnai_faq.py"
       - "tools/collect_noritz_faq.py"
       - "tools/promote_verified.py"
@@ -57,6 +58,9 @@ jobs:
 
       - name: Collect Sharp additional diagnosis categories
         run: python3 tools/collect_sharp_categories.py
+
+      - name: Collect CHOFU official all-category error tables
+        run: python3 tools/collect_chofu.py
 
       - name: Collect Rinnai official FAQ error catalog
         run: python3 tools/collect_rinnai_faq.py
