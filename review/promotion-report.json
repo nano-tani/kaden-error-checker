@@ -3,18 +3,18 @@
   "policy": "strict dedicated official sources only; generic candidates are never auto-promoted; scoped conflicts are separated or rejected",
   "candidate_count": 735,
   "dedicated_candidate_count": 646,
-  "previous_published_count": 103,
+  "previous_published_count": 349,
   "manual_retained_count": 6,
-  "previous_auto_count": 97,
-  "auto_rebuilt_count": 343,
-  "published_after": 349,
+  "previous_auto_count": 343,
+  "auto_rebuilt_count": 374,
+  "published_after": 380,
   "auto_promote_limit": 10000,
   "promoted_by_manufacturer": {
     "AQUA": 15,
-    "シャープ": 33,
+    "シャープ": 32,
     "ダイキン": 47,
     "ハイアール": 15,
-    "富士通ゼネラル": 213,
+    "富士通ゼネラル": 245,
     "日立": 20
   },
   "rejected": {
@@ -25,10 +25,10 @@
     "not_dedicated": 89,
     "not_high_confidence": 31,
     "status_not_error": 2,
-    "summary_not_specific": 177,
+    "summary_not_specific": 145,
     "unexpected_code_family": 4,
     "unscoped_shadowed_by_specific_scope": 1,
-    "weak_structured_summary": 6
+    "weak_structured_summary": 7
   },
   "promoted": [
     {
@@ -165,14 +165,6 @@
       "code": "C5",
       "scope": "タテ型",
       "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_15.html",
-      "method": "dedicated:sharp"
-    },
-    {
-      "manufacturer": "シャープ",
-      "appliance": "タテ型洗濯機・洗濯乾燥機",
-      "code": "E2",
-      "scope": "タテ型",
-      "source": "https://cs.sharp.co.jp/trouble_check/div/washer/navi_ge/ge_diag09_01_7.html",
       "method": "dedicated:sharp"
     },
     {
@@ -1226,6 +1218,14 @@
     {
       "manufacturer": "富士通ゼネラル",
       "appliance": "ノクリアアプリ",
+      "code": "2716",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
       "code": "2900",
       "scope": null,
       "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
@@ -1530,7 +1530,39 @@
     {
       "manufacturer": "富士通ゼネラル",
       "appliance": "ノクリアアプリ",
+      "code": "3010",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "4110",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
       "code": "4111",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "4112",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "4113",
       "scope": null,
       "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
       "method": "dedicated:fujitsu-app"
@@ -1578,6 +1610,14 @@
     {
       "manufacturer": "富士通ゼネラル",
       "appliance": "ノクリアアプリ",
+      "code": "4119",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
       "code": "4120",
       "scope": null,
       "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
@@ -1618,6 +1658,30 @@
     {
       "manufacturer": "富士通ゼネラル",
       "appliance": "ノクリアアプリ",
+      "code": "4210",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "4410",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "4420",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
       "code": "4511",
       "scope": null,
       "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
@@ -1650,6 +1714,38 @@
     {
       "manufacturer": "富士通ゼネラル",
       "appliance": "ノクリアアプリ",
+      "code": "4610",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "4810",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "5320",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "5321",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
       "code": "5500",
       "scope": null,
       "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
@@ -1658,7 +1754,31 @@
     {
       "manufacturer": "富士通ゼネラル",
       "appliance": "ノクリアアプリ",
+      "code": "5510",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
       "code": "5512",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "5520",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "5530",
       "scope": null,
       "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
       "method": "dedicated:fujitsu-app"
@@ -1730,6 +1850,14 @@
     {
       "manufacturer": "富士通ゼネラル",
       "appliance": "ノクリアアプリ",
+      "code": "5605",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
       "code": "5606",
       "scope": null,
       "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
@@ -1747,6 +1875,14 @@
       "manufacturer": "富士通ゼネラル",
       "appliance": "ノクリアアプリ",
       "code": "5631",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "5800",
       "scope": null,
       "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
       "method": "dedicated:fujitsu-app"
@@ -1811,6 +1947,54 @@
       "manufacturer": "富士通ゼネラル",
       "appliance": "ノクリアアプリ",
       "code": "5906",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "6200",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "6201",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "6220",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "6221",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "6222",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "6310",
       "scope": null,
       "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
       "method": "dedicated:fujitsu-app"
@@ -1923,6 +2107,14 @@
       "manufacturer": "富士通ゼネラル",
       "appliance": "ノクリアアプリ",
       "code": "6506",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "6710",
       "scope": null,
       "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
       "method": "dedicated:fujitsu-app"
@@ -2226,6 +2418,30 @@
     {
       "manufacturer": "富士通ゼネラル",
       "appliance": "ノクリアアプリ",
+      "code": "7810",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "7910",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "7911",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
       "code": "7920",
       "scope": null,
       "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
@@ -2418,6 +2634,30 @@
     {
       "manufacturer": "富士通ゼネラル",
       "appliance": "ノクリアアプリ",
+      "code": "8100",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "8101",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "8102",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
       "code": "8110",
       "scope": null,
       "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
@@ -2563,6 +2803,14 @@
       "manufacturer": "富士通ゼネラル",
       "appliance": "ノクリアアプリ",
       "code": "8308",
+      "scope": null,
+      "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
+      "method": "dedicated:fujitsu-app"
+    },
+    {
+      "manufacturer": "富士通ゼネラル",
+      "appliance": "ノクリアアプリ",
+      "code": "8309",
       "scope": null,
       "source": "https://www.fujitsu-general.com/jp/support/faq/nocria-app/error-code/ja/index.html",
       "method": "dedicated:fujitsu-app"
