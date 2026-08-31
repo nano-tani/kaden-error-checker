@@ -27,10 +27,17 @@
 }
 ```
 
-## 公開
+## GitHub Pages で公開
 
-`.github/workflows/pages.yml` で GitHub Pages にデプロイします。
-GitHub の Settings → Pages → Build and deployment → Source を **GitHub Actions** に設定してください。
+このサイトはビルド不要です。
+
+GitHub の `Settings → Pages → Build and deployment` で、
+
+- Source: `Deploy from a branch`
+- Branch: `main`
+- Folder: `/(root)`
+
+を選んで保存してください。
 
 ## AdSense / SEO の次段階
 
