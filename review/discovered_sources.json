@@ -608,7 +608,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a04.html",
     "title": "表示部に「C19」や「乾燥容量オーバー」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -617,7 +617,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a125.html",
     "title": "排水されない／表示部に「C02」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -626,7 +626,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a131.html",
     "title": "表示部に「C8／C08」エラーが表示され、ふた（ドア）が閉まりません（ロックできません）。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -635,7 +635,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a133.html",
     "title": "表示部に「C」や「D」から始まる番号が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 26,
     "collector": "dedicated"
   },
   {
@@ -644,7 +644,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a174.html",
     "title": "表示部に「C09」／「C9」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -653,7 +653,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a207.html",
     "title": "表示部に「C6」／「C06」が表示されます。（ドラム式）：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -662,7 +662,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a210.html",
     "title": "泡が多量に発生し、脱水できません／表示部に「C18」「Cｈ」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -671,7 +671,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a211.html",
     "title": "表示部に「ドア開閉確認」や「C03」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -680,7 +680,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a212.html",
     "title": "表示部に「C16」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -689,7 +689,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a213.html",
     "title": "表示部に「C15」や「CF」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -698,7 +698,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a214.html",
     "title": "表示部に「C17」や「糸くずフィルター」、「異物トラップ」などが表示します。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -707,7 +707,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a215.html",
     "title": "表示部に「C0」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -716,7 +716,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a216.html",
     "title": "表示部に「C14」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -725,7 +725,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a217.html",
     "title": "表示部に「C20」が表示されています。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -734,7 +734,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a240.html",
     "title": "表示部に「C21」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -743,7 +743,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a247.html",
     "title": "表示部に「C6」／「C06」が表示されます。（タテ型）：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -752,7 +752,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a252.html",
     "title": "表示部に「C07」／「C7」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -761,7 +761,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a62.html",
     "title": "脱水されない／表示部に「C04」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -770,7 +770,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a64.html",
     "title": "表示部に「水栓開確認」「C01」が表示される／給水がされない／給水に時間がかかります。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
@@ -779,7 +779,7 @@
     "url": "https://kadenfan.hitachi.co.jp/support/wash/q_a/a83.html",
     "title": "風呂水が吸水されない／表示部に「C10」や「CP」が表示されます。：日立の家電品",
     "status": "ok",
-    "candidate_count": 0,
+    "candidate_count": 1,
     "collector": "dedicated"
   },
   {
