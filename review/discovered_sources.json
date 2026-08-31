@@ -5,8 +5,8 @@
     "url": "https://aqua-has.com/post/aqua_washing_machine_error_code_list.php",
     "title": "アクア（AQUA）洗濯機のエラーコード一覧｜原因別の対処法と解決策を解説| AQUA",
     "status": "ok",
-    "candidate_count": 15,
-    "collector": "generic"
+    "candidate_count": 44,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "アイリスオーヤマ",
@@ -374,8 +374,8 @@
     "url": "https://www.haier.com/jp/service-support/self-service/20200323_144469.shtml",
     "title": "【縦型】エラー表示が出た-Haier （ハイアール）",
     "status": "ok",
-    "candidate_count": 14,
-    "collector": "generic"
+    "candidate_count": 13,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "ハイアール",
@@ -383,8 +383,8 @@
     "url": "https://www.haier.com/jp/service-support/self-service/20260602_291539.shtml",
     "title": "【ドラム式】エラー表示が出た-Haier （ハイアール）",
     "status": "ok",
-    "candidate_count": 26,
-    "collector": "generic"
+    "candidate_count": 9,
+    "collector": "dedicated"
   },
   {
     "manufacturer": "パナソニック",

@@ -1,11 +1,11 @@
 {
   "verified_date": "2026-09-01",
   "policy": "strict dedicated official sources only; generic candidates are never auto-promoted; scoped conflicts are separated or rejected",
-  "candidate_count": 396,
+  "candidate_count": 390,
   "dedicated_candidate_count": 252,
-  "previous_published_count": 71,
+  "previous_published_count": 73,
   "manual_retained_count": 6,
-  "previous_auto_count": 65,
+  "previous_auto_count": 67,
   "auto_rebuilt_count": 67,
   "published_after": 73,
   "auto_promote_limit": 10000,
@@ -16,7 +16,7 @@
   "rejected": {
     "conflicting_summaries": 1,
     "manual_published_key_collision": 3,
-    "not_dedicated": 144,
+    "not_dedicated": 138,
     "not_high_confidence": 31,
     "summary_not_specific": 144,
     "unscoped_shadowed_by_specific_scope": 1
