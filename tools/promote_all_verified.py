@@ -13,7 +13,11 @@ import promote_verified as core
 ROOT = Path(__file__).resolve().parents[1]
 CATEGORY_REGISTRY = ROOT / "data" / "category_source_registry.json"
 
-core.DEDICATED.update({"dedicated:official-table", "dedicated:rinnai-faq"})
+core.DEDICATED.update({
+    "dedicated:official-table",
+    "dedicated:rinnai-faq",
+    "dedicated:noritz-faq",
+})
 
 
 def combined_rules() -> dict[tuple[str, str], list[str]]:
@@ -28,6 +32,8 @@ def combined_rules() -> dict[tuple[str, str], list[str]]:
             domains = list(row.get("allowed_domains") or [])
             if manufacturer and appliance and domains:
                 rules[(manufacturer, appliance)] = domains
+    # Consumer-facing Noritz FAQ uses one official domain across multiple product scopes.
+    rules[("ノーリツ", "*")] = ["faq.noritz.co.jp"]
     return rules
 
 
@@ -55,7 +61,6 @@ def main() -> None:
     for item in candidates:
         manufacturer = core.clean(item.get("manufacturer"))
         appliance = core.clean(item.get("appliance"))
-        base = (manufacturer, appliance)
         domains = domains_for(rules, manufacturer, appliance)
         if not domains:
             rejected["no_registry_rule"] += 1
@@ -64,7 +69,7 @@ def main() -> None:
         if not valid:
             rejected[reason] += 1
             continue
-        key = (*base, core.norm_code(item.get("code")))
+        key = (manufacturer, appliance, core.norm_code(item.get("code")))
         by_base_code[key].append(item)
 
     eligible: dict[tuple[str, str, str, str], list[dict]] = defaultdict(list)
