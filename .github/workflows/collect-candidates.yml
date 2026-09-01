@@ -29,6 +29,7 @@ on:
       - "tools/promote_verified.py"
       - "tools/promote_verified_extended.py"
       - "tools/promote_all_verified.py"
+      - "tools/promote_all_verified_final.py"
       - ".github/workflows/collect-candidates.yml"
 
 permissions:
@@ -88,7 +89,7 @@ jobs:
         run: python3 tools/collect_noritz_faq.py
 
       - name: Strictly verify and promote every eligible candidate
-        run: python3 tools/promote_all_verified.py
+        run: python3 tools/promote_all_verified_final.py
 
       - name: Generate production search and SEO pages
         env:
