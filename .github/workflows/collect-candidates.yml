@@ -21,7 +21,9 @@ on:
       - "tools/collect_misc_official.py"
       - "tools/collect_misc_official_safe.py"
       - "tools/collect_iris_siroca.py"
+      - "tools/collect_iris_siroca_safe.py"
       - "tools/collect_eufy_delonghi.py"
+      - "tools/collect_eufy_delonghi_safe.py"
       - "tools/collect_rinnai_faq.py"
       - "tools/collect_noritz_faq.py"
       - "tools/promote_verified.py"
@@ -74,10 +76,10 @@ jobs:
         run: python3 tools/collect_misc_official_safe.py
 
       - name: Collect Iris Ohyama and Siroca official categories
-        run: python3 tools/collect_iris_siroca.py
+        run: python3 tools/collect_iris_siroca_safe.py
 
       - name: Collect Eufy and DeLonghi official categories
-        run: python3 tools/collect_eufy_delonghi.py
+        run: python3 tools/collect_eufy_delonghi_safe.py
 
       - name: Collect Rinnai official FAQ error catalog
         run: python3 tools/collect_rinnai_faq.py
