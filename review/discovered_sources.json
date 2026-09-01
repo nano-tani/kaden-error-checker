@@ -5708,7 +5708,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - CO2センサー付き空気清浄機",
+    "appliance": "CO2センサー付き空気清浄機",
     "url": "https://www.siroca.co.jp/support/CO2%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E4%BB%98%E3%81%8D%E7%A9%BA%E6%B0%97%E6%B8%85%E6%B5%84%E6%A9%9F%EF%BC%9A%E8%A1%A8%E7%A4%BA%E9%83%A8%E3%81%AB%E3%80%8CEXX%E3%80%8D%EF%BC%88XX%20%E3%81%AF%E6%95%B0%E5%AD%97%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%9F-619356fc2e3256001dbd00c4",
     "title": "シロカ お客様サポート - CO2センサー付き空気清浄機：表示部に「EXX」（XX は数字）が表示された",
     "status": "ok",
@@ -5717,124 +5717,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフ",
-    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%EF%BC%BBLid%EF%BC%BD%E3%81%A8%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-612474292ad434002302f760",
-    "title": "シロカ お客様サポート - おうちシェフ：ディスプレーに［Lid］と表示される",
-    "status": "ok",
-    "candidate_count": 0,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフ",
-    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%EF%BC%BBOPEN%EF%BC%BD%E3%81%A8%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-61243f1db0ee85001dc3461f",
-    "title": "シロカ お客様サポート - おうちシェフ：ディスプレーに［OPEN］と表示される",
-    "status": "ok",
-    "candidate_count": 0,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフ PRO L",
-    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%20PRO%20L%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%E3%80%8C%E3%81%B5%E3%81%9F%E3%82%92%E5%8F%96%E3%82%8A%E5%A4%96%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%8D%E3%81%A8%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6348b9930fc57b001df497e7",
-    "title": "シロカ お客様サポート - おうちシェフ PRO L：ディスプレーに「ふたを取り外してください」と表示される",
-    "status": "ok",
-    "candidate_count": 0,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフ PRO L",
-    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%20PRO%20L%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%E3%80%8C%E3%81%B5%E3%81%9F%E3%82%92%E9%96%89%E3%82%81%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%8D%E3%81%A8%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6348ba1f451b8c0020c10bbf",
-    "title": "シロカ お客様サポート - おうちシェフ PRO L：ディスプレーに「ふたを閉めてください」と表示される",
-    "status": "ok",
-    "candidate_count": 0,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ",
-    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E07%E3%80%81E08%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-61248eb0dca2d2001de4de79",
-    "title": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ：エラーメッセージ（E07、E08）が表示されます",
-    "status": "ok",
-    "candidate_count": 2,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ",
-    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E09%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-61248fdfe6b4b6001dde6380",
-    "title": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ：エラーメッセージ（E09）が表示されます",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ PRO L",
-    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%20PRO%20L%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%EF%BC%BBC01%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-6348c13fe3ae7a0021368ac8",
-    "title": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ PRO L：ディスプレーに［C01］が表示されます",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ PRO L",
-    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%20PRO%20L%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%EF%BC%BBC02%EF%BC%BD%EF%BC%BBC05%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-6348b80f7fca4d001dcbe51c",
-    "title": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ PRO L：ディスプレーに［C02］［C05］が表示されます",
-    "status": "ok",
-    "candidate_count": 2,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7-6a44c461ea0b8dea702f5a0c",
-    "title": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ：エラーメッセージ一覧",
-    "status": "ok",
-    "candidate_count": 0,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E01%E3%80%81E02%E3%80%81E05%E3%80%81%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%80%81E5%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf86f",
-    "title": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ：エラーメッセージ（E01、E02、E05、またはE1、E2、E5）が表示されます",
-    "status": "ok",
-    "candidate_count": 6,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E03%E3%81%BE%E3%81%9F%E3%81%AFE3%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf870",
-    "title": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ：エラーメッセージ（E03またはE3）が表示されます",
-    "status": "ok",
-    "candidate_count": 2,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E04%E3%81%BE%E3%81%9F%E3%81%AFE4%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf871",
-    "title": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ：エラーメッセージ（E04またはE4）が表示されます",
-    "status": "ok",
-    "candidate_count": 2,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E06%E3%81%BE%E3%81%9F%E3%81%AFE6%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf872",
-    "title": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ：エラーメッセージ（E06またはE6）が表示されます",
-    "status": "ok",
-    "candidate_count": 2,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おりょうりレンジ",
+    "appliance": "おりょうりレンジ",
     "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%82%8A%E3%82%87%E3%81%86%E3%82%8A%E3%83%AC%E3%83%B3%E3%82%B8%EF%BC%9A%E3%80%8COPEN%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-634926c5e8e02e00211f163c",
     "title": "シロカ お客様サポート - おりょうりレンジ：「OPEN」が表示される",
     "status": "ok",
@@ -5843,7 +5726,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おりょうりレンジ ぱりジュワッ",
+    "appliance": "おりょうりレンジ ぱりジュワッ",
     "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%82%8A%E3%82%87%E3%81%86%E3%82%8A%E3%83%AC%E3%83%B3%E3%82%B8%20%E3%81%B1%E3%82%8A%E3%82%B8%E3%83%A5%E3%83%AF%E3%83%83%EF%BC%9A%E3%80%8CD%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%EF%BC%8F%E5%8B%95%E4%BD%9C%E3%81%97%E3%81%AA%E3%81%84-64918474fc8bcb001b2c0306",
     "title": "シロカ お客様サポート - おりょうりレンジ ぱりジュワッ：「D」が表示されている／動作しない",
     "status": "ok",
@@ -5852,7 +5735,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - かまどさん電気",
+    "appliance": "かまどさん電気",
     "url": "https://www.siroca.co.jp/support/%E3%81%8B%E3%81%BE%E3%81%A9%E3%81%95%E3%82%93%E9%9B%BB%E6%B0%97%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-635b2dba71cc0b001d663b0c",
     "title": "シロカ お客様サポート - かまどさん電気：エラーメッセージが表示されます",
     "status": "ok",
@@ -5861,16 +5744,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - すばやきトースター",
-    "url": "https://www.siroca.co.jp/support/%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%EF%BC%9A%E3%80%8CC%2001%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-6359ec3b174952001d02ff4d",
-    "title": "シロカ お客様サポート - すばやきトースター：「C 01」が表示されます",
-    "status": "ok",
-    "candidate_count": 0,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - すばやきトースター・プレミアムオーブントースター すばやき おまかせ",
+    "appliance": "オーブントースター",
     "url": "https://www.siroca.co.jp/support/%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%82%AA%E3%83%BC%E3%83%96%E3%83%B3%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%20%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%EF%BC%9AEr%2001%EF%BC%8FEr%2002%EF%BC%8FE01%EF%BC%8FE02%EF%BC%8FE03%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6058456f356ff10023208c21",
     "title": "シロカ お客様サポート - すばやきトースター・プレミアムオーブントースター すばやき おまかせ：Er 01／Er 02／E01／E02／E03が表示される",
     "status": "ok",
@@ -5879,7 +5753,16 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - オーブンレンジ・電子レンジ",
+    "appliance": "オーブントースター",
+    "url": "https://www.siroca.co.jp/support/%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%EF%BC%9A%E3%80%8CC%2001%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-6359ec3b174952001d02ff4d",
+    "title": "シロカ お客様サポート - すばやきトースター：「C 01」が表示されます",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "オーブンレンジ・電子レンジ",
     "url": "https://www.siroca.co.jp/support/%E3%82%AA%E3%83%BC%E3%83%96%E3%83%B3%E3%83%AC%E3%83%B3%E3%82%B8%E3%83%BB%E9%9B%BB%E5%AD%90%E3%83%AC%E3%83%B3%E3%82%B8%EF%BC%9A%E3%80%8CEXX%E3%80%8D%EF%BC%88XX%E3%81%AF%E6%95%B0%E5%AD%97%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-61518f5cf5ebab00231ec017",
     "title": "シロカ お客様サポート - オーブンレンジ・電子レンジ：「EXX」（XXは数字）が表示される",
     "status": "ok",
@@ -5888,7 +5771,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - カフェばこPRO",
+    "appliance": "カフェばこPRO",
     "url": "https://www.siroca.co.jp/support/%E3%82%AB%E3%83%95%E3%82%A7%E3%81%B0%E3%81%93PRO%EF%BC%9A%EF%BC%BBC%2008%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-63328d6e3decb60023cc15c1",
     "title": "シロカ お客様サポート - カフェばこPRO：［C 08］が表示される",
     "status": "ok",
@@ -5897,7 +5780,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - コーヒーメーカー全般",
+    "appliance": "コーヒーメーカー",
     "url": "https://www.siroca.co.jp/support/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E5%85%A8%E8%88%AC%EF%BC%9AE01%E3%80%81E02%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f631abb59ac53001f3f40d1",
     "title": "シロカ お客様サポート - コーヒーメーカー全般：E01、E02またはE1、E2が表示されます",
     "status": "ok",
@@ -5906,97 +5789,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - コーン式全自動コーヒーメーカー",
-    "url": "https://www.siroca.co.jp/support/%E3%82%B3%E3%83%BC%E3%83%B3%E5%BC%8F%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9A%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-633293881362bf001d12d15c",
-    "title": "シロカ お客様サポート - コーン式全自動コーヒーメーカー：サーバーアイコンが表示される",
-    "status": "ok",
-    "candidate_count": 0,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - コーン式全自動コーヒーメーカー",
-    "url": "https://www.siroca.co.jp/support/%E3%82%B3%E3%83%BC%E3%83%B3%E5%BC%8F%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9A%EF%BC%BBC%2007%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-633291d93decb60023cc7986",
-    "title": "シロカ お客様サポート - コーン式全自動コーヒーメーカー：［C 07］が表示される",
-    "status": "ok",
-    "candidate_count": 0,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - コーン式全自動コーヒーメーカー",
-    "url": "https://www.siroca.co.jp/support/%E3%82%B3%E3%83%BC%E3%83%B3%E5%BC%8F%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9A%EF%BC%BBC%2009%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-63329234bd3bd0001d656311",
-    "title": "シロカ お客様サポート - コーン式全自動コーヒーメーカー：［C 09］が表示される",
-    "status": "ok",
-    "candidate_count": 0,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - コーン式全自動コーヒーメーカー",
-    "url": "https://www.siroca.co.jp/support/%E3%82%B3%E3%83%BC%E3%83%B3%E5%BC%8F%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9A%EF%BC%BBEr%EF%BC%BD%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-63329267124567001dc5f3b2",
-    "title": "シロカ お客様サポート - コーン式全自動コーヒーメーカー：［Er］と数字が表示される",
-    "status": "ok",
-    "candidate_count": 1,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - ヒーター機能付きブレンダー",
-    "url": "https://www.siroca.co.jp/support/%E3%83%92%E3%83%BC%E3%82%BF%E3%83%BC%E6%A9%9F%E8%83%BD%E4%BB%98%E3%81%8D%E3%83%96%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC%EF%BC%9A%E3%80%8CC01%E3%80%8D%E3%80%81%E3%80%8CE01%E3%80%8D%E3%80%81%E3%80%8CE02%E3%80%8D%E3%80%81%E3%80%8CE03%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-680b0bbc1aa188efe7dc7ba4",
-    "title": "シロカ お客様サポート - ヒーター機能付きブレンダー：「C01」、「E01」、「E02」、「E03」が表示される",
-    "status": "ok",
-    "candidate_count": 2,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - ホームベーカリー",
-    "url": "https://www.siroca.co.jp/support/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%99%E3%83%BC%E3%82%AB%E3%83%AA%E3%83%BC%EF%BC%9A%E3%80%8C0%EF%BC%9A00%E3%80%8D%E3%81%BE%E3%81%9F%E3%81%AF%E3%80%8C0%E6%99%82%E9%96%9300%E5%88%86%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%9F%E3%81%BE%E3%81%BE%E3%80%81%E3%83%9C%E3%82%BF%E3%83%B3%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%82%82%E5%8F%8D%E5%BF%9C%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93-5f4cb12bd31088001e8bf7bb",
-    "title": "シロカ お客様サポート - ホームベーカリー：「0：00」または「0時間00分」が表示されたまま、ボタンを押しても反応しません",
-    "status": "ok",
-    "candidate_count": 0,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - ホームベーカリー",
-    "url": "https://www.siroca.co.jp/support/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%99%E3%83%BC%E3%82%AB%E3%83%AA%E3%83%BC%EF%BC%9A%E3%80%8CC%2001%E3%80%8D%E3%81%BE%E3%81%9F%E3%81%AF%E3%80%8CC%2002%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-6229c962ccb3bd001d8a3893",
-    "title": "シロカ お客様サポート - ホームベーカリー：「C 01」または「C 02」が表示されます",
-    "status": "ok",
-    "candidate_count": 0,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - ホームベーカリー",
-    "url": "https://www.siroca.co.jp/support/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%99%E3%83%BC%E3%82%AB%E3%83%AA%E3%83%BC%EF%BC%9A%E3%80%8CEE1%E3%80%8D%E3%80%81%E3%80%8CEE0%E3%80%8D%E3%81%BE%E3%81%9F%E3%81%AF%E3%80%8CE%2001%E3%80%8D%E3%80%81%E3%80%8CE%2002%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12bd31088001e8bf7be",
-    "title": "シロカ お客様サポート - ホームベーカリー：「EE1」、「EE0」または「E 01」、「E 02」が表示されます",
-    "status": "ok",
-    "candidate_count": 2,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - ホームベーカリー",
-    "url": "https://www.siroca.co.jp/support/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%99%E3%83%BC%E3%82%AB%E3%83%AA%E3%83%BC%EF%BC%9A%E3%80%8CHHH%E3%80%8D%E3%81%BE%E3%81%9F%E3%81%AF%E3%80%8CE%20HH%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12bd31088001e8bf7bc",
-    "title": "シロカ お客様サポート - ホームベーカリー：「HHH」または「E HH」が表示されます",
-    "status": "ok",
-    "candidate_count": 0,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - ホームベーカリー",
-    "url": "https://www.siroca.co.jp/support/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%99%E3%83%BC%E3%82%AB%E3%83%AA%E3%83%BC%EF%BC%9A%E3%80%8CLLL%E3%80%8D%E3%81%BE%E3%81%9F%E3%81%AF%E3%80%8CE%20LL%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12bd31088001e8bf7bd",
-    "title": "シロカ お客様サポート - ホームベーカリー：「LLL」または「E LL」が表示されます",
-    "status": "ok",
-    "candidate_count": 0,
-    "collector": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 全自動コーヒーメーカー",
+    "appliance": "コーヒーメーカー",
     "url": "https://www.siroca.co.jp/support/%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9AC01%E3%80%81C02%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-65e6beb7e7df0d0025740139",
     "title": "シロカ お客様サポート - 全自動コーヒーメーカー：C01、C02が表示されます",
     "status": "ok",
@@ -6005,7 +5798,97 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 温度調節電気ケトル",
+    "appliance": "コーン式全自動コーヒーメーカー",
+    "url": "https://www.siroca.co.jp/support/%E3%82%B3%E3%83%BC%E3%83%B3%E5%BC%8F%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9A%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-633293881362bf001d12d15c",
+    "title": "シロカ お客様サポート - コーン式全自動コーヒーメーカー：サーバーアイコンが表示される",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "コーン式全自動コーヒーメーカー",
+    "url": "https://www.siroca.co.jp/support/%E3%82%B3%E3%83%BC%E3%83%B3%E5%BC%8F%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9A%EF%BC%BBC%2007%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-633291d93decb60023cc7986",
+    "title": "シロカ お客様サポート - コーン式全自動コーヒーメーカー：［C 07］が表示される",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "コーン式全自動コーヒーメーカー",
+    "url": "https://www.siroca.co.jp/support/%E3%82%B3%E3%83%BC%E3%83%B3%E5%BC%8F%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9A%EF%BC%BBC%2009%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-63329234bd3bd0001d656311",
+    "title": "シロカ お客様サポート - コーン式全自動コーヒーメーカー：［C 09］が表示される",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "コーン式全自動コーヒーメーカー",
+    "url": "https://www.siroca.co.jp/support/%E3%82%B3%E3%83%BC%E3%83%B3%E5%BC%8F%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9A%EF%BC%BBEr%EF%BC%BD%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-63329267124567001dc5f3b2",
+    "title": "シロカ お客様サポート - コーン式全自動コーヒーメーカー：［Er］と数字が表示される",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "ヒーター機能付きブレンダー",
+    "url": "https://www.siroca.co.jp/support/%E3%83%92%E3%83%BC%E3%82%BF%E3%83%BC%E6%A9%9F%E8%83%BD%E4%BB%98%E3%81%8D%E3%83%96%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC%EF%BC%9A%E3%80%8CC01%E3%80%8D%E3%80%81%E3%80%8CE01%E3%80%8D%E3%80%81%E3%80%8CE02%E3%80%8D%E3%80%81%E3%80%8CE03%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-680b0bbc1aa188efe7dc7ba4",
+    "title": "シロカ お客様サポート - ヒーター機能付きブレンダー：「C01」、「E01」、「E02」、「E03」が表示される",
+    "status": "ok",
+    "candidate_count": 2,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "ホームベーカリー",
+    "url": "https://www.siroca.co.jp/support/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%99%E3%83%BC%E3%82%AB%E3%83%AA%E3%83%BC%EF%BC%9A%E3%80%8C0%EF%BC%9A00%E3%80%8D%E3%81%BE%E3%81%9F%E3%81%AF%E3%80%8C0%E6%99%82%E9%96%9300%E5%88%86%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%9F%E3%81%BE%E3%81%BE%E3%80%81%E3%83%9C%E3%82%BF%E3%83%B3%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%82%82%E5%8F%8D%E5%BF%9C%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93-5f4cb12bd31088001e8bf7bb",
+    "title": "シロカ お客様サポート - ホームベーカリー：「0：00」または「0時間00分」が表示されたまま、ボタンを押しても反応しません",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "ホームベーカリー",
+    "url": "https://www.siroca.co.jp/support/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%99%E3%83%BC%E3%82%AB%E3%83%AA%E3%83%BC%EF%BC%9A%E3%80%8CC%2001%E3%80%8D%E3%81%BE%E3%81%9F%E3%81%AF%E3%80%8CC%2002%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-6229c962ccb3bd001d8a3893",
+    "title": "シロカ お客様サポート - ホームベーカリー：「C 01」または「C 02」が表示されます",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "ホームベーカリー",
+    "url": "https://www.siroca.co.jp/support/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%99%E3%83%BC%E3%82%AB%E3%83%AA%E3%83%BC%EF%BC%9A%E3%80%8CEE1%E3%80%8D%E3%80%81%E3%80%8CEE0%E3%80%8D%E3%81%BE%E3%81%9F%E3%81%AF%E3%80%8CE%2001%E3%80%8D%E3%80%81%E3%80%8CE%2002%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12bd31088001e8bf7be",
+    "title": "シロカ お客様サポート - ホームベーカリー：「EE1」、「EE0」または「E 01」、「E 02」が表示されます",
+    "status": "ok",
+    "candidate_count": 2,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "ホームベーカリー",
+    "url": "https://www.siroca.co.jp/support/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%99%E3%83%BC%E3%82%AB%E3%83%AA%E3%83%BC%EF%BC%9A%E3%80%8CHHH%E3%80%8D%E3%81%BE%E3%81%9F%E3%81%AF%E3%80%8CE%20HH%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12bd31088001e8bf7bc",
+    "title": "シロカ お客様サポート - ホームベーカリー：「HHH」または「E HH」が表示されます",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "ホームベーカリー",
+    "url": "https://www.siroca.co.jp/support/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%99%E3%83%BC%E3%82%AB%E3%83%AA%E3%83%BC%EF%BC%9A%E3%80%8CLLL%E3%80%8D%E3%81%BE%E3%81%9F%E3%81%AF%E3%80%8CE%20LL%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12bd31088001e8bf7bd",
+    "title": "シロカ お客様サポート - ホームベーカリー：「LLL」または「E LL」が表示されます",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "温度調節電気ケトル",
     "url": "https://www.siroca.co.jp/support/%E6%B8%A9%E5%BA%A6%E8%AA%BF%E7%AF%80%E9%9B%BB%E6%B0%97%E3%82%B1%E3%83%88%E3%83%AB%EF%BC%9A%E8%A1%A8%E7%A4%BA%E9%83%A8%E3%81%AB%E3%80%8C-%20-%20-%20-%E3%80%8D%E3%81%A8%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12cd31088001e8bf7e6",
     "title": "シロカ お客様サポート - 温度調節電気ケトル：表示部に「- - - -」と表示されます",
     "status": "ok",
@@ -6014,7 +5897,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 温度調節電気ケトル",
+    "appliance": "温度調節電気ケトル",
     "url": "https://www.siroca.co.jp/support/%E6%B8%A9%E5%BA%A6%E8%AA%BF%E7%AF%80%E9%9B%BB%E6%B0%97%E3%82%B1%E3%83%88%E3%83%AB%EF%BC%9A%E8%A1%A8%E7%A4%BA%E9%83%A8%E3%81%AB%E3%80%8CC01%E3%80%8D%E3%81%BE%E3%81%9F%E3%81%AF%E3%80%8CE01%E3%80%8D%E3%81%A8%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12cd31088001e8bf7e7",
     "title": "シロカ お客様サポート - 温度調節電気ケトル：表示部に「C01」または「E01」と表示されます",
     "status": "ok",
@@ -6023,7 +5906,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 温度調節電気ケトル",
+    "appliance": "温度調節電気ケトル",
     "url": "https://www.siroca.co.jp/support/%E6%B8%A9%E5%BA%A6%E8%AA%BF%E7%AF%80%E9%9B%BB%E6%B0%97%E3%82%B1%E3%83%88%E3%83%AB%EF%BC%9A%E8%A1%A8%E7%A4%BA%E9%83%A8%E3%81%AB%E3%80%8CC02%E3%80%8D%E3%81%BE%E3%81%9F%E3%81%AF%E3%80%8CE02%E3%80%8D%E3%81%A8%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12cd31088001e8bf7e8",
     "title": "シロカ お客様サポート - 温度調節電気ケトル：表示部に「C02」または「E02」と表示されます",
     "status": "ok",
@@ -6032,7 +5915,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 遠赤軽量ヒーター",
+    "appliance": "遠赤軽量ヒーター",
     "url": "https://www.siroca.co.jp/support/%E9%81%A0%E8%B5%A4%E8%BB%BD%E9%87%8F%E3%83%92%E3%83%BC%E3%82%BF%E3%83%BC%EF%BC%9A%E3%80%8CE01%E3%80%8D%E3%80%8CE02%E3%80%8D%E3%80%8CE03%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-63d0b604dc79c3001ea61ed6",
     "title": "シロカ お客様サポート - 遠赤軽量ヒーター：「E01」「E02」「E03」が表示される",
     "status": "ok",
@@ -6041,16 +5924,124 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 電気圧力鍋",
-    "url": "https://www.siroca.co.jp/support/%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%EF%BC%9A%E3%83%9C%E3%82%BF%E3%83%B3%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%82%82%E3%80%81%E3%80%8C%EF%BC%8D%EF%BC%8D%EF%BC%8D%EF%BC%8D%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%A6%E6%93%8D%E4%BD%9C%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%9B%E3%82%93-5f4cb12dd31088001e8bf879",
-    "title": "シロカ お客様サポート - 電気圧力鍋：ボタンを押しても、「－－－－」が表示されて操作できません",
+    "appliance": "電気圧力鍋・おうちシェフ",
+    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%20PRO%20L%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%E3%80%8C%E3%81%B5%E3%81%9F%E3%82%92%E5%8F%96%E3%82%8A%E5%A4%96%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%8D%E3%81%A8%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6348b9930fc57b001df497e7",
+    "title": "シロカ お客様サポート - おうちシェフ PRO L：ディスプレーに「ふたを取り外してください」と表示される",
     "status": "ok",
     "candidate_count": 0,
     "collector": "dedicated:iris-siroca"
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 電気圧力鍋・おうちシェフ",
+    "appliance": "電気圧力鍋・おうちシェフ",
+    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%20PRO%20L%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%E3%80%8C%E3%81%B5%E3%81%9F%E3%82%92%E9%96%89%E3%82%81%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%8D%E3%81%A8%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6348ba1f451b8c0020c10bbf",
+    "title": "シロカ お客様サポート - おうちシェフ PRO L：ディスプレーに「ふたを閉めてください」と表示される",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "電気圧力鍋・おうちシェフ",
+    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%20PRO%20L%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%EF%BC%BBC01%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-6348c13fe3ae7a0021368ac8",
+    "title": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ PRO L：ディスプレーに［C01］が表示されます",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "電気圧力鍋・おうちシェフ",
+    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%20PRO%20L%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%EF%BC%BBC02%EF%BC%BD%EF%BC%BBC05%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-6348b80f7fca4d001dcbe51c",
+    "title": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ PRO L：ディスプレーに［C02］［C05］が表示されます",
+    "status": "ok",
+    "candidate_count": 2,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "電気圧力鍋・おうちシェフ",
+    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E07%E3%80%81E08%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-61248eb0dca2d2001de4de79",
+    "title": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ：エラーメッセージ（E07、E08）が表示されます",
+    "status": "ok",
+    "candidate_count": 2,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "電気圧力鍋・おうちシェフ",
+    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E09%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-61248fdfe6b4b6001dde6380",
+    "title": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ：エラーメッセージ（E09）が表示されます",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "電気圧力鍋・おうちシェフ",
+    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7-6a44c461ea0b8dea702f5a0c",
+    "title": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ：エラーメッセージ一覧",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "電気圧力鍋・おうちシェフ",
+    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E01%E3%80%81E02%E3%80%81E05%E3%80%81%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%80%81E5%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf86f",
+    "title": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ：エラーメッセージ（E01、E02、E05、またはE1、E2、E5）が表示されます",
+    "status": "ok",
+    "candidate_count": 6,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "電気圧力鍋・おうちシェフ",
+    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E03%E3%81%BE%E3%81%9F%E3%81%AFE3%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf870",
+    "title": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ：エラーメッセージ（E03またはE3）が表示されます",
+    "status": "ok",
+    "candidate_count": 2,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "電気圧力鍋・おうちシェフ",
+    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E04%E3%81%BE%E3%81%9F%E3%81%AFE4%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf871",
+    "title": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ：エラーメッセージ（E04またはE4）が表示されます",
+    "status": "ok",
+    "candidate_count": 1,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "電気圧力鍋・おうちシェフ",
+    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E06%E3%81%BE%E3%81%9F%E3%81%AFE6%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf872",
+    "title": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ：エラーメッセージ（E06またはE6）が表示されます",
+    "status": "ok",
+    "candidate_count": 2,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "電気圧力鍋・おうちシェフ",
+    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%EF%BC%BBLid%EF%BC%BD%E3%81%A8%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-612474292ad434002302f760",
+    "title": "シロカ お客様サポート - おうちシェフ：ディスプレーに［Lid］と表示される",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "電気圧力鍋・おうちシェフ",
+    "url": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%EF%BC%BBOPEN%EF%BC%BD%E3%81%A8%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-61243f1db0ee85001dc3461f",
+    "title": "シロカ お客様サポート - おうちシェフ：ディスプレーに［OPEN］と表示される",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "電気圧力鍋・おうちシェフ",
     "url": "https://www.siroca.co.jp/support/%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%83%9C%E3%82%BF%E3%83%B3%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%82%82%E3%80%8C0000%E3%80%8D%E3%81%AE%E3%81%BE%E3%81%BE%E8%A1%A8%E7%A4%BA%E3%81%8C%E5%A4%89%E3%82%8F%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%EF%BC%8F%E3%81%AA%E3%81%AB%E3%82%82%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%9B%E3%82%93-5f4cb12dd31088001e8bf877",
     "title": "シロカ お客様サポート - 電気圧力鍋・おうちシェフ：ボタンを押しても「0000」のまま表示が変わりません／なにも表示されません",
     "status": "ok",
@@ -6059,7 +6050,16 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 食器洗い乾燥機",
+    "appliance": "電気圧力鍋・おうちシェフ",
+    "url": "https://www.siroca.co.jp/support/%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%EF%BC%9A%E3%83%9C%E3%82%BF%E3%83%B3%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%82%82%E3%80%81%E3%80%8C%EF%BC%8D%EF%BC%8D%EF%BC%8D%EF%BC%8D%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%A6%E6%93%8D%E4%BD%9C%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%9B%E3%82%93-5f4cb12dd31088001e8bf879",
+    "title": "シロカ お客様サポート - 電気圧力鍋：ボタンを押しても、「－－－－」が表示されて操作できません",
+    "status": "ok",
+    "candidate_count": 0,
+    "collector": "dedicated:iris-siroca"
+  },
+  {
+    "manufacturer": "シロカ",
+    "appliance": "食器洗い乾燥機",
     "url": "https://www.siroca.co.jp/support/%E9%A3%9F%E5%99%A8%E6%B4%97%E3%81%84%E4%B9%BE%E7%87%A5%E6%A9%9F%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E3%81%AB%E3%80%8CE1%E3%80%8D%E3%80%81%E3%80%8CE2%E3%80%8D%E3%80%81%E3%80%8CEd%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-608781a760af25001c13a1c8",
     "title": "シロカ お客様サポート - 食器洗い乾燥機：ディスプレイに「E1」、「E2」、「Ed」が表示されます",
     "status": "ok",
@@ -6068,7 +6068,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 食器洗い乾燥機",
+    "appliance": "食器洗い乾燥機",
     "url": "https://www.siroca.co.jp/support/%E9%A3%9F%E5%99%A8%E6%B4%97%E3%81%84%E4%B9%BE%E7%87%A5%E6%A9%9F%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E3%81%AB%E3%80%8CE1%E3%80%8D%E3%80%81%E3%80%8CEd%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf849",
     "title": "シロカ お客様サポート - 食器洗い乾燥機：ディスプレイに「E1」、「Ed」が表示されます",
     "status": "ok",
@@ -6077,7 +6077,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 食器洗い乾燥機",
+    "appliance": "食器洗い乾燥機",
     "url": "https://www.siroca.co.jp/support/%E9%A3%9F%E5%99%A8%E6%B4%97%E3%81%84%E4%B9%BE%E7%87%A5%E6%A9%9F%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E3%81%AB%E3%80%8CE4%E3%80%8D%E3%80%81%E3%80%8CE2%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf84a",
     "title": "シロカ お客様サポート - 食器洗い乾燥機：ディスプレイに「E4」、「E2」が表示されます",
     "status": "ok",
@@ -6086,7 +6086,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 食器洗い乾燥機",
+    "appliance": "食器洗い乾燥機",
     "url": "https://www.siroca.co.jp/support/%E9%A3%9F%E5%99%A8%E6%B4%97%E3%81%84%E4%B9%BE%E7%87%A5%E6%A9%9F%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E3%81%AB%E3%80%8CE4%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-60877e5274a79b001c6f559b",
     "title": "シロカ お客様サポート - 食器洗い乾燥機：ディスプレイに「E4」が表示される",
     "status": "ok",
@@ -6095,7 +6095,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 食器洗い乾燥機",
+    "appliance": "食器洗い乾燥機",
     "url": "https://www.siroca.co.jp/support/%E9%A3%9F%E5%99%A8%E6%B4%97%E3%81%84%E4%B9%BE%E7%87%A5%E6%A9%9F%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E3%81%AB%E3%80%8Cdr%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-60f78475f37cc700230fc80d",
     "title": "シロカ お客様サポート - 食器洗い乾燥機：ディスプレイに「dr」が表示される",
     "status": "ok",
@@ -6104,7 +6104,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 食器洗い乾燥機",
+    "appliance": "食器洗い乾燥機",
     "url": "https://www.siroca.co.jp/support/%E9%A3%9F%E5%99%A8%E6%B4%97%E3%81%84%E4%B9%BE%E7%87%A5%E6%A9%9F%EF%BC%9A%E7%B5%A6%E6%B0%B4%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E3%81%8C%E7%82%B9%E6%BB%85%E3%81%99%E3%82%8B%EF%BC%8F%E7%B5%A6%E6%B0%B4%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E3%81%8C%E7%82%B9%E7%81%AF%E3%81%97%E3%80%81%E3%80%8CE1%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-622edf76940e2c002309d6bd",
     "title": "シロカ お客様サポート - 食器洗い乾燥機：給水アイコンが点滅する／給水アイコンが点灯し、「E1」が表示される",
     "status": "ok",

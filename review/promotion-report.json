@@ -2,19 +2,19 @@
   "verified_date": "2026-09-01",
   "policy": "strict dedicated official sources only; generic candidates are never auto-promoted; scoped conflicts are separated or rejected; no promotion count ceiling",
   "promotion_mode": "unlimited",
-  "candidate_count": 2738,
-  "dedicated_candidate_count": 2649,
-  "previous_published_count": 822,
+  "candidate_count": 2737,
+  "dedicated_candidate_count": 2648,
+  "previous_published_count": 2328,
   "manual_retained_count": 6,
-  "previous_auto_count": 816,
-  "auto_rebuilt_count": 2322,
-  "published_after": 2328,
+  "previous_auto_count": 2322,
+  "auto_rebuilt_count": 2196,
+  "published_after": 2202,
   "promoted_by_manufacturer": {
     "AQUA": 15,
     "Anker/Eufy": 18,
-    "コロナ": 515,
+    "コロナ": 405,
     "シャープ": 126,
-    "シロカ": 31,
+    "シロカ": 15,
     "ダイキン": 53,
     "ダイニチ": 21,
     "デロンギ": 9,
@@ -31,9 +31,9 @@
     "Anker/Eufy / ロボット掃除機 RoboVac": 18,
     "コロナ / エコキュート": 126,
     "コロナ / ノイルヒート": 4,
-    "コロナ / ヒートポンプ式冷暖房システム": 84,
+    "コロナ / ヒートポンプ式冷暖房システム": 5,
     "コロナ / 加湿器": 5,
-    "コロナ / 寒冷地用大型ストーブ": 45,
+    "コロナ / 寒冷地用大型ストーブ": 14,
     "コロナ / 据置型ナノフィール": 38,
     "コロナ / 暖房ボイラー": 20,
     "コロナ / 温水ルームヒーター": 21,
@@ -60,15 +60,12 @@
     "シャープ / 炊飯器": 5,
     "シャープ / 除湿機": 8,
     "シャープ / 電子レンジ・オーブンレンジ": 4,
-    "シロカ / シロカ お客様サポート - おうちシェフクッカー・おうちシェフ": 3,
-    "シロカ / シロカ お客様サポート - おうちシェフクッカー・おうちシェフ PRO L": 3,
-    "シロカ / シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ": 12,
-    "シロカ / シロカ お客様サポート - すばやきトースター・プレミアムオーブントースター すばやき おまかせ": 3,
-    "シロカ / シロカ お客様サポート - コーヒーメーカー全般": 2,
-    "シロカ / シロカ お客様サポート - コーン式全自動コーヒーメーカー": 1,
-    "シロカ / シロカ お客様サポート - ヒーター機能付きブレンダー": 2,
-    "シロカ / シロカ お客様サポート - 全自動コーヒーメーカー": 2,
-    "シロカ / シロカ お客様サポート - 食器洗い乾燥機": 3,
+    "シロカ / オーブントースター": 3,
+    "シロカ / コーヒーメーカー": 4,
+    "シロカ / コーン式全自動コーヒーメーカー": 1,
+    "シロカ / ヒーター機能付きブレンダー": 2,
+    "シロカ / 電気圧力鍋・おうちシェフ": 2,
+    "シロカ / 食器洗い乾燥機": 3,
     "ダイキン / ルームエアコン": 47,
     "ダイキン / 空気清浄機": 6,
     "ダイニチ / 加湿器": 2,
@@ -117,7 +114,7 @@
     "not_dedicated": 89,
     "not_high_confidence": 66,
     "status_not_error": 2,
-    "summary_not_specific": 152,
+    "summary_not_specific": 277,
     "unexpected_code_family": 4,
     "unscoped_shadowed_by_specific_scope": 1,
     "weak_structured_summary": 7
@@ -1430,223 +1427,7 @@
     {
       "manufacturer": "コロナ",
       "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E0",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E01",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E02",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E05",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E07",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E1",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E10",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E11",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E12",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E13",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E14",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
       "code": "E15",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E2",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E21",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E22",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E23",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E24",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E25",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E26",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E27",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E28",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E29",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E3",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E30",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E31",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E32",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E33",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E34",
       "scope": null,
       "source": "https://www.corona.co.jp/support/error/HPreidan.html",
       "method": "dedicated:official-table"
@@ -1662,351 +1443,7 @@
     {
       "manufacturer": "コロナ",
       "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E36",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E4",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E41",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E42",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E43",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E44",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E45",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E46",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E47",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E48",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E49",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E5",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E50",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E51",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E52",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E53",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E6",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E61",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E62",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E63",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E64",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E65",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E66",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E67",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E68",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E69",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E7",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E70",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E71",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E72",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E73",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E74",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E75",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E76",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E77",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E8",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "E9",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "EA",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "EB",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "EC",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "ED",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
       "code": "EE",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "EF",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "EL",
       "scope": null,
       "source": "https://www.corona.co.jp/support/error/HPreidan.html",
       "method": "dedicated:official-table"
@@ -2023,78 +1460,6 @@
       "manufacturer": "コロナ",
       "appliance": "ヒートポンプ式冷暖房システム",
       "code": "EP",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "H1",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "H2",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "H3",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "H4",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "H5",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "H6",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "H7",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "H8",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "ヒートポンプ式冷暖房システム",
-      "code": "IPM",
       "scope": null,
       "source": "https://www.corona.co.jp/support/error/HPreidan.html",
       "method": "dedicated:official-table"
@@ -2150,63 +1515,7 @@
     {
       "manufacturer": "コロナ",
       "appliance": "寒冷地用大型ストーブ",
-      "code": "B1",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "B2",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "B3",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "B4",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "B5",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
       "code": "E0",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "E1",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "E10",
       "scope": null,
       "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
       "method": "dedicated:official-table"
@@ -2238,63 +1547,7 @@
     {
       "manufacturer": "コロナ",
       "appliance": "寒冷地用大型ストーブ",
-      "code": "E5",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "E6",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "E7",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "E8",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
       "code": "E9",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "EA",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "EC",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "ED",
       "scope": null,
       "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
       "method": "dedicated:official-table"
@@ -2342,55 +1595,7 @@
     {
       "manufacturer": "コロナ",
       "appliance": "寒冷地用大型ストーブ",
-      "code": "EP",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "EU",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "F0",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
       "code": "F1",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "F2",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "F3",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "F5",
       "scope": null,
       "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
       "method": "dedicated:official-table"
@@ -2407,94 +1612,6 @@
       "manufacturer": "コロナ",
       "appliance": "寒冷地用大型ストーブ",
       "code": "F7",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "F8",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "FA",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "FC",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "FE",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "HE",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "HH",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "P1",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "P2",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "P3",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "P4",
-      "scope": null,
-      "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-      "method": "dedicated:official-table"
-    },
-    {
-      "manufacturer": "コロナ",
-      "appliance": "寒冷地用大型ストーブ",
-      "code": "P5",
       "scope": null,
       "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
       "method": "dedicated:official-table"
@@ -5517,175 +4634,47 @@
     },
     {
       "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ",
-      "code": "E07",
+      "appliance": "オーブントースター",
+      "code": "E01",
       "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E07%E3%80%81E08%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-61248eb0dca2d2001de4de79",
+      "source": "https://www.siroca.co.jp/support/%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%82%AA%E3%83%BC%E3%83%96%E3%83%B3%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%20%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%EF%BC%9AEr%2001%EF%BC%8FEr%2002%EF%BC%8FE01%EF%BC%8FE02%EF%BC%8FE03%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6058456f356ff10023208c21",
       "method": "dedicated:iris-siroca"
     },
     {
       "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ",
-      "code": "E08",
+      "appliance": "オーブントースター",
+      "code": "E02",
       "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E07%E3%80%81E08%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-61248eb0dca2d2001de4de79",
+      "source": "https://www.siroca.co.jp/support/%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%82%AA%E3%83%BC%E3%83%96%E3%83%B3%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%20%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%EF%BC%9AEr%2001%EF%BC%8FEr%2002%EF%BC%8FE01%EF%BC%8FE02%EF%BC%8FE03%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6058456f356ff10023208c21",
       "method": "dedicated:iris-siroca"
     },
     {
       "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ",
-      "code": "E09",
+      "appliance": "オーブントースター",
+      "code": "E03",
       "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E09%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-61248fdfe6b4b6001dde6380",
+      "source": "https://www.siroca.co.jp/support/%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%82%AA%E3%83%BC%E3%83%96%E3%83%B3%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%20%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%EF%BC%9AEr%2001%EF%BC%8FEr%2002%EF%BC%8FE01%EF%BC%8FE02%EF%BC%8FE03%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6058456f356ff10023208c21",
       "method": "dedicated:iris-siroca"
     },
     {
       "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ PRO L",
+      "appliance": "コーヒーメーカー",
       "code": "C01",
       "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%20PRO%20L%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%EF%BC%BBC01%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-6348c13fe3ae7a0021368ac8",
+      "source": "https://www.siroca.co.jp/support/%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9AC01%E3%80%81C02%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-65e6beb7e7df0d0025740139",
       "method": "dedicated:iris-siroca"
     },
     {
       "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ PRO L",
+      "appliance": "コーヒーメーカー",
       "code": "C02",
       "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%20PRO%20L%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%EF%BC%BBC02%EF%BC%BD%EF%BC%BBC05%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-6348b80f7fca4d001dcbe51c",
+      "source": "https://www.siroca.co.jp/support/%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9AC01%E3%80%81C02%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-65e6beb7e7df0d0025740139",
       "method": "dedicated:iris-siroca"
     },
     {
       "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ PRO L",
-      "code": "C05",
-      "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%20PRO%20L%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%EF%BC%BBC02%EF%BC%BD%EF%BC%BBC05%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-6348b80f7fca4d001dcbe51c",
-      "method": "dedicated:iris-siroca"
-    },
-    {
-      "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-      "code": "E01",
-      "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E01%E3%80%81E02%E3%80%81E05%E3%80%81%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%80%81E5%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf86f",
-      "method": "dedicated:iris-siroca"
-    },
-    {
-      "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-      "code": "E02",
-      "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E01%E3%80%81E02%E3%80%81E05%E3%80%81%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%80%81E5%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf86f",
-      "method": "dedicated:iris-siroca"
-    },
-    {
-      "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-      "code": "E03",
-      "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E03%E3%81%BE%E3%81%9F%E3%81%AFE3%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf870",
-      "method": "dedicated:iris-siroca"
-    },
-    {
-      "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-      "code": "E04",
-      "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E04%E3%81%BE%E3%81%9F%E3%81%AFE4%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf871",
-      "method": "dedicated:iris-siroca"
-    },
-    {
-      "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-      "code": "E05",
-      "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E01%E3%80%81E02%E3%80%81E05%E3%80%81%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%80%81E5%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf86f",
-      "method": "dedicated:iris-siroca"
-    },
-    {
-      "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-      "code": "E06",
-      "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E06%E3%81%BE%E3%81%9F%E3%81%AFE6%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf872",
-      "method": "dedicated:iris-siroca"
-    },
-    {
-      "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-      "code": "E1",
-      "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E01%E3%80%81E02%E3%80%81E05%E3%80%81%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%80%81E5%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf86f",
-      "method": "dedicated:iris-siroca"
-    },
-    {
-      "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-      "code": "E2",
-      "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E01%E3%80%81E02%E3%80%81E05%E3%80%81%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%80%81E5%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf86f",
-      "method": "dedicated:iris-siroca"
-    },
-    {
-      "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-      "code": "E3",
-      "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E03%E3%81%BE%E3%81%9F%E3%81%AFE3%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf870",
-      "method": "dedicated:iris-siroca"
-    },
-    {
-      "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-      "code": "E4",
-      "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E04%E3%81%BE%E3%81%9F%E3%81%AFE4%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf871",
-      "method": "dedicated:iris-siroca"
-    },
-    {
-      "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-      "code": "E5",
-      "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E01%E3%80%81E02%E3%80%81E05%E3%80%81%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%80%81E5%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf86f",
-      "method": "dedicated:iris-siroca"
-    },
-    {
-      "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-      "code": "E6",
-      "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E06%E3%81%BE%E3%81%9F%E3%81%AFE6%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf872",
-      "method": "dedicated:iris-siroca"
-    },
-    {
-      "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - すばやきトースター・プレミアムオーブントースター すばやき おまかせ",
-      "code": "E01",
-      "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%82%AA%E3%83%BC%E3%83%96%E3%83%B3%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%20%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%EF%BC%9AEr%2001%EF%BC%8FEr%2002%EF%BC%8FE01%EF%BC%8FE02%EF%BC%8FE03%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6058456f356ff10023208c21",
-      "method": "dedicated:iris-siroca"
-    },
-    {
-      "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - すばやきトースター・プレミアムオーブントースター すばやき おまかせ",
-      "code": "E02",
-      "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%82%AA%E3%83%BC%E3%83%96%E3%83%B3%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%20%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%EF%BC%9AEr%2001%EF%BC%8FEr%2002%EF%BC%8FE01%EF%BC%8FE02%EF%BC%8FE03%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6058456f356ff10023208c21",
-      "method": "dedicated:iris-siroca"
-    },
-    {
-      "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - すばやきトースター・プレミアムオーブントースター すばやき おまかせ",
-      "code": "E03",
-      "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%82%AA%E3%83%BC%E3%83%96%E3%83%B3%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%20%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%EF%BC%9AEr%2001%EF%BC%8FEr%2002%EF%BC%8FE01%EF%BC%8FE02%EF%BC%8FE03%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6058456f356ff10023208c21",
-      "method": "dedicated:iris-siroca"
-    },
-    {
-      "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - コーヒーメーカー全般",
+      "appliance": "コーヒーメーカー",
       "code": "E01",
       "scope": null,
       "source": "https://www.siroca.co.jp/support/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E5%85%A8%E8%88%AC%EF%BC%9AE01%E3%80%81E02%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f631abb59ac53001f3f40d1",
@@ -5693,7 +4682,7 @@
     },
     {
       "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - コーヒーメーカー全般",
+      "appliance": "コーヒーメーカー",
       "code": "E02",
       "scope": null,
       "source": "https://www.siroca.co.jp/support/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E5%85%A8%E8%88%AC%EF%BC%9AE01%E3%80%81E02%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f631abb59ac53001f3f40d1",
@@ -5701,7 +4690,7 @@
     },
     {
       "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - コーン式全自動コーヒーメーカー",
+      "appliance": "コーン式全自動コーヒーメーカー",
       "code": "ER06",
       "scope": null,
       "source": "https://www.siroca.co.jp/support/%E3%82%B3%E3%83%BC%E3%83%B3%E5%BC%8F%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9A%EF%BC%BBEr%EF%BC%BD%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-63329267124567001dc5f3b2",
@@ -5709,7 +4698,7 @@
     },
     {
       "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - ヒーター機能付きブレンダー",
+      "appliance": "ヒーター機能付きブレンダー",
       "code": "E02",
       "scope": null,
       "source": "https://www.siroca.co.jp/support/%E3%83%92%E3%83%BC%E3%82%BF%E3%83%BC%E6%A9%9F%E8%83%BD%E4%BB%98%E3%81%8D%E3%83%96%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC%EF%BC%9A%E3%80%8CC01%E3%80%8D%E3%80%81%E3%80%8CE01%E3%80%8D%E3%80%81%E3%80%8CE02%E3%80%8D%E3%80%81%E3%80%8CE03%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-680b0bbc1aa188efe7dc7ba4",
@@ -5717,7 +4706,7 @@
     },
     {
       "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - ヒーター機能付きブレンダー",
+      "appliance": "ヒーター機能付きブレンダー",
       "code": "E03",
       "scope": null,
       "source": "https://www.siroca.co.jp/support/%E3%83%92%E3%83%BC%E3%82%BF%E3%83%BC%E6%A9%9F%E8%83%BD%E4%BB%98%E3%81%8D%E3%83%96%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC%EF%BC%9A%E3%80%8CC01%E3%80%8D%E3%80%81%E3%80%8CE01%E3%80%8D%E3%80%81%E3%80%8CE02%E3%80%8D%E3%80%81%E3%80%8CE03%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-680b0bbc1aa188efe7dc7ba4",
@@ -5725,23 +4714,23 @@
     },
     {
       "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - 全自動コーヒーメーカー",
+      "appliance": "電気圧力鍋・おうちシェフ",
       "code": "C01",
       "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9AC01%E3%80%81C02%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-65e6beb7e7df0d0025740139",
+      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%20PRO%20L%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%EF%BC%BBC01%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-6348c13fe3ae7a0021368ac8",
       "method": "dedicated:iris-siroca"
     },
     {
       "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - 全自動コーヒーメーカー",
-      "code": "C02",
+      "appliance": "電気圧力鍋・おうちシェフ",
+      "code": "E4",
       "scope": null,
-      "source": "https://www.siroca.co.jp/support/%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9AC01%E3%80%81C02%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-65e6beb7e7df0d0025740139",
+      "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E04%E3%81%BE%E3%81%9F%E3%81%AFE4%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf871",
       "method": "dedicated:iris-siroca"
     },
     {
       "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - 食器洗い乾燥機",
+      "appliance": "食器洗い乾燥機",
       "code": "E1",
       "scope": null,
       "source": "https://www.siroca.co.jp/support/%E9%A3%9F%E5%99%A8%E6%B4%97%E3%81%84%E4%B9%BE%E7%87%A5%E6%A9%9F%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E3%81%AB%E3%80%8CE1%E3%80%8D%E3%80%81%E3%80%8CE2%E3%80%8D%E3%80%81%E3%80%8CEd%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-608781a760af25001c13a1c8",
@@ -5749,7 +4738,7 @@
     },
     {
       "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - 食器洗い乾燥機",
+      "appliance": "食器洗い乾燥機",
       "code": "E4",
       "scope": null,
       "source": "https://www.siroca.co.jp/support/%E9%A3%9F%E5%99%A8%E6%B4%97%E3%81%84%E4%B9%BE%E7%87%A5%E6%A9%9F%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E3%81%AB%E3%80%8CE4%E3%80%8D%E3%80%81%E3%80%8CE2%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf84a",
@@ -5757,7 +4746,7 @@
     },
     {
       "manufacturer": "シロカ",
-      "appliance": "シロカ お客様サポート - 食器洗い乾燥機",
+      "appliance": "食器洗い乾燥機",
       "code": "ED",
       "scope": null,
       "source": "https://www.siroca.co.jp/support/%E9%A3%9F%E5%99%A8%E6%B4%97%E3%81%84%E4%B9%BE%E7%87%A5%E6%A9%9F%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E3%81%AB%E3%80%8CE1%E3%80%8D%E3%80%81%E3%80%8CE2%E3%80%8D%E3%80%81%E3%80%8CEd%E3%80%8D%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-608781a760af25001c13a1c8",

@@ -2144,359 +2144,8 @@
   {
     "manufacturer": "コロナ",
     "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E0",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E01",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E02",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E05",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E07",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E1",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E10",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E11",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E12",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E13",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E14",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
     "code": "E15",
     "summary": "運転スイッチを押して再運転して下さい。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E2",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E21",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E22",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E23",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E24",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E25",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E26",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E27",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E28",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E29",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E3",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E30",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E31",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E32",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E33",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E34",
-    "summary": "点検または修理が必要です。",
     "actions": [
       "メーカー公式の案内で対象機種と対処方法を確認する"
     ],
@@ -2521,567 +2170,8 @@
   {
     "manufacturer": "コロナ",
     "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E36",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E4",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E41",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E42",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E43",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E44",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E45",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E46",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E47",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E48",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E49",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E5",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E50",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E51",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E52",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E53",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E6",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E61",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E62",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E63",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E64",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E65",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E66",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E67",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E68",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E69",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E7",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E70",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E71",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E72",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E73",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E74",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E75",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E76",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E77",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E8",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "E9",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "EA",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "EB",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "EC",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "ED",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
     "code": "EE",
     "summary": "運転スイッチを押して再運転して下さい。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "EF",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "EL",
-    "summary": "点検または修理が必要です。",
     "actions": [
       "メーカー公式の案内で対象機種と対処方法を確認する"
     ],
@@ -3108,123 +2198,6 @@
     "appliance": "ヒートポンプ式冷暖房システム",
     "code": "EP",
     "summary": "循環液(補充液)の補充が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "H1",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "H2",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "H3",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "H4",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "H5",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "H6",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "H7",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "H8",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/HPreidan.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "ヒートポンプ式冷暖房システム",
-    "code": "IPM",
-    "summary": "点検または修理が必要です。",
     "actions": [
       "メーカー公式の案内で対象機種と対処方法を確認する"
     ],
@@ -3314,99 +2287,8 @@
   {
     "manufacturer": "コロナ",
     "appliance": "寒冷地用大型ストーブ",
-    "code": "B1",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "B2",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "B3",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "B4",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "B5",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
     "code": "E0",
     "summary": "排気管の外れ、抜け検知リード線の外れで表示する場合があります。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "E1",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "E10",
-    "summary": "点検または修理が必要です。",
     "actions": [
       "メーカー公式の案内で対象機種と対処方法を確認する"
     ],
@@ -3457,99 +2339,8 @@
   {
     "manufacturer": "コロナ",
     "appliance": "寒冷地用大型ストーブ",
-    "code": "E5",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "E6",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "E7",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "E8",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
     "code": "E9",
     "summary": "ストーブの周囲や給気ホース、排気管の外れなどの異常がないことを確認してから、運転スイッチを入れなおして再運転して下さい。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "EA",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "EC",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "ED",
-    "summary": "点検または修理が必要です。",
     "actions": [
       "メーカー公式の案内で対象機種と対処方法を確認する"
     ],
@@ -3626,86 +2417,8 @@
   {
     "manufacturer": "コロナ",
     "appliance": "寒冷地用大型ストーブ",
-    "code": "EP",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "EU",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "F0",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
     "code": "F1",
     "summary": "循環液の不足で表示する場合があります、それ以外は、点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "F2",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "F3",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "F5",
-    "summary": "点検または修理が必要です。",
     "actions": [
       "メーカー公式の案内で対象機種と対処方法を確認する"
     ],
@@ -3732,149 +2445,6 @@
     "appliance": "寒冷地用大型ストーブ",
     "code": "F7",
     "summary": "灯油切れで表示する場合があります。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "F8",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "FA",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "FC",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "FE",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "HE",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "HH",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "P1",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "P2",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "P3",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "P4",
-    "summary": "点検または修理が必要です。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.corona.co.jp/support/error/large_stove/post_4.html",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:official-table"
-  },
-  {
-    "manufacturer": "コロナ",
-    "appliance": "寒冷地用大型ストーブ",
-    "code": "P5",
-    "summary": "点検または修理が必要です。",
     "actions": [
       "メーカー公式の案内で対象機種と対処方法を確認する"
     ],
@@ -8870,298 +7440,74 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ",
-    "code": "E07",
-    "summary": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ:エラーメッセージ(E07、E08)が表示されます トップに戻る お問い合わせ おうちシェフクッカー・おうちシェフ:エラーメッセージ(E07、E08)が表示されます おうちシェフクッカー・おうちシェフ:エラーメッセージ(E07、E08)が表示されます 停電や電源コードが抜けたため、調理を中止しています。",
+    "appliance": "オーブントースター",
+    "code": "E01",
+    "summary": "再度操作できない場合や「Er01」、「Er02」、「E01」、「E02」、「E03」が表示される場合は、故障の可能性があります。",
     "actions": [
       "メーカー公式の案内で対象機種と対処方法を確認する"
     ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E07%E3%80%81E08%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-61248eb0dca2d2001de4de79",
+    "source": "https://www.siroca.co.jp/support/%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%82%AA%E3%83%BC%E3%83%96%E3%83%B3%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%20%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%EF%BC%9AEr%2001%EF%BC%8FEr%2002%EF%BC%8FE01%EF%BC%8FE02%EF%BC%8FE03%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6058456f356ff10023208c21",
     "verified": "2026-09-01",
     "verification_method": "automatic_strict_official",
     "verification_source_method": "dedicated:iris-siroca"
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ",
-    "code": "E08",
-    "summary": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ:エラーメッセージ(E07、E08)が表示されます トップに戻る お問い合わせ おうちシェフクッカー・おうちシェフ:エラーメッセージ(E07、E08)が表示されます おうちシェフクッカー・おうちシェフ:エラーメッセージ(E07、E08)が表示されます 停電や電源コードが抜けたため、調理を中止しています。",
+    "appliance": "オーブントースター",
+    "code": "E02",
+    "summary": "再度操作できない場合や「Er01」、「Er02」、「E01」、「E02」、「E03」が表示される場合は、故障の可能性があります。",
     "actions": [
       "メーカー公式の案内で対象機種と対処方法を確認する"
     ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E07%E3%80%81E08%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-61248eb0dca2d2001de4de79",
+    "source": "https://www.siroca.co.jp/support/%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%82%AA%E3%83%BC%E3%83%96%E3%83%B3%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%20%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%EF%BC%9AEr%2001%EF%BC%8FEr%2002%EF%BC%8FE01%EF%BC%8FE02%EF%BC%8FE03%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6058456f356ff10023208c21",
     "verified": "2026-09-01",
     "verification_method": "automatic_strict_official",
     "verification_source_method": "dedicated:iris-siroca"
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ",
-    "code": "E09",
-    "summary": "炒め調理(「温度調理・炒め」モードで温度200°Cの設定)(おうちシェフ PROの場合)、オートメニューの「炒めもの」(おうちシェフクッカー・おうちシェフの場合)は、炒めもの調理以外に使用しないでください。",
+    "appliance": "オーブントースター",
+    "code": "E03",
+    "summary": "再度操作できない場合や「Er01」、「Er02」、「E01」、「E02」、「E03」が表示される場合は、故障の可能性があります。",
     "actions": [
       "メーカー公式の案内で対象機種と対処方法を確認する"
     ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E09%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-61248fdfe6b4b6001dde6380",
+    "source": "https://www.siroca.co.jp/support/%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%82%AA%E3%83%BC%E3%83%96%E3%83%B3%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%20%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%EF%BC%9AEr%2001%EF%BC%8FEr%2002%EF%BC%8FE01%EF%BC%8FE02%EF%BC%8FE03%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6058456f356ff10023208c21",
     "verified": "2026-09-01",
     "verification_method": "automatic_strict_official",
     "verification_source_method": "dedicated:iris-siroca"
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ PRO L",
+    "appliance": "コーヒーメーカー",
     "code": "C01",
-    "summary": "本体やふたが冷めたら、圧力切替弁・ふたを正しくセットして、再度操作してください。",
+    "summary": "本体ふたが取り付けられていないときに表示されます。",
     "actions": [
       "メーカー公式の案内で対象機種と対処方法を確認する"
     ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%20PRO%20L%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%EF%BC%BBC01%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-6348c13fe3ae7a0021368ac8",
+    "source": "https://www.siroca.co.jp/support/%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9AC01%E3%80%81C02%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-65e6beb7e7df0d0025740139",
     "verified": "2026-09-01",
     "verification_method": "automatic_strict_official",
     "verification_source_method": "dedicated:iris-siroca"
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ PRO L",
+    "appliance": "コーヒーメーカー",
     "code": "C02",
-    "summary": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ PRO L:ディスプレーに[C02][C05]が表示されます トップに戻る お問い合わせ おうちシェフクッカー・おうちシェフ PRO L:ディスプレーに[C02][C05]が表示されます おうちシェフクッカー・おうちシェフ PRO L:ディスプレーに[C02][C05]が表示されます 異常加熱の場合に表示されます。",
+    "summary": "ミル付きバスケットが取り付けられていないときに表示されます。",
     "actions": [
-      "《取消》ボタンまたは《取消/保温》ボタンを押してブザーを止めてから、《スタート》ボタンのランプが消灯していることを確認し、電源プラグを抜いて、30分ほど待ってから再度操作してください。",
-      "無水調理の場合、食材を入れる順番や分量は付属のレシピブックに従ってください。"
+      "ミル付きバスケットが確実に取り付けられていることを確認し、本体ふたの給水管をミル付きバスケット内部の給水口にまっすぐ差し込みます。"
     ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%20PRO%20L%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%EF%BC%BBC02%EF%BC%BD%EF%BC%BBC05%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-6348b80f7fca4d001dcbe51c",
+    "source": "https://www.siroca.co.jp/support/%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9AC01%E3%80%81C02%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-65e6beb7e7df0d0025740139",
     "verified": "2026-09-01",
     "verification_method": "automatic_strict_official",
     "verification_source_method": "dedicated:iris-siroca"
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ PRO L",
-    "code": "C05",
-    "summary": "シロカ お客様サポート - おうちシェフクッカー・おうちシェフ PRO L:ディスプレーに[C02][C05]が表示されます トップに戻る お問い合わせ おうちシェフクッカー・おうちシェフ PRO L:ディスプレーに[C02][C05]が表示されます おうちシェフクッカー・おうちシェフ PRO L:ディスプレーに[C02][C05]が表示されます 異常加熱の場合に表示されます。",
-    "actions": [
-      "《取消》ボタンまたは《取消/保温》ボタンを押してブザーを止めてから、《スタート》ボタンのランプが消灯していることを確認し、電源プラグを抜いて、30分ほど待ってから再度操作してください。",
-      "無水調理の場合、食材を入れる順番や分量は付属のレシピブックに従ってください。"
-    ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%20PRO%20L%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%EF%BC%BBC02%EF%BC%BD%EF%BC%BBC05%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-6348b80f7fca4d001dcbe51c",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
+    "appliance": "コーヒーメーカー",
     "code": "E01",
-    "summary": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます トップに戻る お問い合わせ おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます 故障の可能性があります。",
-    "actions": [
-      "電源プラグを抜いて直ちに使用を中止して、サポートセンターまでお問い合わせください。"
-    ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E01%E3%80%81E02%E3%80%81E05%E3%80%81%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%80%81E5%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf86f",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-    "code": "E02",
-    "summary": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます トップに戻る お問い合わせ おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます 故障の可能性があります。",
-    "actions": [
-      "電源プラグを抜いて直ちに使用を中止して、サポートセンターまでお問い合わせください。"
-    ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E01%E3%80%81E02%E3%80%81E05%E3%80%81%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%80%81E5%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf86f",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-    "code": "E03",
-    "summary": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E03またはE3)が表示されます トップに戻る お問い合わせ おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E03またはE3)が表示されます おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E03またはE3)が表示されます ■おうちシェフ PRO L(SP-5D151 / SP-5D152) 故障の可能性があります。",
-    "actions": [
-      "電源プラグを抜いて直ちに使用を中止して、サポートセンターまでお問い合わせください。",
-      "故障・修理のお問い合わせ",
-      "《取消/保温》ボタンを押して《スタート》ボタンのランプが消灯していることを確認し、電源プラグを抜いてください。",
-      "電気圧力鍋(SP-4D131 / SP-4D151 / SP-4D171 / SP-D131 / SP-D121 / SPC-211) 内なべを入れ忘れていませんか。"
-    ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E03%E3%81%BE%E3%81%9F%E3%81%AFE3%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf870",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-    "code": "E04",
-    "summary": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E04またはE4)が表示されます トップに戻る お問い合わせ おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E04またはE4)が表示されます おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E04またはE4)が表示されます ■おうちシェフ PRO L(SP-5D151 / SP-5D152) 故障の可能性があります。",
-    "actions": [
-      "電源プラグを抜いて直ちに使用を中止して、サポートセンターまでお問い合わせください。",
-      "故障・修理のお問い合わせ",
-      "《取消/保温》ボタンを押して《スタート》ボタンのランプが消灯していることを確認し、電源プラグを抜いて、30分ほど待ってから再度操作してください。",
-      "無水調理の場合、食材を入れる順番や分量は付属のレシピブックに従ってください。"
-    ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E04%E3%81%BE%E3%81%9F%E3%81%AFE4%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf871",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-    "code": "E05",
-    "summary": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます トップに戻る お問い合わせ おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます 故障の可能性があります。",
-    "actions": [
-      "電源プラグを抜いて直ちに使用を中止して、サポートセンターまでお問い合わせください。"
-    ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E01%E3%80%81E02%E3%80%81E05%E3%80%81%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%80%81E5%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf86f",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-    "code": "E06",
-    "summary": "故障・修理のお問い合わせ キッチン家電:修理代金の目安 ■電気圧力鍋(SP-D131 / SP-D121 / SPC-211) ふた本体に内ふたやパッキンを取りつけずに使用すると表示される場合があります。",
-    "actions": [
-      "電気圧力鍋(SP-4D131 / SP-4D151 / SP-4D171) 安全装置によって異常停止した場合に表示されます。",
-      "電源プラグを抜いて約1日待ってから再度操作してください。"
-    ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E06%E3%81%BE%E3%81%9F%E3%81%AFE6%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf872",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-    "code": "E1",
-    "summary": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます トップに戻る お問い合わせ おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます 故障の可能性があります。",
-    "actions": [
-      "電源プラグを抜いて直ちに使用を中止して、サポートセンターまでお問い合わせください。"
-    ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E01%E3%80%81E02%E3%80%81E05%E3%80%81%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%80%81E5%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf86f",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-    "code": "E2",
-    "summary": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます トップに戻る お問い合わせ おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます 故障の可能性があります。",
-    "actions": [
-      "電源プラグを抜いて直ちに使用を中止して、サポートセンターまでお問い合わせください。"
-    ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E01%E3%80%81E02%E3%80%81E05%E3%80%81%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%80%81E5%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf86f",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-    "code": "E3",
-    "summary": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E03またはE3)が表示されます トップに戻る お問い合わせ おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E03またはE3)が表示されます おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E03またはE3)が表示されます ■おうちシェフ PRO L(SP-5D151 / SP-5D152) 故障の可能性があります。",
-    "actions": [
-      "電源プラグを抜いて直ちに使用を中止して、サポートセンターまでお問い合わせください。",
-      "故障・修理のお問い合わせ",
-      "《取消/保温》ボタンを押して《スタート》ボタンのランプが消灯していることを確認し、電源プラグを抜いてください。",
-      "電気圧力鍋(SP-4D131 / SP-4D151 / SP-4D171 / SP-D131 / SP-D121 / SPC-211) 内なべを入れ忘れていませんか。"
-    ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E03%E3%81%BE%E3%81%9F%E3%81%AFE3%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf870",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-    "code": "E4",
-    "summary": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E04またはE4)が表示されます トップに戻る お問い合わせ おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E04またはE4)が表示されます おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E04またはE4)が表示されます ■おうちシェフ PRO L(SP-5D151 / SP-5D152) 故障の可能性があります。",
-    "actions": [
-      "電源プラグを抜いて直ちに使用を中止して、サポートセンターまでお問い合わせください。",
-      "故障・修理のお問い合わせ",
-      "《取消/保温》ボタンを押して《スタート》ボタンのランプが消灯していることを確認し、電源プラグを抜いて、30分ほど待ってから再度操作してください。",
-      "無水調理の場合、食材を入れる順番や分量は付属のレシピブックに従ってください。"
-    ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E04%E3%81%BE%E3%81%9F%E3%81%AFE4%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf871",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-    "code": "E5",
-    "summary": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます トップに戻る お問い合わせ おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます おうちシェフクッカー・電気圧力鍋・おうちシェフ:エラーメッセージ(E01、E02、E05、またはE1、E2、E5)が表示されます 故障の可能性があります。",
-    "actions": [
-      "電源プラグを抜いて直ちに使用を中止して、サポートセンターまでお問い合わせください。"
-    ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E01%E3%80%81E02%E3%80%81E05%E3%80%81%E3%81%BE%E3%81%9F%E3%81%AFE1%E3%80%81E2%E3%80%81E5%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf86f",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - おうちシェフクッカー・電気圧力鍋・おうちシェフ",
-    "code": "E6",
-    "summary": "故障・修理のお問い合わせ キッチン家電:修理代金の目安 ■電気圧力鍋(SP-D131 / SP-D121 / SPC-211) ふた本体に内ふたやパッキンを取りつけずに使用すると表示される場合があります。",
-    "actions": [
-      "電気圧力鍋(SP-4D131 / SP-4D151 / SP-4D171) 安全装置によって異常停止した場合に表示されます。",
-      "電源プラグを抜いて約1日待ってから再度操作してください。"
-    ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E06%E3%81%BE%E3%81%9F%E3%81%AFE6%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf872",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - すばやきトースター・プレミアムオーブントースター すばやき おまかせ",
-    "code": "E01",
-    "summary": "再度操作できない場合や「Er01」、「Er02」、「E01」、「E02」、「E03」が表示される場合は、故障の可能性があります。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%82%AA%E3%83%BC%E3%83%96%E3%83%B3%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%20%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%EF%BC%9AEr%2001%EF%BC%8FEr%2002%EF%BC%8FE01%EF%BC%8FE02%EF%BC%8FE03%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6058456f356ff10023208c21",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - すばやきトースター・プレミアムオーブントースター すばやき おまかせ",
-    "code": "E02",
-    "summary": "再度操作できない場合や「Er01」、「Er02」、「E01」、「E02」、「E03」が表示される場合は、故障の可能性があります。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%82%AA%E3%83%BC%E3%83%96%E3%83%B3%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%20%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%EF%BC%9AEr%2001%EF%BC%8FEr%2002%EF%BC%8FE01%EF%BC%8FE02%EF%BC%8FE03%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6058456f356ff10023208c21",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - すばやきトースター・プレミアムオーブントースター すばやき おまかせ",
-    "code": "E03",
-    "summary": "再度操作できない場合や「Er01」、「Er02」、「E01」、「E02」、「E03」が表示される場合は、故障の可能性があります。",
-    "actions": [
-      "メーカー公式の案内で対象機種と対処方法を確認する"
-    ],
-    "source": "https://www.siroca.co.jp/support/%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%82%AA%E3%83%BC%E3%83%96%E3%83%B3%E3%83%88%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%81%99%E3%81%B0%E3%82%84%E3%81%8D%20%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%EF%BC%9AEr%2001%EF%BC%8FEr%2002%EF%BC%8FE01%EF%BC%8FE02%EF%BC%8FE03%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-6058456f356ff10023208c21",
-    "verified": "2026-09-01",
-    "verification_method": "automatic_strict_official",
-    "verification_source_method": "dedicated:iris-siroca"
-  },
-  {
-    "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - コーヒーメーカー全般",
-    "code": "E01",
-    "summary": "が表示される 本体ふたが取り付けられていないときに表示されます。",
+    "summary": "本体ふたが取り付けられていないときに表示されます。",
     "actions": [
       "メーカー公式の案内で対象機種と対処方法を確認する"
     ],
@@ -9172,9 +7518,9 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - コーヒーメーカー全般",
+    "appliance": "コーヒーメーカー",
     "code": "E02",
-    "summary": "が表示される ミル付きバスケットが取り付けられていないときに表示されます。",
+    "summary": "ミル付きバスケットが取り付けられていないときに表示されます。",
     "actions": [
       "ミル付きバスケットが確実に取り付けられていることを確認し、本体ふたの給水管をミル付きバスケット内部の給水口にまっすぐ差し込みます。",
       "電源コードを抜いて直ちに使用を中止して、サポートセンターまでお問い合わせください。",
@@ -9187,7 +7533,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - コーン式全自動コーヒーメーカー",
+    "appliance": "コーン式全自動コーヒーメーカー",
     "code": "ER06",
     "summary": "バスケットリングを正しく取り付けているか確認してください。",
     "actions": [
@@ -9200,7 +7546,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - ヒーター機能付きブレンダー",
+    "appliance": "ヒーター機能付きブレンダー",
     "code": "E02",
     "summary": "E03 モーターに負荷がかかり過熱すると、製品の故障を防ぐために、運転時間に関係なく自動的に運転を停止し、",
     "actions": [
@@ -9213,9 +7559,9 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - ヒーター機能付きブレンダー",
+    "appliance": "ヒーター機能付きブレンダー",
     "code": "E03",
-    "summary": "が表示される <エラー表示と原因> C01 ポットが空の状態で運転すると、過熱による事故や故障を防ぐために空だき防止機能が働き、",
+    "summary": "<エラー表示と原因> C01 ポットが空の状態で運転すると、過熱による事故や故障を防ぐために空だき防止機能が働き、",
     "actions": [
       "メーカー公式の案内で対象機種と対処方法を確認する"
     ],
@@ -9226,33 +7572,33 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 全自動コーヒーメーカー",
+    "appliance": "電気圧力鍋・おうちシェフ",
     "code": "C01",
-    "summary": "が表示される 本体ふたが取り付けられていないときに表示されます。",
+    "summary": "本体やふたが冷めたら、圧力切替弁・ふたを正しくセットして、再度操作してください。",
     "actions": [
       "メーカー公式の案内で対象機種と対処方法を確認する"
     ],
-    "source": "https://www.siroca.co.jp/support/%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9AC01%E3%80%81C02%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-65e6beb7e7df0d0025740139",
+    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%20PRO%20L%EF%BC%9A%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AB%EF%BC%BBC01%EF%BC%BD%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-6348c13fe3ae7a0021368ac8",
     "verified": "2026-09-01",
     "verification_method": "automatic_strict_official",
     "verification_source_method": "dedicated:iris-siroca"
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 全自動コーヒーメーカー",
-    "code": "C02",
-    "summary": "が表示される ミル付きバスケットが取り付けられていないときに表示されます。",
+    "appliance": "電気圧力鍋・おうちシェフ",
+    "code": "E4",
+    "summary": "電気圧力鍋・おうちシェフ・おうちシェフクッカー:レシピブック おうちシェフ:レシピブック 対象機種 SP-MC2D131 SP-5D151 / SP-5D152 SP-2DM251 / SP-2DP251 / SP-2DS271 / SP-2DS251 / SP-2DF231 SP-4D131 / SP-4D151 / SP-4D171 / SP-D131 / SP-D121 / SPC-211 / SPC-111 / SPC-101 #キッチン家電 #自動調理鍋 #おうちシェフクッカー #電気",
     "actions": [
-      "ミル付きバスケットが確実に取り付けられていることを確認し、本体ふたの給水管をミル付きバスケット内部の給水口にまっすぐ差し込みます。"
+      "メーカー公式の案内で対象機種と対処方法を確認する"
     ],
-    "source": "https://www.siroca.co.jp/support/%E5%85%A8%E8%87%AA%E5%8B%95%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%EF%BC%9AC01%E3%80%81C02%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-65e6beb7e7df0d0025740139",
+    "source": "https://www.siroca.co.jp/support/%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%E3%82%AF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%BB%E9%9B%BB%E6%B0%97%E5%9C%A7%E5%8A%9B%E9%8D%8B%E3%83%BB%E3%81%8A%E3%81%86%E3%81%A1%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%9A%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%88E04%E3%81%BE%E3%81%9F%E3%81%AFE4%EF%BC%89%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99-5f4cb12dd31088001e8bf871",
     "verified": "2026-09-01",
     "verification_method": "automatic_strict_official",
     "verification_source_method": "dedicated:iris-siroca"
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 食器洗い乾燥機",
+    "appliance": "食器洗い乾燥機",
     "code": "E1",
     "summary": "食器洗い乾燥機:給水アイコンが点滅する/給水アイコンが点灯し、",
     "actions": [
@@ -9265,7 +7611,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 食器洗い乾燥機",
+    "appliance": "食器洗い乾燥機",
     "code": "E4",
     "summary": "本体を斜めにするなどして底面の水が排水されれば、症状が解消されることがあります。",
     "actions": [
@@ -9280,7 +7626,7 @@
   },
   {
     "manufacturer": "シロカ",
-    "appliance": "シロカ お客様サポート - 食器洗い乾燥機",
+    "appliance": "食器洗い乾燥機",
     "code": "ED",
     "summary": "運転できない→5へ進む 5. 次の手順で庫内の水を排水する。",
     "actions": [
