@@ -61,15 +61,27 @@ def codes(raw: str) -> list[str]:
     return result
 
 
+def polish_summary(value: str) -> str:
+    text = clean(value)
+    text = re.sub(r"^シロカ\s+お客様サポート\s*[-–—]\s*", "", text)
+    text = re.sub(r"^.+?[：:]エラーメッセージ\([^)]*\)が表示されます\s*", "", text)
+    text = re.sub(r"^(?:が表示される|が表示されます)\s*", "", text)
+    text = re.sub(r"^(?:トップに戻る|お問い合わせ)\s*", "", text)
+    return clean(text)[:250]
+
+
 def summarize_block(block: str) -> str:
     text = clean(block)
     for sentence in sentences(text[:1200]):
+        sentence = polish_summary(sentence)
         if not 5 <= len(sentence) <= 250:
             continue
         if any(term in sentence for term in NON_ERROR_TERMS):
             return ""
+        if sentence in {"故障の可能性があります。", "故障の可能性があります", "点検・修理が必要です。", "点検または修理が必要です。"}:
+            continue
         if any(word in sentence for word in CAUSE_WORDS):
-            return sentence[:250]
+            return sentence
     return ""
 
 
@@ -132,8 +144,6 @@ def collect_iris() -> tuple[list[dict], list[dict]]:
             source_rows.append({"manufacturer": "アイリスオーヤマ", "appliance": appliance, "url": url, "status": "fetch_error", "detail": error, "candidate_count": 0, "collector": METHOD})
             continue
         rows = iris_inline_blocks(appliance, url, page.title, page.text)
-        # Category pages can link to richer code-specific FAQ articles; fetch them and let the higher-confidence
-        # source overwrite same category/code at merge time.
         for href, anchor in page.links:
             anchor_text = clean(anchor)
             if "表示" not in anchor_text or not (QUOTED_CODE_RE.search(anchor_text) or GENERAL_CODE_RE.search(anchor_text)):
@@ -164,11 +174,20 @@ def collect_iris() -> tuple[list[dict], list[dict]]:
 
 def siroca_appliance(title: str) -> str:
     value = clean(title)
-    if "：" in value:
-        return value.split("：", 1)[0].strip()[:80]
-    if ":" in value:
-        return value.split(":", 1)[0].strip()[:80]
-    return "キッチン家電"
+    value = re.sub(r"^シロカ\s+お客様サポート\s*[-–—]\s*", "", value)
+    value = value.split("：", 1)[0].split(":", 1)[0].strip()
+    mapping = [
+        (("食器洗い乾燥機",), "食器洗い乾燥機"),
+        (("おうちシェフクッカー", "電気圧力鍋", "おうちシェフ"), "電気圧力鍋・おうちシェフ"),
+        (("すばやきトースター", "オーブントースター"), "オーブントースター"),
+        (("コーン式全自動コーヒーメーカー",), "コーン式全自動コーヒーメーカー"),
+        (("全自動コーヒーメーカー", "コーヒーメーカー全般"), "コーヒーメーカー"),
+        (("ヒーター機能付きブレンダー",), "ヒーター機能付きブレンダー"),
+    ]
+    for needles, label in mapping:
+        if any(needle in value for needle in needles):
+            return label
+    return value[:60] or "キッチン家電"
 
 
 def siroca_code_blocks(text: str) -> list[tuple[list[str], str]]:
@@ -213,7 +232,6 @@ def collect_siroca() -> tuple[list[dict], list[dict]]:
             acts = actions_block(block, summary)
             for code in code_list:
                 rows.append(make("シロカ", appliance, code, url, detail.title, summary, acts))
-        # If the article groups codes only in its title, use the article body as common evidence.
         if not rows:
             title_codes = [normalize_code(x) for x in GENERAL_CODE_RE.findall(clean(detail.title))]
             title_codes = list(dict.fromkeys(x for x in title_codes if x))
