@@ -10,11 +10,11 @@
   },
   {
     "manufacturer": "Anker/Eufy",
-    "appliance": "ロボット掃除機 RoboVac",
-    "url": "https://www.ankerjapan.com/blogs/faq/eufy-robovac-%E3%82%A8%E3%83%A9%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
-    "title": "Eufy Robovac エラーコードに関するよくある質問 | Anker サポートセンター | Anker Japan 公式オンラインストア",
-    "status": "ok",
-    "candidate_count": 18,
+    "appliance": "*",
+    "url": "",
+    "status": "collector_error",
+    "detail": "HTTPError: HTTP Error 429: Too Many Requests",
+    "candidate_count": 0,
     "collector": "dedicated:eufy-delonghi"
   },
   {
@@ -6706,7 +6706,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=10",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 9,
+    "candidate_count": 10,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6715,7 +6715,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=11",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 6,
+    "candidate_count": 7,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6724,7 +6724,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=12",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 8,
+    "candidate_count": 7,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6742,7 +6742,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=14",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 7,
+    "candidate_count": 8,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6751,7 +6751,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=15",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 7,
+    "candidate_count": 10,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6760,7 +6760,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=16",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 6,
+    "candidate_count": 10,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6769,7 +6769,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=17",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 9,
+    "candidate_count": 8,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6778,7 +6778,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=18",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 6,
+    "candidate_count": 8,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6805,7 +6805,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=20",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 5,
+    "candidate_count": 8,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6814,7 +6814,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=21",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 8,
+    "candidate_count": 9,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6832,7 +6832,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=23",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 10,
+    "candidate_count": 4,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6841,7 +6841,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=24",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 8,
+    "candidate_count": 10,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6850,7 +6850,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=25",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 10,
+    "candidate_count": 6,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6859,7 +6859,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=26",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 7,
+    "candidate_count": 10,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6868,7 +6868,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=27",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 10,
+    "candidate_count": 7,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6877,7 +6877,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=28",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 3,
+    "candidate_count": 4,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6895,7 +6895,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=3",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 9,
+    "candidate_count": 8,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6904,7 +6904,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=30",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 10,
+    "candidate_count": 6,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6913,7 +6913,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=31",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 6,
+    "candidate_count": 5,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6922,7 +6922,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=32",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 10,
+    "candidate_count": 8,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6931,7 +6931,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=33",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 7,
+    "candidate_count": 10,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6940,7 +6940,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=34",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 7,
+    "candidate_count": 8,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6949,7 +6949,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=35",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 9,
+    "candidate_count": 6,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6958,7 +6958,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=36",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 10,
+    "candidate_count": 9,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -6994,7 +6994,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=4",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 7,
+    "candidate_count": 8,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -7021,7 +7021,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=7",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 8,
+    "candidate_count": 9,
     "collector": "dedicated:rinnai-faq"
   },
   {
@@ -7030,7 +7030,7 @@
     "url": "https://faq.rinnai.co.jp/category/show/279?site_domain=default&sort=sort_access&sort_order=desc&page=8",
     "title": "エラーコード | リンナイ｜Q&A(よくあるお問い合わせ）",
     "status": "ok",
-    "candidate_count": 9,
+    "candidate_count": 8,
     "collector": "dedicated:rinnai-faq"
   },
   {
